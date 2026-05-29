@@ -1,0 +1,1501 @@
+ID_Pasien,Usia,Jenis_Kelamin,Riwayat_Keluarga,Diabetes,Hipertensi,Migrain,Gangguan_Sirkulasi,Kelainan_Refraksi,Penggunaan_Kortikosteroid,Label_Risiko,Kelompok_Usia,Kombinasi_Risiko
+P0001,65,Perempuan,Ya,Tidak,Ya,Ya,Ya,Miopia Sedang/Berat,Jangka Pendek,Risiko Tinggi,60+,Riwayat + HT
+P0002,58,Laki-laki,Tidak,Ya,Tidak,Tidak,Tidak,Tidak Ada,Jangka Panjang,Risiko Sedang,45–59,DM Saja
+P0003,62,Laki-laki,Tidak,Ya,Tidak,Ya,Ya,Miopia Ringan,Jangka Panjang,Risiko Tinggi,60+,DM Saja
+P0004,40,Perempuan,Tidak,Ya,Ya,Tidak,Ya,Hipermetropia Sedang/Berat,Tidak,Risiko Sedang,30–44,DM + HT
+P0005,40,Laki-laki,Ya,Tidak,Tidak,Tidak,Ya,Miopia Sedang/Berat,Tidak,Risiko Sedang,30–44,Riwayat Saja
+P0006,68,Laki-laki,Ya,Ya,Ya,Tidak,Ya,Miopia Sedang/Berat,Jangka Panjang,Risiko Tinggi,60+,Riwayat + DM + HT
+P0007,48,Perempuan,Tidak,Tidak,Tidak,Ya,Ya,Tidak Ada,Tidak,Risiko Rendah,45–59,Tidak Ada
+P0008,47,Laki-laki,Tidak,Tidak,Tidak,Tidak,Tidak,Miopia Ringan,Tidak,Risiko Rendah,45–59,Tidak Ada
+P0009,64,Perempuan,Ya,Tidak,Tidak,Tidak,Tidak,Miopia Ringan,Jangka Panjang,Risiko Sedang,60+,Riwayat Saja
+P0010,41,Laki-laki,Tidak,Tidak,Tidak,Tidak,Tidak,Tidak Ada,Tidak,Risiko Rendah,30–44,Tidak Ada
+P0011,59,Laki-laki,Ya,Tidak,Tidak,Tidak,Tidak,Miopia Sedang/Berat,Jangka Panjang,Risiko Sedang,45–59,Riwayat Saja
+P0012,76,Laki-laki,Tidak,Tidak,Ya,Ya,Ya,Miopia Ringan,Jangka Panjang,Risiko Tinggi,60+,HT Saja
+P0013,48,Laki-laki,Ya,Ya,Ya,Tidak,Tidak,Tidak Ada,Jangka Pendek,Risiko Sedang,45–59,Riwayat + DM + HT
+P0014,36,Laki-laki,Tidak,Ya,Tidak,Tidak,Tidak,Tidak Ada,Jangka Pendek,Risiko Rendah,30–44,DM Saja
+P0015,64,Laki-laki,Ya,Tidak,Ya,Ya,Ya,Hipermetropia Ringan,Jangka Panjang,Risiko Tinggi,60+,Riwayat + HT
+P0016,35,Laki-laki,Tidak,Tidak,Tidak,Tidak,Tidak,Tidak Ada,Tidak,Risiko Rendah,30–44,Tidak Ada
+P0017,20,Laki-laki,Tidak,Tidak,Ya,Tidak,Tidak,Miopia Ringan,Tidak,Risiko Rendah,< 30,HT Saja
+P0018,60,Laki-laki,Tidak,Ya,Ya,Ya,Ya,Hipermetropia Ringan,Jangka Pendek,Risiko Tinggi,45–59,DM + HT
+P0019,50,Laki-laki,Ya,Tidak,Ya,Tidak,Ya,Hipermetropia Sedang/Berat,Tidak,Risiko Sedang,45–59,Riwayat + HT
+P0020,55,Laki-laki,Tidak,Ya,Ya,Tidak,Tidak,Miopia Ringan,Tidak,Risiko Sedang,45–59,DM + HT
+P0021,65,Perempuan,Tidak,Tidak,Ya,Ya,Tidak,Tidak Ada,Jangka Pendek,Risiko Sedang,60+,HT Saja
+P0022,22,Laki-laki,Tidak,Tidak,Tidak,Tidak,Ya,Tidak Ada,Tidak,Risiko Rendah,< 30,Tidak Ada
+P0023,47,Perempuan,Tidak,Ya,Ya,Ya,Tidak,Miopia Ringan,Tidak,Risiko Sedang,45–59,DM + HT
+P0024,53,Perempuan,Ya,Ya,Ya,Ya,Ya,Miopia Ringan,Jangka Panjang,Risiko Tinggi,45–59,Riwayat + DM + HT
+P0025,32,Laki-laki,Tidak,Tidak,Ya,Tidak,Tidak,Hipermetropia Ringan,Tidak,Risiko Rendah,30–44,HT Saja
+P0026,47,Laki-laki,Tidak,Tidak,Tidak,Tidak,Tidak,Tidak Ada,Jangka Pendek,Risiko Rendah,45–59,Tidak Ada
+P0027,33,Laki-laki,Tidak,Tidak,Tidak,Tidak,Tidak,Miopia Ringan,Tidak,Risiko Rendah,30–44,Tidak Ada
+P0028,69,Laki-laki,Ya,Ya,Ya,Ya,Tidak,Miopia Sedang/Berat,Jangka Panjang,Risiko Tinggi,60+,Riwayat + DM + HT
+P0029,69,Perempuan,Tidak,Ya,Tidak,Ya,Ya,Miopia Sedang/Berat,Jangka Pendek,Risiko Tinggi,60+,DM Saja
+P0030,68,Laki-laki,Tidak,Ya,Ya,Tidak,Tidak,Hipermetropia Ringan,Tidak,Risiko Sedang,60+,DM + HT
+P0031,47,Perempuan,Tidak,Tidak,Tidak,Tidak,Tidak,Tidak Ada,Tidak,Risiko Rendah,45–59,Tidak Ada
+P0032,43,Perempuan,Tidak,Tidak,Ya,Tidak,Tidak,Tidak Ada,Tidak,Risiko Rendah,30–44,HT Saja
+P0033,21,Laki-laki,Tidak,Tidak,Tidak,Tidak,Tidak,Tidak Ada,Jangka Pendek,Risiko Rendah,< 30,Tidak Ada
+P0034,26,Perempuan,Tidak,Tidak,Tidak,Tidak,Tidak,Tidak Ada,Tidak,Risiko Rendah,< 30,Tidak Ada
+P0035,37,Laki-laki,Tidak,Tidak,Tidak,Ya,Tidak,Hipermetropia Ringan,Tidak,Risiko Rendah,30–44,Tidak Ada
+P0036,59,Perempuan,Ya,Tidak,Tidak,Tidak,Tidak,Tidak Ada,Jangka Panjang,Risiko Sedang,45–59,Riwayat Saja
+P0037,80,Laki-laki,Tidak,Tidak,Ya,Ya,Ya,Hipermetropia Sedang/Berat,Jangka Pendek,Risiko Tinggi,60+,HT Saja
+P0038,77,Laki-laki,Ya,Tidak,Tidak,Tidak,Ya,Hipermetropia Sedang/Berat,Jangka Panjang,Risiko Tinggi,60+,Riwayat Saja
+P0039,75,Laki-laki,Ya,Tidak,Ya,Ya,Tidak,Hipermetropia Ringan,Jangka Panjang,Risiko Tinggi,60+,Riwayat + HT
+P0040,66,Laki-laki,Ya,Tidak,Tidak,Tidak,Tidak,Hipermetropia Ringan,Tidak,Risiko Sedang,60+,Riwayat Saja
+P0041,46,Laki-laki,Tidak,Ya,Ya,Tidak,Tidak,Tidak Ada,Jangka Pendek,Risiko Sedang,45–59,DM + HT
+P0042,35,Perempuan,Tidak,Tidak,Tidak,Tidak,Tidak,Miopia Ringan,Tidak,Risiko Rendah,30–44,Tidak Ada
+P0043,61,Laki-laki,Ya,Tidak,Tidak,Ya,Ya,Hipermetropia Ringan,Tidak,Risiko Sedang,60+,Riwayat Saja
+P0044,44,Perempuan,Tidak,Tidak,Tidak,Tidak,Tidak,Hipermetropia Ringan,Tidak,Risiko Rendah,30–44,Tidak Ada
+P0045,36,Perempuan,Tidak,Tidak,Tidak,Tidak,Tidak,Tidak Ada,Tidak,Risiko Rendah,30–44,Tidak Ada
+P0046,28,Perempuan,Tidak,Tidak,Tidak,Tidak,Tidak,Tidak Ada,Tidak,Risiko Rendah,< 30,Tidak Ada
+P0047,30,Laki-laki,Tidak,Ya,Tidak,Tidak,Ya,Tidak Ada,Tidak,Risiko Rendah,< 30,DM Saja
+P0048,46,Laki-laki,Tidak,Tidak,Tidak,Tidak,Tidak,Hipermetropia Ringan,Tidak,Risiko Rendah,45–59,Tidak Ada
+P0049,22,Laki-laki,Tidak,Tidak,Tidak,Tidak,Tidak,Hipermetropia Ringan,Tidak,Risiko Rendah,< 30,Tidak Ada
+P0050,58,Perempuan,Tidak,Ya,Ya,Tidak,Tidak,Miopia Ringan,Tidak,Risiko Sedang,45–59,DM + HT
+P0051,57,Laki-laki,Tidak,Ya,Ya,Ya,Tidak,Miopia Ringan,Tidak,Risiko Sedang,45–59,DM + HT
+P0052,85,Laki-laki,Ya,Ya,Ya,Ya,Ya,Miopia Ringan,Jangka Pendek,Risiko Tinggi,60+,Riwayat + DM + HT
+P0053,59,Laki-laki,Tidak,Tidak,Ya,Tidak,Tidak,Miopia Sedang/Berat,Jangka Panjang,Risiko Sedang,45–59,HT Saja
+P0054,58,Laki-laki,Tidak,Tidak,Ya,Tidak,Tidak,Hipermetropia Sedang/Berat,Jangka Pendek,Risiko Sedang,45–59,HT Saja
+P0055,33,Laki-laki,Tidak,Tidak,Tidak,Tidak,Tidak,Tidak Ada,Tidak,Risiko Rendah,30–44,Tidak Ada
+P0056,43,Perempuan,Tidak,Ya,Ya,Ya,Tidak,Hipermetropia Ringan,Tidak,Risiko Sedang,30–44,DM + HT
+P0057,38,Laki-laki,Ya,Tidak,Ya,Tidak,Tidak,Tidak Ada,Tidak,Risiko Rendah,30–44,Riwayat + HT
+P0058,64,Laki-laki,Tidak,Tidak,Ya,Tidak,Ya,Miopia Ringan,Tidak,Risiko Sedang,60+,HT Saja
+P0059,68,Laki-laki,Ya,Tidak,Ya,Tidak,Ya,Tidak Ada,Tidak,Risiko Sedang,60+,Riwayat + HT
+P0060,69,Perempuan,Ya,Tidak,Ya,Ya,Ya,Miopia Sedang/Berat,Jangka Panjang,Risiko Tinggi,60+,Riwayat + HT
+P0061,68,Perempuan,Ya,Tidak,Tidak,Tidak,Tidak,Tidak Ada,Jangka Panjang,Risiko Sedang,60+,Riwayat Saja
+P0062,55,Perempuan,Ya,Ya,Ya,Ya,Ya,Hipermetropia Ringan,Jangka Panjang,Risiko Tinggi,45–59,Riwayat + DM + HT
+P0063,50,Laki-laki,Tidak,Tidak,Tidak,Tidak,Tidak,Miopia Ringan,Jangka Panjang,Risiko Sedang,45–59,Tidak Ada
+P0064,55,Perempuan,Ya,Ya,Ya,Ya,Ya,Hipermetropia Ringan,Jangka Pendek,Risiko Tinggi,45–59,Riwayat + DM + HT
+P0065,33,Laki-laki,Tidak,Tidak,Tidak,Tidak,Tidak,Miopia Ringan,Tidak,Risiko Rendah,30–44,Tidak Ada
+P0066,84,Perempuan,Ya,Tidak,Ya,Ya,Ya,Hipermetropia Ringan,Jangka Pendek,Risiko Tinggi,60+,Riwayat + HT
+P0067,83,Laki-laki,Ya,Ya,Ya,Tidak,Ya,Miopia Sedang/Berat,Jangka Pendek,Risiko Tinggi,60+,Riwayat + DM + HT
+P0068,61,Perempuan,Ya,Ya,Ya,Tidak,Ya,Miopia Sedang/Berat,Jangka Panjang,Risiko Tinggi,60+,Riwayat + DM + HT
+P0069,61,Perempuan,Tidak,Tidak,Ya,Tidak,Tidak,Miopia Sedang/Berat,Tidak,Risiko Sedang,60+,HT Saja
+P0070,22,Laki-laki,Tidak,Ya,Tidak,Tidak,Tidak,Tidak Ada,Tidak,Risiko Rendah,< 30,DM Saja
+P0071,36,Perempuan,Ya,Tidak,Tidak,Tidak,Tidak,Tidak Ada,Tidak,Risiko Rendah,30–44,Riwayat Saja
+P0072,42,Laki-laki,Tidak,Tidak,Tidak,Ya,Tidak,Hipermetropia Sedang/Berat,Tidak,Risiko Sedang,30–44,Tidak Ada
+P0073,64,Perempuan,Ya,Ya,Ya,Tidak,Ya,Hipermetropia Ringan,Jangka Panjang,Risiko Tinggi,60+,Riwayat + DM + HT
+P0074,44,Perempuan,Tidak,Tidak,Tidak,Tidak,Tidak,Tidak Ada,Tidak,Risiko Rendah,30–44,Tidak Ada
+P0075,63,Laki-laki,Ya,Tidak,Tidak,Tidak,Tidak,Hipermetropia Sedang/Berat,Tidak,Risiko Sedang,60+,Riwayat Saja
+P0076,61,Perempuan,Tidak,Tidak,Ya,Tidak,Ya,Tidak Ada,Tidak,Risiko Sedang,60+,HT Saja
+P0077,61,Laki-laki,Ya,Ya,Ya,Tidak,Ya,Hipermetropia Ringan,Jangka Panjang,Risiko Tinggi,60+,Riwayat + DM + HT
+P0078,63,Perempuan,Tidak,Ya,Ya,Tidak,Ya,Miopia Ringan,Jangka Pendek,Risiko Sedang,60+,DM + HT
+P0079,57,Laki-laki,Ya,Ya,Ya,Tidak,Ya,Hipermetropia Sedang/Berat,Jangka Panjang,Risiko Tinggi,45–59,Riwayat + DM + HT
+P0080,74,Laki-laki,Ya,Tidak,Ya,Ya,Tidak,Miopia Sedang/Berat,Jangka Pendek,Risiko Tinggi,60+,Riwayat + HT
+P0081,82,Perempuan,Ya,Tidak,Ya,Ya,Ya,Hipermetropia Sedang/Berat,Jangka Panjang,Risiko Tinggi,60+,Riwayat + HT
+P0082,47,Perempuan,Tidak,Tidak,Tidak,Ya,Tidak,Tidak Ada,Jangka Pendek,Risiko Rendah,45–59,Tidak Ada
+P0083,68,Laki-laki,Ya,Ya,Ya,Ya,Tidak,Miopia Ringan,Jangka Panjang,Risiko Tinggi,60+,Riwayat + DM + HT
+P0084,48,Laki-laki,Tidak,Tidak,Tidak,Tidak,Tidak,Tidak Ada,Jangka Pendek,Risiko Rendah,45–59,Tidak Ada
+P0085,44,Perempuan,Ya,Tidak,Tidak,Tidak,Tidak,Tidak Ada,Tidak,Risiko Rendah,30–44,Riwayat Saja
+P0086,37,Perempuan,Tidak,Tidak,Tidak,Tidak,Tidak,Miopia Ringan,Tidak,Risiko Rendah,30–44,Tidak Ada
+P0087,26,Perempuan,Tidak,Tidak,Tidak,Tidak,Tidak,Miopia Ringan,Tidak,Risiko Rendah,< 30,Tidak Ada
+P0088,34,Laki-laki,Tidak,Tidak,Tidak,Tidak,Tidak,Tidak Ada,Tidak,Risiko Rendah,30–44,Tidak Ada
+P0089,83,Laki-laki,Ya,Ya,Ya,Ya,Tidak,Hipermetropia Ringan,Jangka Pendek,Risiko Tinggi,60+,Riwayat + DM + HT
+P0090,37,Laki-laki,Tidak,Tidak,Tidak,Tidak,Tidak,Miopia Ringan,Tidak,Risiko Rendah,30–44,Tidak Ada
+P0091,72,Perempuan,Ya,Ya,Ya,Tidak,Tidak,Hipermetropia Sedang/Berat,Jangka Pendek,Risiko Tinggi,60+,Riwayat + DM + HT
+P0092,55,Perempuan,Ya,Ya,Ya,Tidak,Ya,Miopia Ringan,Tidak,Risiko Sedang,45–59,Riwayat + DM + HT
+P0093,39,Laki-laki,Tidak,Tidak,Ya,Ya,Tidak,Miopia Sedang/Berat,Tidak,Risiko Sedang,30–44,HT Saja
+P0094,49,Laki-laki,Tidak,Tidak,Ya,Tidak,Tidak,Tidak Ada,Tidak,Risiko Rendah,45–59,HT Saja
+P0095,49,Laki-laki,Tidak,Tidak,Tidak,Tidak,Tidak,Tidak Ada,Tidak,Risiko Rendah,45–59,Tidak Ada
+P0096,63,Laki-laki,Tidak,Tidak,Tidak,Tidak,Tidak,Miopia Ringan,Jangka Pendek,Risiko Sedang,60+,Tidak Ada
+P0097,51,Laki-laki,Tidak,Tidak,Tidak,Ya,Ya,Tidak Ada,Jangka Panjang,Risiko Sedang,45–59,Tidak Ada
+P0098,79,Perempuan,Ya,Ya,Ya,Tidak,Ya,Miopia Sedang/Berat,Jangka Pendek,Risiko Tinggi,60+,Riwayat + DM + HT
+P0099,72,Perempuan,Ya,Ya,Ya,Ya,Tidak,Miopia Sedang/Berat,Jangka Pendek,Risiko Tinggi,60+,Riwayat + DM + HT
+P0100,64,Perempuan,Ya,Tidak,Ya,Ya,Tidak,Miopia Ringan,Tidak,Risiko Sedang,60+,Riwayat + HT
+P0101,69,Perempuan,Ya,Ya,Ya,Tidak,Ya,Miopia Ringan,Jangka Panjang,Risiko Tinggi,60+,Riwayat + DM + HT
+P0102,72,Perempuan,Ya,Ya,Tidak,Ya,Ya,Hipermetropia Ringan,Jangka Pendek,Risiko Tinggi,60+,Riwayat + DM
+P0103,22,Perempuan,Tidak,Tidak,Tidak,Ya,Tidak,Tidak Ada,Jangka Pendek,Risiko Rendah,< 30,Tidak Ada
+P0104,69,Perempuan,Ya,Ya,Ya,Ya,Ya,Miopia Ringan,Jangka Pendek,Risiko Tinggi,60+,Riwayat + DM + HT
+P0105,47,Laki-laki,Ya,Ya,Tidak,Tidak,Ya,Tidak Ada,Jangka Panjang,Risiko Sedang,45–59,Riwayat + DM
+P0106,85,Laki-laki,Ya,Ya,Ya,Ya,Ya,Hipermetropia Sedang/Berat,Jangka Panjang,Risiko Tinggi,60+,Riwayat + DM + HT
+P0107,53,Laki-laki,Tidak,Ya,Ya,Tidak,Tidak,Tidak Ada,Jangka Panjang,Risiko Sedang,45–59,DM + HT
+P0108,56,Perempuan,Ya,Ya,Ya,Tidak,Tidak,Hipermetropia Sedang/Berat,Jangka Pendek,Risiko Sedang,45–59,Riwayat + DM + HT
+P0109,80,Perempuan,Tidak,Ya,Ya,Ya,Ya,Hipermetropia Sedang/Berat,Jangka Panjang,Risiko Tinggi,60+,DM + HT
+P0110,48,Laki-laki,Ya,Tidak,Tidak,Ya,Tidak,Tidak Ada,Jangka Pendek,Risiko Sedang,45–59,Riwayat Saja
+P0111,41,Laki-laki,Tidak,Tidak,Tidak,Tidak,Tidak,Tidak Ada,Tidak,Risiko Rendah,30–44,Tidak Ada
+P0112,56,Laki-laki,Tidak,Ya,Tidak,Tidak,Tidak,Miopia Sedang/Berat,Jangka Pendek,Risiko Sedang,45–59,DM Saja
+P0113,33,Perempuan,Tidak,Tidak,Tidak,Tidak,Tidak,Hipermetropia Ringan,Tidak,Risiko Rendah,30–44,Tidak Ada
+P0114,59,Laki-laki,Tidak,Tidak,Ya,Ya,Tidak,Miopia Ringan,Jangka Pendek,Risiko Sedang,45–59,HT Saja
+P0115,27,Perempuan,Tidak,Tidak,Tidak,Tidak,Tidak,Tidak Ada,Tidak,Risiko Rendah,< 30,Tidak Ada
+P0116,78,Perempuan,Ya,Ya,Ya,Ya,Tidak,Hipermetropia Ringan,Jangka Pendek,Risiko Tinggi,60+,Riwayat + DM + HT
+P0117,79,Laki-laki,Ya,Tidak,Tidak,Ya,Ya,Miopia Ringan,Jangka Panjang,Risiko Tinggi,60+,Riwayat Saja
+P0118,53,Perempuan,Ya,Ya,Ya,Ya,Tidak,Miopia Sedang/Berat,Jangka Panjang,Risiko Tinggi,45–59,Riwayat + DM + HT
+P0119,38,Perempuan,Tidak,Tidak,Tidak,Tidak,Tidak,Tidak Ada,Tidak,Risiko Rendah,30–44,Tidak Ada
+P0120,69,Laki-laki,Tidak,Ya,Ya,Tidak,Tidak,Miopia Sedang/Berat,Jangka Panjang,Risiko Tinggi,60+,DM + HT
+P0121,85,Perempuan,Ya,Tidak,Ya,Ya,Tidak,Miopia Sedang/Berat,Jangka Pendek,Risiko Tinggi,60+,Riwayat + HT
+P0122,29,Laki-laki,Tidak,Tidak,Tidak,Tidak,Tidak,Tidak Ada,Jangka Pendek,Risiko Rendah,< 30,Tidak Ada
+P0123,77,Laki-laki,Ya,Ya,Ya,Tidak,Ya,Hipermetropia Sedang/Berat,Jangka Pendek,Risiko Tinggi,60+,Riwayat + DM + HT
+P0124,20,Perempuan,Tidak,Tidak,Tidak,Ya,Tidak,Tidak Ada,Jangka Pendek,Risiko Rendah,< 30,Tidak Ada
+P0125,59,Laki-laki,Tidak,Ya,Ya,Tidak,Tidak,Tidak Ada,Jangka Pendek,Risiko Sedang,45–59,DM + HT
+P0126,35,Laki-laki,Tidak,Tidak,Tidak,Tidak,Tidak,Hipermetropia Ringan,Tidak,Risiko Rendah,30–44,Tidak Ada
+P0127,26,Perempuan,Tidak,Tidak,Tidak,Tidak,Tidak,Tidak Ada,Tidak,Risiko Rendah,< 30,Tidak Ada
+P0128,42,Perempuan,Tidak,Tidak,Tidak,Tidak,Tidak,Tidak Ada,Tidak,Risiko Rendah,30–44,Tidak Ada
+P0129,83,Laki-laki,Ya,Ya,Ya,Ya,Tidak,Miopia Sedang/Berat,Jangka Panjang,Risiko Tinggi,60+,Riwayat + DM + HT
+P0130,69,Laki-laki,Ya,Tidak,Ya,Ya,Tidak,Miopia Sedang/Berat,Jangka Panjang,Risiko Tinggi,60+,Riwayat + HT
+P0131,71,Laki-laki,Tidak,Ya,Ya,Ya,Tidak,Hipermetropia Sedang/Berat,Jangka Panjang,Risiko Tinggi,60+,DM + HT
+P0132,84,Perempuan,Ya,Tidak,Ya,Ya,Tidak,Miopia Ringan,Jangka Panjang,Risiko Tinggi,60+,Riwayat + HT
+P0133,58,Perempuan,Tidak,Tidak,Tidak,Tidak,Tidak,Hipermetropia Ringan,Jangka Panjang,Risiko Sedang,45–59,Tidak Ada
+P0134,71,Laki-laki,Ya,Ya,Ya,Tidak,Ya,Miopia Ringan,Jangka Panjang,Risiko Tinggi,60+,Riwayat + DM + HT
+P0135,42,Perempuan,Tidak,Tidak,Tidak,Tidak,Tidak,Miopia Ringan,Jangka Panjang,Risiko Sedang,30–44,Tidak Ada
+P0136,30,Laki-laki,Tidak,Tidak,Tidak,Tidak,Tidak,Tidak Ada,Tidak,Risiko Rendah,< 30,Tidak Ada
+P0137,23,Perempuan,Ya,Tidak,Tidak,Tidak,Tidak,Tidak Ada,Tidak,Risiko Rendah,< 30,Riwayat Saja
+P0138,79,Laki-laki,Tidak,Ya,Ya,Ya,Tidak,Hipermetropia Ringan,Jangka Panjang,Risiko Tinggi,60+,DM + HT
+P0139,74,Laki-laki,Ya,Ya,Ya,Tidak,Ya,Hipermetropia Sedang/Berat,Jangka Pendek,Risiko Tinggi,60+,Riwayat + DM + HT
+P0140,68,Laki-laki,Ya,Tidak,Ya,Ya,Ya,Hipermetropia Ringan,Jangka Panjang,Risiko Tinggi,60+,Riwayat + HT
+P0141,49,Perempuan,Tidak,Tidak,Tidak,Tidak,Tidak,Tidak Ada,Tidak,Risiko Rendah,45–59,Tidak Ada
+P0142,85,Perempuan,Tidak,Ya,Tidak,Tidak,Ya,Miopia Sedang/Berat,Jangka Panjang,Risiko Tinggi,60+,DM Saja
+P0143,53,Perempuan,Tidak,Tidak,Tidak,Tidak,Tidak,Hipermetropia Sedang/Berat,Jangka Pendek,Risiko Sedang,45–59,Tidak Ada
+P0144,20,Laki-laki,Tidak,Tidak,Tidak,Tidak,Tidak,Miopia Ringan,Tidak,Risiko Rendah,< 30,Tidak Ada
+P0145,44,Laki-laki,Tidak,Ya,Ya,Tidak,Tidak,Hipermetropia Sedang/Berat,Tidak,Risiko Sedang,30–44,DM + HT
+P0146,53,Perempuan,Ya,Ya,Ya,Tidak,Ya,Tidak Ada,Tidak,Risiko Sedang,45–59,Riwayat + DM + HT
+P0147,58,Perempuan,Ya,Ya,Ya,Ya,Tidak,Miopia Sedang/Berat,Jangka Pendek,Risiko Tinggi,45–59,Riwayat + DM + HT
+P0148,43,Laki-laki,Ya,Tidak,Tidak,Tidak,Ya,Miopia Ringan,Jangka Pendek,Risiko Sedang,30–44,Riwayat Saja
+P0149,60,Perempuan,Ya,Ya,Tidak,Ya,Ya,Hipermetropia Ringan,Jangka Pendek,Risiko Tinggi,45–59,Riwayat + DM
+P0150,52,Laki-laki,Tidak,Ya,Ya,Tidak,Tidak,Tidak Ada,Jangka Pendek,Risiko Sedang,45–59,DM + HT
+P0151,65,Laki-laki,Tidak,Ya,Ya,Tidak,Ya,Tidak Ada,Tidak,Risiko Sedang,60+,DM + HT
+P0152,46,Perempuan,Tidak,Tidak,Tidak,Tidak,Tidak,Tidak Ada,Tidak,Risiko Rendah,45–59,Tidak Ada
+P0153,79,Perempuan,Ya,Tidak,Ya,Tidak,Tidak,Miopia Sedang/Berat,Jangka Panjang,Risiko Tinggi,60+,Riwayat + HT
+P0154,35,Perempuan,Tidak,Tidak,Tidak,Tidak,Tidak,Hipermetropia Ringan,Tidak,Risiko Rendah,30–44,Tidak Ada
+P0155,56,Laki-laki,Ya,Tidak,Tidak,Ya,Tidak,Tidak Ada,Jangka Pendek,Risiko Sedang,45–59,Riwayat Saja
+P0156,74,Perempuan,Ya,Ya,Ya,Ya,Ya,Miopia Sedang/Berat,Jangka Panjang,Risiko Tinggi,60+,Riwayat + DM + HT
+P0157,69,Laki-laki,Ya,Ya,Ya,Tidak,Tidak,Miopia Sedang/Berat,Jangka Pendek,Risiko Tinggi,60+,Riwayat + DM + HT
+P0158,37,Laki-laki,Tidak,Ya,Ya,Tidak,Ya,Hipermetropia Ringan,Tidak,Risiko Sedang,30–44,DM + HT
+P0159,79,Laki-laki,Tidak,Ya,Tidak,Tidak,Ya,Miopia Sedang/Berat,Jangka Panjang,Risiko Tinggi,60+,DM Saja
+P0160,58,Laki-laki,Tidak,Ya,Ya,Ya,Tidak,Hipermetropia Ringan,Tidak,Risiko Sedang,45–59,DM + HT
+P0161,55,Perempuan,Tidak,Tidak,Ya,Ya,Tidak,Hipermetropia Sedang/Berat,Jangka Pendek,Risiko Sedang,45–59,HT Saja
+P0162,28,Perempuan,Tidak,Ya,Ya,Tidak,Ya,Tidak Ada,Tidak,Risiko Rendah,< 30,DM + HT
+P0163,35,Perempuan,Tidak,Tidak,Tidak,Tidak,Tidak,Miopia Sedang/Berat,Jangka Panjang,Risiko Sedang,30–44,Tidak Ada
+P0164,73,Perempuan,Ya,Ya,Ya,Ya,Ya,Miopia Ringan,Jangka Panjang,Risiko Tinggi,60+,Riwayat + DM + HT
+P0165,67,Perempuan,Tidak,Ya,Ya,Ya,Ya,Hipermetropia Ringan,Jangka Panjang,Risiko Tinggi,60+,DM + HT
+P0166,79,Laki-laki,Ya,Ya,Tidak,Ya,Ya,Miopia Ringan,Jangka Panjang,Risiko Tinggi,60+,Riwayat + DM
+P0167,44,Laki-laki,Tidak,Tidak,Tidak,Tidak,Tidak,Tidak Ada,Tidak,Risiko Rendah,30–44,Tidak Ada
+P0168,69,Perempuan,Ya,Tidak,Ya,Ya,Tidak,Miopia Sedang/Berat,Jangka Panjang,Risiko Tinggi,60+,Riwayat + HT
+P0169,57,Laki-laki,Ya,Tidak,Tidak,Tidak,Tidak,Miopia Sedang/Berat,Tidak,Risiko Sedang,45–59,Riwayat Saja
+P0170,75,Perempuan,Tidak,Ya,Ya,Ya,Ya,Hipermetropia Ringan,Jangka Panjang,Risiko Tinggi,60+,DM + HT
+P0171,65,Laki-laki,Tidak,Tidak,Tidak,Tidak,Ya,Hipermetropia Sedang/Berat,Jangka Panjang,Risiko Sedang,60+,Tidak Ada
+P0172,37,Laki-laki,Tidak,Tidak,Tidak,Tidak,Tidak,Tidak Ada,Tidak,Risiko Rendah,30–44,Tidak Ada
+P0173,69,Laki-laki,Tidak,Ya,Ya,Tidak,Tidak,Miopia Sedang/Berat,Jangka Pendek,Risiko Sedang,60+,DM + HT
+P0174,37,Laki-laki,Tidak,Tidak,Ya,Tidak,Ya,Hipermetropia Sedang/Berat,Jangka Pendek,Risiko Sedang,30–44,HT Saja
+P0175,32,Perempuan,Tidak,Tidak,Tidak,Tidak,Tidak,Hipermetropia Ringan,Tidak,Risiko Rendah,30–44,Tidak Ada
+P0176,67,Perempuan,Tidak,Tidak,Tidak,Ya,Tidak,Tidak Ada,Jangka Pendek,Risiko Sedang,60+,Tidak Ada
+P0177,53,Laki-laki,Ya,Ya,Ya,Tidak,Ya,Miopia Sedang/Berat,Jangka Pendek,Risiko Tinggi,45–59,Riwayat + DM + HT
+P0178,66,Perempuan,Ya,Tidak,Tidak,Tidak,Ya,Miopia Sedang/Berat,Jangka Panjang,Risiko Tinggi,60+,Riwayat Saja
+P0179,45,Perempuan,Tidak,Tidak,Ya,Tidak,Tidak,Hipermetropia Sedang/Berat,Jangka Panjang,Risiko Sedang,30–44,HT Saja
+P0180,32,Laki-laki,Tidak,Tidak,Ya,Tidak,Tidak,Tidak Ada,Tidak,Risiko Rendah,30–44,HT Saja
+P0181,45,Laki-laki,Ya,Tidak,Ya,Ya,Tidak,Hipermetropia Sedang/Berat,Tidak,Risiko Sedang,30–44,Riwayat + HT
+P0182,83,Perempuan,Ya,Ya,Tidak,Ya,Ya,Miopia Sedang/Berat,Jangka Panjang,Risiko Tinggi,60+,Riwayat + DM
+P0183,25,Laki-laki,Ya,Tidak,Tidak,Tidak,Tidak,Miopia Ringan,Tidak,Risiko Rendah,< 30,Riwayat Saja
+P0184,44,Laki-laki,Tidak,Tidak,Tidak,Tidak,Tidak,Tidak Ada,Tidak,Risiko Rendah,30–44,Tidak Ada
+P0185,66,Perempuan,Tidak,Ya,Ya,Tidak,Tidak,Hipermetropia Sedang/Berat,Jangka Panjang,Risiko Tinggi,60+,DM + HT
+P0186,36,Perempuan,Tidak,Ya,Tidak,Tidak,Ya,Tidak Ada,Tidak,Risiko Rendah,30–44,DM Saja
+P0187,65,Laki-laki,Ya,Tidak,Ya,Ya,Ya,Hipermetropia Ringan,Jangka Panjang,Risiko Tinggi,60+,Riwayat + HT
+P0188,38,Perempuan,Tidak,Tidak,Tidak,Ya,Ya,Miopia Ringan,Jangka Pendek,Risiko Sedang,30–44,Tidak Ada
+P0189,40,Perempuan,Tidak,Tidak,Tidak,Tidak,Tidak,Tidak Ada,Tidak,Risiko Rendah,30–44,Tidak Ada
+P0190,67,Laki-laki,Ya,Tidak,Tidak,Tidak,Ya,Miopia Ringan,Tidak,Risiko Sedang,60+,Riwayat Saja
+P0191,49,Perempuan,Ya,Tidak,Tidak,Ya,Tidak,Miopia Ringan,Jangka Panjang,Risiko Sedang,45–59,Riwayat Saja
+P0192,45,Laki-laki,Tidak,Ya,Ya,Tidak,Tidak,Miopia Ringan,Tidak,Risiko Sedang,30–44,DM + HT
+P0193,23,Perempuan,Ya,Tidak,Tidak,Tidak,Tidak,Miopia Ringan,Tidak,Risiko Rendah,< 30,Riwayat Saja
+P0194,57,Perempuan,Tidak,Tidak,Ya,Tidak,Ya,Miopia Sedang/Berat,Tidak,Risiko Sedang,45–59,HT Saja
+P0195,56,Laki-laki,Ya,Ya,Ya,Ya,Ya,Hipermetropia Ringan,Jangka Pendek,Risiko Tinggi,45–59,Riwayat + DM + HT
+P0196,81,Laki-laki,Ya,Tidak,Ya,Ya,Ya,Miopia Sedang/Berat,Jangka Pendek,Risiko Tinggi,60+,Riwayat + HT
+P0197,38,Laki-laki,Tidak,Tidak,Tidak,Tidak,Ya,Hipermetropia Ringan,Tidak,Risiko Rendah,30–44,Tidak Ada
+P0198,30,Perempuan,Ya,Tidak,Ya,Tidak,Tidak,Miopia Ringan,Tidak,Risiko Rendah,< 30,Riwayat + HT
+P0199,52,Laki-laki,Tidak,Ya,Tidak,Tidak,Tidak,Miopia Ringan,Jangka Panjang,Risiko Sedang,45–59,DM Saja
+P0200,51,Perempuan,Tidak,Tidak,Ya,Tidak,Ya,Miopia Sedang/Berat,Jangka Pendek,Risiko Sedang,45–59,HT Saja
+P0201,23,Laki-laki,Tidak,Tidak,Tidak,Tidak,Tidak,Miopia Ringan,Tidak,Risiko Rendah,< 30,Tidak Ada
+P0202,69,Perempuan,Ya,Tidak,Tidak,Tidak,Tidak,Tidak Ada,Jangka Pendek,Risiko Sedang,60+,Riwayat Saja
+P0203,80,Perempuan,Ya,Ya,Ya,Tidak,Ya,Miopia Sedang/Berat,Jangka Panjang,Risiko Tinggi,60+,Riwayat + DM + HT
+P0204,65,Perempuan,Ya,Ya,Ya,Ya,Tidak,Miopia Sedang/Berat,Jangka Pendek,Risiko Tinggi,60+,Riwayat + DM + HT
+P0205,68,Laki-laki,Ya,Ya,Ya,Tidak,Ya,Miopia Sedang/Berat,Jangka Pendek,Risiko Tinggi,60+,Riwayat + DM + HT
+P0206,82,Perempuan,Tidak,Ya,Ya,Ya,Ya,Miopia Ringan,Jangka Panjang,Risiko Tinggi,60+,DM + HT
+P0207,85,Laki-laki,Ya,Ya,Ya,Tidak,Ya,Hipermetropia Sedang/Berat,Jangka Panjang,Risiko Tinggi,60+,Riwayat + DM + HT
+P0208,69,Laki-laki,Tidak,Ya,Ya,Tidak,Tidak,Miopia Sedang/Berat,Jangka Panjang,Risiko Tinggi,60+,DM + HT
+P0209,56,Laki-laki,Ya,Ya,Tidak,Tidak,Tidak,Miopia Sedang/Berat,Jangka Panjang,Risiko Sedang,45–59,Riwayat + DM
+P0210,33,Laki-laki,Tidak,Tidak,Tidak,Tidak,Tidak,Miopia Ringan,Tidak,Risiko Rendah,30–44,Tidak Ada
+P0211,81,Perempuan,Ya,Ya,Ya,Tidak,Ya,Hipermetropia Sedang/Berat,Jangka Panjang,Risiko Tinggi,60+,Riwayat + DM + HT
+P0212,53,Laki-laki,Tidak,Ya,Tidak,Tidak,Ya,Hipermetropia Ringan,Tidak,Risiko Sedang,45–59,DM Saja
+P0213,43,Laki-laki,Tidak,Tidak,Tidak,Tidak,Ya,Tidak Ada,Tidak,Risiko Rendah,30–44,Tidak Ada
+P0214,53,Laki-laki,Ya,Ya,Ya,Ya,Tidak,Miopia Sedang/Berat,Tidak,Risiko Sedang,45–59,Riwayat + DM + HT
+P0215,50,Perempuan,Tidak,Tidak,Ya,Tidak,Tidak,Miopia Ringan,Jangka Panjang,Risiko Sedang,45–59,HT Saja
+P0216,62,Perempuan,Ya,Ya,Ya,Tidak,Ya,Hipermetropia Sedang/Berat,Jangka Pendek,Risiko Tinggi,60+,Riwayat + DM + HT
+P0217,48,Perempuan,Tidak,Tidak,Tidak,Tidak,Tidak,Tidak Ada,Tidak,Risiko Rendah,45–59,Tidak Ada
+P0218,72,Perempuan,Ya,Ya,Ya,Tidak,Ya,Hipermetropia Ringan,Jangka Pendek,Risiko Tinggi,60+,Riwayat + DM + HT
+P0219,68,Perempuan,Tidak,Tidak,Ya,Tidak,Ya,Tidak Ada,Tidak,Risiko Sedang,60+,HT Saja
+P0220,85,Perempuan,Tidak,Tidak,Ya,Ya,Ya,Miopia Ringan,Jangka Panjang,Risiko Tinggi,60+,HT Saja
+P0221,39,Perempuan,Tidak,Tidak,Tidak,Tidak,Tidak,Tidak Ada,Tidak,Risiko Rendah,30–44,Tidak Ada
+P0222,70,Laki-laki,Ya,Ya,Ya,Ya,Tidak,Miopia Sedang/Berat,Jangka Panjang,Risiko Tinggi,60+,Riwayat + DM + HT
+P0223,22,Perempuan,Tidak,Tidak,Tidak,Tidak,Tidak,Tidak Ada,Tidak,Risiko Rendah,< 30,Tidak Ada
+P0224,44,Perempuan,Tidak,Tidak,Tidak,Ya,Tidak,Tidak Ada,Jangka Pendek,Risiko Rendah,30–44,Tidak Ada
+P0225,62,Laki-laki,Ya,Ya,Ya,Ya,Tidak,Miopia Ringan,Jangka Panjang,Risiko Tinggi,60+,Riwayat + DM + HT
+P0226,62,Laki-laki,Tidak,Ya,Ya,Ya,Ya,Hipermetropia Sedang/Berat,Jangka Pendek,Risiko Tinggi,60+,DM + HT
+P0227,61,Perempuan,Ya,Tidak,Tidak,Ya,Tidak,Hipermetropia Ringan,Tidak,Risiko Sedang,60+,Riwayat Saja
+P0228,48,Laki-laki,Tidak,Tidak,Ya,Tidak,Tidak,Tidak Ada,Tidak,Risiko Rendah,45–59,HT Saja
+P0229,62,Perempuan,Tidak,Ya,Ya,Tidak,Ya,Miopia Sedang/Berat,Jangka Panjang,Risiko Tinggi,60+,DM + HT
+P0230,67,Laki-laki,Ya,Ya,Ya,Ya,Ya,Hipermetropia Sedang/Berat,Jangka Panjang,Risiko Tinggi,60+,Riwayat + DM + HT
+P0231,32,Laki-laki,Tidak,Tidak,Tidak,Tidak,Tidak,Tidak Ada,Tidak,Risiko Rendah,30–44,Tidak Ada
+P0232,69,Perempuan,Tidak,Tidak,Tidak,Tidak,Tidak,Hipermetropia Ringan,Jangka Pendek,Risiko Sedang,60+,Tidak Ada
+P0233,28,Laki-laki,Ya,Ya,Tidak,Tidak,Tidak,Tidak Ada,Tidak,Risiko Rendah,< 30,Riwayat + DM
+P0234,55,Laki-laki,Ya,Ya,Ya,Ya,Ya,Miopia Sedang/Berat,Jangka Pendek,Risiko Tinggi,45–59,Riwayat + DM + HT
+P0235,76,Laki-laki,Tidak,Ya,Ya,Tidak,Tidak,Miopia Sedang/Berat,Jangka Panjang,Risiko Tinggi,60+,DM + HT
+P0236,46,Laki-laki,Tidak,Tidak,Tidak,Tidak,Tidak,Tidak Ada,Tidak,Risiko Rendah,45–59,Tidak Ada
+P0237,55,Laki-laki,Tidak,Ya,Ya,Tidak,Ya,Hipermetropia Ringan,Tidak,Risiko Sedang,45–59,DM + HT
+P0238,34,Laki-laki,Tidak,Tidak,Tidak,Tidak,Ya,Tidak Ada,Jangka Pendek,Risiko Rendah,30–44,Tidak Ada
+P0239,50,Laki-laki,Tidak,Ya,Ya,Ya,Ya,Miopia Ringan,Tidak,Risiko Sedang,45–59,DM + HT
+P0240,52,Laki-laki,Ya,Ya,Ya,Tidak,Ya,Miopia Sedang/Berat,Jangka Panjang,Risiko Tinggi,45–59,Riwayat + DM + HT
+P0241,37,Laki-laki,Tidak,Tidak,Ya,Tidak,Tidak,Tidak Ada,Tidak,Risiko Rendah,30–44,HT Saja
+P0242,58,Laki-laki,Tidak,Tidak,Tidak,Tidak,Tidak,Hipermetropia Sedang/Berat,Jangka Pendek,Risiko Sedang,45–59,Tidak Ada
+P0243,42,Perempuan,Ya,Tidak,Tidak,Tidak,Tidak,Hipermetropia Sedang/Berat,Tidak,Risiko Sedang,30–44,Riwayat Saja
+P0244,33,Perempuan,Tidak,Tidak,Ya,Tidak,Tidak,Hipermetropia Ringan,Tidak,Risiko Rendah,30–44,HT Saja
+P0245,59,Perempuan,Ya,Ya,Ya,Tidak,Tidak,Hipermetropia Sedang/Berat,Jangka Panjang,Risiko Tinggi,45–59,Riwayat + DM + HT
+P0246,51,Laki-laki,Tidak,Tidak,Ya,Tidak,Ya,Hipermetropia Sedang/Berat,Tidak,Risiko Sedang,45–59,HT Saja
+P0247,47,Perempuan,Tidak,Tidak,Tidak,Tidak,Tidak,Tidak Ada,Tidak,Risiko Rendah,45–59,Tidak Ada
+P0248,67,Perempuan,Tidak,Ya,Ya,Tidak,Tidak,Miopia Ringan,Tidak,Risiko Sedang,60+,DM + HT
+P0249,65,Laki-laki,Ya,Tidak,Ya,Ya,Tidak,Miopia Ringan,Jangka Pendek,Risiko Sedang,60+,Riwayat + HT
+P0250,57,Laki-laki,Tidak,Ya,Ya,Ya,Ya,Hipermetropia Sedang/Berat,Jangka Panjang,Risiko Tinggi,45–59,DM + HT
+P0251,62,Laki-laki,Tidak,Ya,Ya,Tidak,Tidak,Hipermetropia Ringan,Tidak,Risiko Sedang,60+,DM + HT
+P0252,49,Laki-laki,Tidak,Tidak,Ya,Tidak,Ya,Tidak Ada,Tidak,Risiko Rendah,45–59,HT Saja
+P0253,59,Perempuan,Tidak,Tidak,Tidak,Tidak,Tidak,Hipermetropia Ringan,Jangka Panjang,Risiko Sedang,45–59,Tidak Ada
+P0254,29,Laki-laki,Tidak,Tidak,Ya,Tidak,Tidak,Tidak Ada,Tidak,Risiko Rendah,< 30,HT Saja
+P0255,39,Laki-laki,Tidak,Tidak,Tidak,Tidak,Tidak,Tidak Ada,Tidak,Risiko Rendah,30–44,Tidak Ada
+P0256,63,Perempuan,Tidak,Ya,Ya,Tidak,Tidak,Miopia Ringan,Tidak,Risiko Sedang,60+,DM + HT
+P0257,35,Perempuan,Tidak,Tidak,Tidak,Tidak,Tidak,Tidak Ada,Tidak,Risiko Rendah,30–44,Tidak Ada
+P0258,45,Perempuan,Tidak,Tidak,Tidak,Tidak,Tidak,Miopia Ringan,Jangka Pendek,Risiko Rendah,30–44,Tidak Ada
+P0259,42,Laki-laki,Tidak,Tidak,Tidak,Tidak,Tidak,Tidak Ada,Tidak,Risiko Rendah,30–44,Tidak Ada
+P0260,73,Laki-laki,Ya,Ya,Ya,Ya,Ya,Miopia Sedang/Berat,Jangka Panjang,Risiko Tinggi,60+,Riwayat + DM + HT
+P0261,30,Perempuan,Tidak,Tidak,Tidak,Tidak,Tidak,Miopia Ringan,Tidak,Risiko Rendah,< 30,Tidak Ada
+P0262,57,Laki-laki,Tidak,Tidak,Ya,Ya,Ya,Miopia Sedang/Berat,Jangka Panjang,Risiko Tinggi,45–59,HT Saja
+P0263,41,Laki-laki,Tidak,Tidak,Tidak,Tidak,Tidak,Tidak Ada,Tidak,Risiko Rendah,30–44,Tidak Ada
+P0264,68,Perempuan,Ya,Tidak,Ya,Ya,Tidak,Tidak Ada,Jangka Pendek,Risiko Sedang,60+,Riwayat + HT
+P0265,55,Laki-laki,Ya,Ya,Tidak,Ya,Ya,Miopia Ringan,Jangka Panjang,Risiko Tinggi,45–59,Riwayat + DM
+P0266,68,Perempuan,Ya,Tidak,Tidak,Tidak,Tidak,Hipermetropia Ringan,Jangka Pendek,Risiko Sedang,60+,Riwayat Saja
+P0267,46,Perempuan,Tidak,Tidak,Tidak,Tidak,Tidak,Miopia Ringan,Tidak,Risiko Rendah,45–59,Tidak Ada
+P0268,41,Perempuan,Tidak,Tidak,Tidak,Tidak,Tidak,Tidak Ada,Jangka Pendek,Risiko Rendah,30–44,Tidak Ada
+P0269,35,Perempuan,Tidak,Tidak,Tidak,Tidak,Tidak,Tidak Ada,Tidak,Risiko Rendah,30–44,Tidak Ada
+P0270,61,Laki-laki,Ya,Tidak,Ya,Ya,Ya,Hipermetropia Sedang/Berat,Jangka Panjang,Risiko Tinggi,60+,Riwayat + HT
+P0271,67,Perempuan,Ya,Tidak,Tidak,Tidak,Tidak,Hipermetropia Ringan,Jangka Pendek,Risiko Sedang,60+,Riwayat Saja
+P0272,67,Laki-laki,Ya,Tidak,Tidak,Ya,Ya,Miopia Sedang/Berat,Jangka Pendek,Risiko Tinggi,60+,Riwayat Saja
+P0273,53,Perempuan,Ya,Ya,Ya,Tidak,Tidak,Hipermetropia Sedang/Berat,Jangka Panjang,Risiko Tinggi,45–59,Riwayat + DM + HT
+P0274,48,Perempuan,Ya,Tidak,Tidak,Tidak,Tidak,Hipermetropia Sedang/Berat,Jangka Panjang,Risiko Sedang,45–59,Riwayat Saja
+P0275,36,Perempuan,Ya,Tidak,Tidak,Ya,Ya,Tidak Ada,Jangka Pendek,Risiko Sedang,30–44,Riwayat Saja
+P0276,73,Perempuan,Ya,Tidak,Ya,Ya,Ya,Miopia Ringan,Jangka Panjang,Risiko Tinggi,60+,Riwayat + HT
+P0277,40,Laki-laki,Tidak,Tidak,Tidak,Tidak,Ya,Miopia Ringan,Tidak,Risiko Rendah,30–44,Tidak Ada
+P0278,72,Laki-laki,Ya,Tidak,Ya,Ya,Ya,Hipermetropia Ringan,Jangka Pendek,Risiko Tinggi,60+,Riwayat + HT
+P0279,57,Laki-laki,Ya,Ya,Ya,Tidak,Tidak,Hipermetropia Ringan,Jangka Panjang,Risiko Sedang,45–59,Riwayat + DM + HT
+P0280,83,Laki-laki,Ya,Tidak,Tidak,Ya,Tidak,Miopia Sedang/Berat,Jangka Panjang,Risiko Tinggi,60+,Riwayat Saja
+P0281,67,Perempuan,Ya,Ya,Ya,Ya,Tidak,Hipermetropia Ringan,Tidak,Risiko Sedang,60+,Riwayat + DM + HT
+P0282,28,Laki-laki,Tidak,Ya,Tidak,Tidak,Tidak,Tidak Ada,Jangka Pendek,Risiko Rendah,< 30,DM Saja
+P0283,79,Laki-laki,Ya,Tidak,Tidak,Tidak,Ya,Miopia Sedang/Berat,Jangka Panjang,Risiko Tinggi,60+,Riwayat Saja
+P0284,31,Laki-laki,Tidak,Tidak,Ya,Tidak,Tidak,Miopia Ringan,Tidak,Risiko Rendah,30–44,HT Saja
+P0285,43,Perempuan,Tidak,Tidak,Tidak,Tidak,Tidak,Tidak Ada,Tidak,Risiko Rendah,30–44,Tidak Ada
+P0286,72,Laki-laki,Ya,Ya,Ya,Ya,Ya,Hipermetropia Sedang/Berat,Jangka Pendek,Risiko Tinggi,60+,Riwayat + DM + HT
+P0287,42,Perempuan,Tidak,Tidak,Tidak,Ya,Ya,Miopia Ringan,Jangka Pendek,Risiko Sedang,30–44,Tidak Ada
+P0288,45,Laki-laki,Tidak,Tidak,Tidak,Tidak,Tidak,Tidak Ada,Tidak,Risiko Rendah,30–44,Tidak Ada
+P0289,80,Laki-laki,Tidak,Ya,Ya,Ya,Tidak,Hipermetropia Sedang/Berat,Jangka Panjang,Risiko Tinggi,60+,DM + HT
+P0290,40,Laki-laki,Ya,Tidak,Tidak,Tidak,Tidak,Tidak Ada,Jangka Pendek,Risiko Rendah,30–44,Riwayat Saja
+P0291,43,Laki-laki,Tidak,Tidak,Ya,Tidak,Tidak,Hipermetropia Sedang/Berat,Jangka Pendek,Risiko Sedang,30–44,HT Saja
+P0292,73,Laki-laki,Ya,Ya,Ya,Ya,Tidak,Miopia Ringan,Jangka Pendek,Risiko Tinggi,60+,Riwayat + DM + HT
+P0293,36,Perempuan,Ya,Tidak,Tidak,Tidak,Tidak,Miopia Ringan,Tidak,Risiko Rendah,30–44,Riwayat Saja
+P0294,38,Perempuan,Tidak,Ya,Tidak,Tidak,Tidak,Tidak Ada,Jangka Pendek,Risiko Rendah,30–44,DM Saja
+P0295,84,Perempuan,Tidak,Tidak,Tidak,Ya,Ya,Miopia Sedang/Berat,Jangka Panjang,Risiko Tinggi,60+,Tidak Ada
+P0296,61,Laki-laki,Tidak,Tidak,Ya,Tidak,Tidak,Hipermetropia Ringan,Tidak,Risiko Sedang,60+,HT Saja
+P0297,69,Perempuan,Ya,Ya,Ya,Tidak,Tidak,Hipermetropia Ringan,Jangka Pendek,Risiko Sedang,60+,Riwayat + DM + HT
+P0298,36,Laki-laki,Tidak,Tidak,Tidak,Tidak,Tidak,Hipermetropia Ringan,Tidak,Risiko Rendah,30–44,Tidak Ada
+P0299,56,Perempuan,Tidak,Ya,Ya,Tidak,Tidak,Miopia Ringan,Jangka Pendek,Risiko Sedang,45–59,DM + HT
+P0300,60,Laki-laki,Tidak,Ya,Tidak,Tidak,Tidak,Miopia Sedang/Berat,Tidak,Risiko Sedang,45–59,DM Saja
+P0301,60,Laki-laki,Ya,Ya,Ya,Tidak,Ya,Hipermetropia Sedang/Berat,Jangka Pendek,Risiko Tinggi,45–59,Riwayat + DM + HT
+P0302,74,Laki-laki,Tidak,Ya,Tidak,Ya,Ya,Miopia Sedang/Berat,Jangka Panjang,Risiko Tinggi,60+,DM Saja
+P0303,34,Laki-laki,Tidak,Tidak,Tidak,Tidak,Tidak,Tidak Ada,Tidak,Risiko Rendah,30–44,Tidak Ada
+P0304,27,Perempuan,Tidak,Tidak,Tidak,Tidak,Tidak,Tidak Ada,Tidak,Risiko Rendah,< 30,Tidak Ada
+P0305,36,Laki-laki,Tidak,Tidak,Tidak,Tidak,Tidak,Miopia Ringan,Jangka Pendek,Risiko Rendah,30–44,Tidak Ada
+P0306,71,Perempuan,Ya,Tidak,Ya,Ya,Tidak,Miopia Sedang/Berat,Jangka Panjang,Risiko Tinggi,60+,Riwayat + HT
+P0307,35,Perempuan,Tidak,Tidak,Tidak,Tidak,Tidak,Tidak Ada,Jangka Pendek,Risiko Rendah,30–44,Tidak Ada
+P0308,64,Perempuan,Ya,Ya,Ya,Tidak,Ya,Hipermetropia Ringan,Jangka Pendek,Risiko Tinggi,60+,Riwayat + DM + HT
+P0309,60,Perempuan,Ya,Ya,Ya,Ya,Ya,Hipermetropia Sedang/Berat,Jangka Pendek,Risiko Tinggi,45–59,Riwayat + DM + HT
+P0310,80,Perempuan,Ya,Ya,Ya,Ya,Tidak,Hipermetropia Ringan,Jangka Panjang,Risiko Tinggi,60+,Riwayat + DM + HT
+P0311,53,Perempuan,Ya,Ya,Ya,Tidak,Ya,Miopia Ringan,Jangka Panjang,Risiko Tinggi,45–59,Riwayat + DM + HT
+P0312,53,Laki-laki,Tidak,Ya,Ya,Ya,Tidak,Miopia Sedang/Berat,Jangka Panjang,Risiko Tinggi,45–59,DM + HT
+P0313,80,Laki-laki,Ya,Ya,Tidak,Tidak,Ya,Miopia Sedang/Berat,Jangka Pendek,Risiko Tinggi,60+,Riwayat + DM
+P0314,25,Laki-laki,Tidak,Ya,Tidak,Tidak,Tidak,Hipermetropia Ringan,Tidak,Risiko Rendah,< 30,DM Saja
+P0315,68,Laki-laki,Ya,Tidak,Ya,Tidak,Ya,Hipermetropia Sedang/Berat,Tidak,Risiko Sedang,60+,Riwayat + HT
+P0316,35,Laki-laki,Tidak,Tidak,Tidak,Tidak,Tidak,Tidak Ada,Tidak,Risiko Rendah,30–44,Tidak Ada
+P0317,64,Perempuan,Ya,Ya,Ya,Ya,Tidak,Hipermetropia Ringan,Jangka Panjang,Risiko Tinggi,60+,Riwayat + DM + HT
+P0318,70,Perempuan,Ya,Tidak,Ya,Ya,Ya,Miopia Ringan,Jangka Pendek,Risiko Tinggi,60+,Riwayat + HT
+P0319,62,Laki-laki,Tidak,Ya,Ya,Tidak,Ya,Miopia Sedang/Berat,Jangka Pendek,Risiko Tinggi,60+,DM + HT
+P0320,70,Laki-laki,Tidak,Ya,Tidak,Ya,Ya,Hipermetropia Ringan,Jangka Panjang,Risiko Tinggi,60+,DM Saja
+P0321,36,Perempuan,Tidak,Tidak,Tidak,Tidak,Tidak,Hipermetropia Ringan,Tidak,Risiko Rendah,30–44,Tidak Ada
+P0322,60,Perempuan,Tidak,Tidak,Ya,Ya,Ya,Hipermetropia Sedang/Berat,Jangka Pendek,Risiko Tinggi,45–59,HT Saja
+P0323,75,Laki-laki,Ya,Tidak,Tidak,Ya,Ya,Miopia Ringan,Jangka Panjang,Risiko Tinggi,60+,Riwayat Saja
+P0324,46,Laki-laki,Tidak,Tidak,Tidak,Tidak,Tidak,Tidak Ada,Tidak,Risiko Rendah,45–59,Tidak Ada
+P0325,21,Laki-laki,Tidak,Tidak,Tidak,Tidak,Tidak,Tidak Ada,Tidak,Risiko Rendah,< 30,Tidak Ada
+P0326,48,Perempuan,Tidak,Tidak,Tidak,Tidak,Tidak,Tidak Ada,Tidak,Risiko Rendah,45–59,Tidak Ada
+P0327,58,Laki-laki,Ya,Ya,Ya,Ya,Tidak,Hipermetropia Ringan,Jangka Panjang,Risiko Tinggi,45–59,Riwayat + DM + HT
+P0328,33,Perempuan,Tidak,Tidak,Tidak,Tidak,Tidak,Tidak Ada,Jangka Pendek,Risiko Rendah,30–44,Tidak Ada
+P0329,43,Perempuan,Tidak,Tidak,Tidak,Tidak,Tidak,Hipermetropia Ringan,Tidak,Risiko Rendah,30–44,Tidak Ada
+P0330,65,Perempuan,Tidak,Tidak,Ya,Ya,Ya,Hipermetropia Sedang/Berat,Jangka Panjang,Risiko Tinggi,60+,HT Saja
+P0331,54,Laki-laki,Ya,Tidak,Ya,Ya,Tidak,Miopia Ringan,Jangka Panjang,Risiko Sedang,45–59,Riwayat + HT
+P0332,39,Perempuan,Tidak,Tidak,Tidak,Ya,Ya,Tidak Ada,Tidak,Risiko Rendah,30–44,Tidak Ada
+P0333,79,Perempuan,Ya,Ya,Ya,Ya,Ya,Hipermetropia Ringan,Jangka Pendek,Risiko Tinggi,60+,Riwayat + DM + HT
+P0334,46,Laki-laki,Tidak,Tidak,Ya,Tidak,Tidak,Tidak Ada,Tidak,Risiko Rendah,45–59,HT Saja
+P0335,64,Perempuan,Ya,Tidak,Tidak,Ya,Tidak,Miopia Sedang/Berat,Jangka Panjang,Risiko Tinggi,60+,Riwayat Saja
+P0336,54,Laki-laki,Ya,Tidak,Tidak,Ya,Ya,Tidak Ada,Tidak,Risiko Sedang,45–59,Riwayat Saja
+P0337,54,Perempuan,Tidak,Tidak,Tidak,Ya,Ya,Tidak Ada,Jangka Pendek,Risiko Sedang,45–59,Tidak Ada
+P0338,66,Perempuan,Ya,Ya,Ya,Tidak,Ya,Miopia Ringan,Jangka Panjang,Risiko Tinggi,60+,Riwayat + DM + HT
+P0339,40,Laki-laki,Tidak,Tidak,Tidak,Ya,Tidak,Hipermetropia Ringan,Jangka Pendek,Risiko Sedang,30–44,Tidak Ada
+P0340,39,Perempuan,Ya,Tidak,Tidak,Tidak,Tidak,Hipermetropia Ringan,Tidak,Risiko Rendah,30–44,Riwayat Saja
+P0341,61,Laki-laki,Ya,Ya,Tidak,Ya,Tidak,Miopia Ringan,Jangka Panjang,Risiko Tinggi,60+,Riwayat + DM
+P0342,54,Perempuan,Ya,Ya,Ya,Tidak,Ya,Hipermetropia Sedang/Berat,Tidak,Risiko Sedang,45–59,Riwayat + DM + HT
+P0343,31,Laki-laki,Tidak,Tidak,Tidak,Tidak,Tidak,Hipermetropia Ringan,Tidak,Risiko Rendah,30–44,Tidak Ada
+P0344,62,Perempuan,Tidak,Ya,Ya,Ya,Ya,Hipermetropia Ringan,Tidak,Risiko Sedang,60+,DM + HT
+P0345,77,Perempuan,Ya,Tidak,Ya,Ya,Ya,Hipermetropia Sedang/Berat,Jangka Panjang,Risiko Tinggi,60+,Riwayat + HT
+P0346,51,Laki-laki,Ya,Ya,Ya,Ya,Ya,Miopia Ringan,Jangka Panjang,Risiko Tinggi,45–59,Riwayat + DM + HT
+P0347,21,Laki-laki,Tidak,Tidak,Ya,Tidak,Tidak,Miopia Ringan,Tidak,Risiko Rendah,< 30,HT Saja
+P0348,55,Perempuan,Ya,Ya,Ya,Tidak,Tidak,Tidak Ada,Tidak,Risiko Sedang,45–59,Riwayat + DM + HT
+P0349,24,Laki-laki,Tidak,Tidak,Tidak,Tidak,Tidak,Miopia Ringan,Jangka Pendek,Risiko Rendah,< 30,Tidak Ada
+P0350,29,Perempuan,Tidak,Tidak,Ya,Tidak,Tidak,Tidak Ada,Tidak,Risiko Rendah,< 30,HT Saja
+P0351,21,Laki-laki,Tidak,Tidak,Ya,Ya,Tidak,Tidak Ada,Tidak,Risiko Rendah,< 30,HT Saja
+P0352,62,Laki-laki,Tidak,Tidak,Tidak,Tidak,Tidak,Hipermetropia Ringan,Jangka Pendek,Risiko Sedang,60+,Tidak Ada
+P0353,25,Laki-laki,Tidak,Tidak,Ya,Tidak,Tidak,Tidak Ada,Tidak,Risiko Rendah,< 30,HT Saja
+P0354,50,Laki-laki,Ya,Tidak,Tidak,Ya,Ya,Hipermetropia Ringan,Jangka Pendek,Risiko Sedang,45–59,Riwayat Saja
+P0355,51,Perempuan,Tidak,Tidak,Ya,Ya,Tidak,Miopia Ringan,Jangka Pendek,Risiko Sedang,45–59,HT Saja
+P0356,51,Laki-laki,Ya,Tidak,Tidak,Tidak,Tidak,Miopia Sedang/Berat,Jangka Pendek,Risiko Sedang,45–59,Riwayat Saja
+P0357,50,Perempuan,Tidak,Tidak,Tidak,Tidak,Ya,Miopia Ringan,Jangka Panjang,Risiko Sedang,45–59,Tidak Ada
+P0358,41,Laki-laki,Tidak,Ya,Tidak,Ya,Tidak,Hipermetropia Sedang/Berat,Tidak,Risiko Sedang,30–44,DM Saja
+P0359,48,Laki-laki,Tidak,Ya,Tidak,Tidak,Tidak,Hipermetropia Ringan,Tidak,Risiko Rendah,45–59,DM Saja
+P0360,45,Perempuan,Tidak,Tidak,Ya,Ya,Tidak,Hipermetropia Sedang/Berat,Jangka Pendek,Risiko Sedang,30–44,HT Saja
+P0361,83,Perempuan,Ya,Tidak,Tidak,Ya,Tidak,Miopia Sedang/Berat,Jangka Panjang,Risiko Tinggi,60+,Riwayat Saja
+P0362,31,Perempuan,Ya,Tidak,Tidak,Tidak,Ya,Tidak Ada,Tidak,Risiko Rendah,30–44,Riwayat Saja
+P0363,20,Laki-laki,Tidak,Tidak,Tidak,Tidak,Tidak,Tidak Ada,Tidak,Risiko Rendah,< 30,Tidak Ada
+P0364,66,Laki-laki,Ya,Ya,Tidak,Tidak,Ya,Hipermetropia Sedang/Berat,Jangka Panjang,Risiko Tinggi,60+,Riwayat + DM
+P0365,32,Perempuan,Tidak,Tidak,Tidak,Tidak,Tidak,Miopia Ringan,Tidak,Risiko Rendah,30–44,Tidak Ada
+P0366,45,Perempuan,Tidak,Tidak,Tidak,Ya,Ya,Hipermetropia Ringan,Jangka Pendek,Risiko Sedang,30–44,Tidak Ada
+P0367,32,Perempuan,Ya,Tidak,Tidak,Tidak,Tidak,Tidak Ada,Tidak,Risiko Rendah,30–44,Riwayat Saja
+P0368,36,Laki-laki,Ya,Ya,Ya,Ya,Tidak,Tidak Ada,Tidak,Risiko Sedang,30–44,Riwayat + DM + HT
+P0369,77,Laki-laki,Ya,Ya,Ya,Ya,Tidak,Hipermetropia Sedang/Berat,Jangka Pendek,Risiko Tinggi,60+,Riwayat + DM + HT
+P0370,64,Perempuan,Ya,Tidak,Ya,Ya,Ya,Hipermetropia Sedang/Berat,Jangka Pendek,Risiko Tinggi,60+,Riwayat + HT
+P0371,79,Laki-laki,Ya,Tidak,Ya,Ya,Tidak,Miopia Sedang/Berat,Jangka Panjang,Risiko Tinggi,60+,Riwayat + HT
+P0372,74,Laki-laki,Ya,Tidak,Ya,Ya,Ya,Miopia Ringan,Jangka Pendek,Risiko Tinggi,60+,Riwayat + HT
+P0373,51,Laki-laki,Ya,Ya,Ya,Tidak,Ya,Miopia Ringan,Jangka Panjang,Risiko Tinggi,45–59,Riwayat + DM + HT
+P0374,30,Perempuan,Tidak,Tidak,Tidak,Tidak,Tidak,Hipermetropia Ringan,Tidak,Risiko Rendah,< 30,Tidak Ada
+P0375,60,Perempuan,Tidak,Tidak,Tidak,Tidak,Ya,Hipermetropia Ringan,Jangka Pendek,Risiko Sedang,45–59,Tidak Ada
+P0376,60,Perempuan,Tidak,Ya,Ya,Ya,Tidak,Miopia Sedang/Berat,Tidak,Risiko Sedang,45–59,DM + HT
+P0377,67,Perempuan,Ya,Ya,Ya,Ya,Ya,Miopia Sedang/Berat,Jangka Panjang,Risiko Tinggi,60+,Riwayat + DM + HT
+P0378,48,Laki-laki,Tidak,Tidak,Tidak,Tidak,Tidak,Tidak Ada,Tidak,Risiko Rendah,45–59,Tidak Ada
+P0379,30,Perempuan,Tidak,Tidak,Ya,Tidak,Tidak,Tidak Ada,Jangka Pendek,Risiko Rendah,< 30,HT Saja
+P0380,82,Perempuan,Ya,Ya,Ya,Ya,Tidak,Miopia Ringan,Jangka Pendek,Risiko Tinggi,60+,Riwayat + DM + HT
+P0381,53,Perempuan,Ya,Tidak,Ya,Ya,Tidak,Miopia Ringan,Jangka Panjang,Risiko Sedang,45–59,Riwayat + HT
+P0382,58,Perempuan,Tidak,Tidak,Tidak,Ya,Tidak,Hipermetropia Sedang/Berat,Tidak,Risiko Sedang,45–59,Tidak Ada
+P0383,69,Perempuan,Ya,Tidak,Tidak,Tidak,Tidak,Hipermetropia Ringan,Jangka Panjang,Risiko Sedang,60+,Riwayat Saja
+P0384,59,Perempuan,Tidak,Tidak,Ya,Ya,Ya,Miopia Sedang/Berat,Jangka Pendek,Risiko Sedang,45–59,HT Saja
+P0385,25,Laki-laki,Tidak,Tidak,Tidak,Tidak,Tidak,Tidak Ada,Tidak,Risiko Rendah,< 30,Tidak Ada
+P0386,40,Perempuan,Tidak,Tidak,Ya,Tidak,Tidak,Miopia Ringan,Jangka Pendek,Risiko Sedang,30–44,HT Saja
+P0387,78,Laki-laki,Ya,Ya,Tidak,Ya,Tidak,Miopia Sedang/Berat,Jangka Panjang,Risiko Tinggi,60+,Riwayat + DM
+P0388,48,Perempuan,Tidak,Tidak,Tidak,Tidak,Ya,Tidak Ada,Tidak,Risiko Rendah,45–59,Tidak Ada
+P0389,42,Perempuan,Tidak,Tidak,Tidak,Tidak,Tidak,Hipermetropia Sedang/Berat,Jangka Pendek,Risiko Sedang,30–44,Tidak Ada
+P0390,35,Laki-laki,Tidak,Tidak,Tidak,Tidak,Tidak,Tidak Ada,Tidak,Risiko Rendah,30–44,Tidak Ada
+P0391,61,Perempuan,Ya,Ya,Tidak,Ya,Tidak,Tidak Ada,Jangka Pendek,Risiko Sedang,60+,Riwayat + DM
+P0392,48,Laki-laki,Ya,Tidak,Tidak,Tidak,Tidak,Hipermetropia Ringan,Jangka Pendek,Risiko Sedang,45–59,Riwayat Saja
+P0393,31,Laki-laki,Ya,Tidak,Tidak,Tidak,Tidak,Tidak Ada,Tidak,Risiko Rendah,30–44,Riwayat Saja
+P0394,36,Laki-laki,Tidak,Ya,Ya,Tidak,Tidak,Tidak Ada,Jangka Pendek,Risiko Rendah,30–44,DM + HT
+P0395,36,Perempuan,Tidak,Tidak,Tidak,Tidak,Tidak,Tidak Ada,Jangka Pendek,Risiko Rendah,30–44,Tidak Ada
+P0396,75,Laki-laki,Ya,Ya,Ya,Ya,Tidak,Miopia Ringan,Jangka Pendek,Risiko Tinggi,60+,Riwayat + DM + HT
+P0397,59,Perempuan,Ya,Tidak,Ya,Tidak,Tidak,Hipermetropia Ringan,Tidak,Risiko Sedang,45–59,Riwayat + HT
+P0398,36,Laki-laki,Tidak,Tidak,Ya,Tidak,Tidak,Hipermetropia Sedang/Berat,Jangka Pendek,Risiko Sedang,30–44,HT Saja
+P0399,77,Laki-laki,Tidak,Ya,Ya,Tidak,Tidak,Miopia Sedang/Berat,Jangka Panjang,Risiko Tinggi,60+,DM + HT
+P0400,27,Laki-laki,Ya,Tidak,Tidak,Tidak,Tidak,Tidak Ada,Jangka Pendek,Risiko Rendah,< 30,Riwayat Saja
+P0401,69,Perempuan,Ya,Ya,Ya,Tidak,Tidak,Hipermetropia Ringan,Jangka Panjang,Risiko Tinggi,60+,Riwayat + DM + HT
+P0402,73,Perempuan,Ya,Ya,Ya,Tidak,Ya,Miopia Ringan,Jangka Panjang,Risiko Tinggi,60+,Riwayat + DM + HT
+P0403,60,Perempuan,Ya,Tidak,Ya,Tidak,Tidak,Hipermetropia Sedang/Berat,Jangka Panjang,Risiko Tinggi,45–59,Riwayat + HT
+P0404,36,Perempuan,Tidak,Tidak,Tidak,Ya,Tidak,Tidak Ada,Tidak,Risiko Rendah,30–44,Tidak Ada
+P0405,43,Perempuan,Tidak,Tidak,Tidak,Tidak,Tidak,Tidak Ada,Tidak,Risiko Rendah,30–44,Tidak Ada
+P0406,49,Laki-laki,Tidak,Tidak,Tidak,Tidak,Tidak,Tidak Ada,Tidak,Risiko Rendah,45–59,Tidak Ada
+P0407,59,Perempuan,Tidak,Ya,Tidak,Ya,Tidak,Miopia Ringan,Jangka Pendek,Risiko Sedang,45–59,DM Saja
+P0408,67,Laki-laki,Ya,Tidak,Ya,Tidak,Ya,Miopia Sedang/Berat,Jangka Panjang,Risiko Tinggi,60+,Riwayat + HT
+P0409,78,Laki-laki,Ya,Ya,Ya,Tidak,Ya,Hipermetropia Sedang/Berat,Jangka Pendek,Risiko Tinggi,60+,Riwayat + DM + HT
+P0410,59,Perempuan,Tidak,Tidak,Tidak,Tidak,Tidak,Hipermetropia Ringan,Jangka Panjang,Risiko Sedang,45–59,Tidak Ada
+P0411,22,Laki-laki,Tidak,Tidak,Tidak,Tidak,Tidak,Miopia Ringan,Tidak,Risiko Rendah,< 30,Tidak Ada
+P0412,77,Laki-laki,Ya,Ya,Ya,Ya,Tidak,Hipermetropia Sedang/Berat,Jangka Panjang,Risiko Tinggi,60+,Riwayat + DM + HT
+P0413,64,Perempuan,Ya,Tidak,Ya,Tidak,Tidak,Hipermetropia Sedang/Berat,Jangka Panjang,Risiko Tinggi,60+,Riwayat + HT
+P0414,80,Perempuan,Ya,Ya,Ya,Ya,Tidak,Hipermetropia Ringan,Jangka Panjang,Risiko Tinggi,60+,Riwayat + DM + HT
+P0415,46,Laki-laki,Tidak,Tidak,Tidak,Tidak,Tidak,Tidak Ada,Tidak,Risiko Rendah,45–59,Tidak Ada
+P0416,56,Laki-laki,Tidak,Ya,Ya,Tidak,Ya,Tidak Ada,Tidak,Risiko Sedang,45–59,DM + HT
+P0417,71,Perempuan,Ya,Ya,Ya,Tidak,Ya,Miopia Sedang/Berat,Jangka Pendek,Risiko Tinggi,60+,Riwayat + DM + HT
+P0418,38,Laki-laki,Tidak,Ya,Ya,Tidak,Ya,Hipermetropia Sedang/Berat,Jangka Pendek,Risiko Sedang,30–44,DM + HT
+P0419,49,Perempuan,Tidak,Ya,Tidak,Tidak,Tidak,Hipermetropia Ringan,Jangka Panjang,Risiko Sedang,45–59,DM Saja
+P0420,42,Perempuan,Tidak,Tidak,Ya,Tidak,Tidak,Tidak Ada,Tidak,Risiko Rendah,30–44,HT Saja
+P0421,36,Laki-laki,Tidak,Tidak,Tidak,Tidak,Tidak,Tidak Ada,Tidak,Risiko Rendah,30–44,Tidak Ada
+P0422,64,Laki-laki,Ya,Ya,Ya,Ya,Ya,Miopia Ringan,Jangka Pendek,Risiko Tinggi,60+,Riwayat + DM + HT
+P0423,45,Laki-laki,Tidak,Ya,Tidak,Tidak,Tidak,Tidak Ada,Jangka Pendek,Risiko Rendah,30–44,DM Saja
+P0424,63,Laki-laki,Tidak,Ya,Ya,Tidak,Tidak,Miopia Sedang/Berat,Jangka Panjang,Risiko Tinggi,60+,DM + HT
+P0425,82,Laki-laki,Ya,Ya,Ya,Ya,Tidak,Miopia Sedang/Berat,Jangka Pendek,Risiko Tinggi,60+,Riwayat + DM + HT
+P0426,80,Perempuan,Tidak,Ya,Ya,Ya,Ya,Miopia Ringan,Jangka Panjang,Risiko Tinggi,60+,DM + HT
+P0427,64,Perempuan,Tidak,Ya,Ya,Ya,Tidak,Hipermetropia Ringan,Tidak,Risiko Sedang,60+,DM + HT
+P0428,71,Perempuan,Ya,Ya,Tidak,Ya,Tidak,Miopia Ringan,Jangka Panjang,Risiko Tinggi,60+,Riwayat + DM
+P0429,57,Perempuan,Tidak,Ya,Ya,Tidak,Tidak,Miopia Ringan,Jangka Pendek,Risiko Sedang,45–59,DM + HT
+P0430,62,Laki-laki,Tidak,Tidak,Ya,Ya,Tidak,Tidak Ada,Jangka Pendek,Risiko Sedang,60+,HT Saja
+P0431,71,Laki-laki,Ya,Ya,Ya,Ya,Ya,Miopia Ringan,Jangka Panjang,Risiko Tinggi,60+,Riwayat + DM + HT
+P0432,63,Laki-laki,Tidak,Tidak,Ya,Tidak,Tidak,Hipermetropia Ringan,Jangka Pendek,Risiko Sedang,60+,HT Saja
+P0433,77,Perempuan,Ya,Ya,Ya,Ya,Ya,Hipermetropia Sedang/Berat,Jangka Pendek,Risiko Tinggi,60+,Riwayat + DM + HT
+P0434,83,Perempuan,Ya,Ya,Ya,Tidak,Ya,Hipermetropia Ringan,Jangka Panjang,Risiko Tinggi,60+,Riwayat + DM + HT
+P0435,36,Perempuan,Tidak,Tidak,Tidak,Tidak,Tidak,Hipermetropia Ringan,Tidak,Risiko Rendah,30–44,Tidak Ada
+P0436,56,Perempuan,Tidak,Ya,Ya,Tidak,Ya,Hipermetropia Ringan,Tidak,Risiko Sedang,45–59,DM + HT
+P0437,81,Laki-laki,Ya,Ya,Ya,Ya,Ya,Hipermetropia Sedang/Berat,Jangka Panjang,Risiko Tinggi,60+,Riwayat + DM + HT
+P0438,25,Perempuan,Tidak,Tidak,Tidak,Tidak,Tidak,Miopia Ringan,Jangka Pendek,Risiko Rendah,< 30,Tidak Ada
+P0439,81,Perempuan,Ya,Ya,Ya,Tidak,Tidak,Miopia Ringan,Jangka Panjang,Risiko Tinggi,60+,Riwayat + DM + HT
+P0440,69,Laki-laki,Tidak,Tidak,Ya,Tidak,Ya,Miopia Sedang/Berat,Jangka Pendek,Risiko Sedang,60+,HT Saja
+P0441,38,Perempuan,Tidak,Tidak,Ya,Tidak,Tidak,Miopia Sedang/Berat,Jangka Pendek,Risiko Sedang,30–44,HT Saja
+P0442,37,Perempuan,Tidak,Tidak,Tidak,Tidak,Tidak,Miopia Ringan,Tidak,Risiko Rendah,30–44,Tidak Ada
+P0443,54,Laki-laki,Tidak,Tidak,Tidak,Ya,Tidak,Miopia Ringan,Jangka Pendek,Risiko Sedang,45–59,Tidak Ada
+P0444,25,Laki-laki,Tidak,Tidak,Tidak,Tidak,Tidak,Hipermetropia Ringan,Tidak,Risiko Rendah,< 30,Tidak Ada
+P0445,52,Laki-laki,Tidak,Tidak,Tidak,Ya,Tidak,Miopia Sedang/Berat,Jangka Panjang,Risiko Sedang,45–59,Tidak Ada
+P0446,83,Laki-laki,Ya,Tidak,Tidak,Ya,Ya,Hipermetropia Sedang/Berat,Jangka Panjang,Risiko Tinggi,60+,Riwayat Saja
+P0447,59,Laki-laki,Ya,Ya,Ya,Ya,Tidak,Tidak Ada,Jangka Pendek,Risiko Sedang,45–59,Riwayat + DM + HT
+P0448,24,Perempuan,Ya,Tidak,Tidak,Tidak,Tidak,Miopia Ringan,Tidak,Risiko Rendah,< 30,Riwayat Saja
+P0449,80,Laki-laki,Tidak,Tidak,Ya,Ya,Ya,Miopia Sedang/Berat,Jangka Pendek,Risiko Tinggi,60+,HT Saja
+P0450,53,Perempuan,Ya,Tidak,Tidak,Ya,Tidak,Hipermetropia Ringan,Tidak,Risiko Sedang,45–59,Riwayat Saja
+P0451,63,Laki-laki,Tidak,Tidak,Tidak,Ya,Tidak,Miopia Ringan,Jangka Pendek,Risiko Sedang,60+,Tidak Ada
+P0452,71,Laki-laki,Ya,Ya,Ya,Ya,Ya,Miopia Ringan,Jangka Pendek,Risiko Tinggi,60+,Riwayat + DM + HT
+P0453,55,Laki-laki,Ya,Tidak,Ya,Tidak,Tidak,Tidak Ada,Jangka Panjang,Risiko Sedang,45–59,Riwayat + HT
+P0454,38,Perempuan,Ya,Tidak,Ya,Tidak,Tidak,Hipermetropia Ringan,Jangka Pendek,Risiko Sedang,30–44,Riwayat + HT
+P0455,46,Perempuan,Tidak,Tidak,Ya,Tidak,Tidak,Hipermetropia Ringan,Jangka Panjang,Risiko Sedang,45–59,HT Saja
+P0456,28,Perempuan,Tidak,Tidak,Tidak,Tidak,Tidak,Tidak Ada,Tidak,Risiko Rendah,< 30,Tidak Ada
+P0457,64,Laki-laki,Ya,Ya,Ya,Tidak,Ya,Hipermetropia Ringan,Jangka Pendek,Risiko Tinggi,60+,Riwayat + DM + HT
+P0458,20,Laki-laki,Tidak,Tidak,Tidak,Tidak,Tidak,Tidak Ada,Tidak,Risiko Rendah,< 30,Tidak Ada
+P0459,44,Perempuan,Ya,Tidak,Ya,Tidak,Ya,Hipermetropia Sedang/Berat,Tidak,Risiko Sedang,30–44,Riwayat + HT
+P0460,60,Perempuan,Ya,Tidak,Tidak,Tidak,Ya,Miopia Ringan,Tidak,Risiko Sedang,45–59,Riwayat Saja
+P0461,42,Perempuan,Tidak,Tidak,Tidak,Tidak,Tidak,Tidak Ada,Jangka Pendek,Risiko Rendah,30–44,Tidak Ada
+P0462,22,Laki-laki,Tidak,Ya,Tidak,Tidak,Tidak,Tidak Ada,Tidak,Risiko Rendah,< 30,DM Saja
+P0463,38,Perempuan,Ya,Ya,Ya,Ya,Tidak,Miopia Sedang/Berat,Tidak,Risiko Sedang,30–44,Riwayat + DM + HT
+P0464,45,Laki-laki,Ya,Tidak,Tidak,Tidak,Tidak,Tidak Ada,Jangka Pendek,Risiko Rendah,30–44,Riwayat Saja
+P0465,69,Laki-laki,Tidak,Ya,Tidak,Ya,Ya,Miopia Sedang/Berat,Jangka Panjang,Risiko Tinggi,60+,DM Saja
+P0466,28,Laki-laki,Tidak,Tidak,Tidak,Tidak,Tidak,Tidak Ada,Tidak,Risiko Rendah,< 30,Tidak Ada
+P0467,22,Perempuan,Tidak,Tidak,Tidak,Tidak,Tidak,Tidak Ada,Jangka Pendek,Risiko Rendah,< 30,Tidak Ada
+P0468,46,Laki-laki,Ya,Tidak,Tidak,Tidak,Tidak,Miopia Ringan,Tidak,Risiko Rendah,45–59,Riwayat Saja
+P0469,40,Laki-laki,Tidak,Tidak,Tidak,Tidak,Tidak,Tidak Ada,Tidak,Risiko Rendah,30–44,Tidak Ada
+P0470,73,Laki-laki,Ya,Ya,Tidak,Ya,Tidak,Miopia Ringan,Jangka Panjang,Risiko Tinggi,60+,Riwayat + DM
+P0471,47,Laki-laki,Tidak,Tidak,Tidak,Tidak,Tidak,Tidak Ada,Jangka Pendek,Risiko Rendah,45–59,Tidak Ada
+P0472,42,Perempuan,Tidak,Tidak,Ya,Tidak,Tidak,Tidak Ada,Tidak,Risiko Rendah,30–44,HT Saja
+P0473,73,Perempuan,Ya,Tidak,Tidak,Ya,Ya,Miopia Ringan,Jangka Panjang,Risiko Tinggi,60+,Riwayat Saja
+P0474,40,Laki-laki,Tidak,Tidak,Tidak,Tidak,Tidak,Tidak Ada,Tidak,Risiko Rendah,30–44,Tidak Ada
+P0475,32,Perempuan,Tidak,Tidak,Tidak,Tidak,Tidak,Tidak Ada,Tidak,Risiko Rendah,30–44,Tidak Ada
+P0476,61,Perempuan,Tidak,Ya,Ya,Tidak,Tidak,Miopia Ringan,Tidak,Risiko Sedang,60+,DM + HT
+P0477,68,Perempuan,Ya,Ya,Tidak,Ya,Tidak,Hipermetropia Ringan,Jangka Pendek,Risiko Sedang,60+,Riwayat + DM
+P0478,43,Laki-laki,Ya,Tidak,Tidak,Ya,Ya,Miopia Ringan,Tidak,Risiko Sedang,30–44,Riwayat Saja
+P0479,54,Laki-laki,Tidak,Ya,Ya,Ya,Ya,Miopia Sedang/Berat,Jangka Panjang,Risiko Tinggi,45–59,DM + HT
+P0480,66,Laki-laki,Ya,Ya,Tidak,Tidak,Ya,Hipermetropia Sedang/Berat,Jangka Pendek,Risiko Tinggi,60+,Riwayat + DM
+P0481,63,Laki-laki,Tidak,Tidak,Tidak,Tidak,Tidak,Hipermetropia Sedang/Berat,Jangka Pendek,Risiko Sedang,60+,Tidak Ada
+P0482,73,Laki-laki,Ya,Ya,Ya,Tidak,Tidak,Miopia Sedang/Berat,Jangka Pendek,Risiko Tinggi,60+,Riwayat + DM + HT
+P0483,27,Perempuan,Tidak,Tidak,Ya,Tidak,Tidak,Tidak Ada,Tidak,Risiko Rendah,< 30,HT Saja
+P0484,44,Laki-laki,Tidak,Tidak,Tidak,Ya,Ya,Tidak Ada,Tidak,Risiko Rendah,30–44,Tidak Ada
+P0485,49,Laki-laki,Tidak,Tidak,Tidak,Tidak,Tidak,Tidak Ada,Tidak,Risiko Rendah,45–59,Tidak Ada
+P0486,51,Laki-laki,Tidak,Tidak,Ya,Tidak,Tidak,Miopia Sedang/Berat,Jangka Pendek,Risiko Sedang,45–59,HT Saja
+P0487,37,Perempuan,Tidak,Tidak,Tidak,Tidak,Tidak,Tidak Ada,Tidak,Risiko Rendah,30–44,Tidak Ada
+P0488,34,Perempuan,Ya,Tidak,Tidak,Tidak,Tidak,Tidak Ada,Tidak,Risiko Rendah,30–44,Riwayat Saja
+P0489,29,Perempuan,Tidak,Tidak,Tidak,Tidak,Tidak,Tidak Ada,Tidak,Risiko Rendah,< 30,Tidak Ada
+P0490,53,Laki-laki,Ya,Ya,Ya,Tidak,Ya,Miopia Ringan,Jangka Panjang,Risiko Tinggi,45–59,Riwayat + DM + HT
+P0491,28,Laki-laki,Tidak,Tidak,Ya,Tidak,Tidak,Tidak Ada,Tidak,Risiko Rendah,< 30,HT Saja
+P0492,68,Perempuan,Ya,Tidak,Ya,Tidak,Ya,Miopia Sedang/Berat,Jangka Pendek,Risiko Tinggi,60+,Riwayat + HT
+P0493,60,Perempuan,Tidak,Ya,Tidak,Tidak,Ya,Miopia Sedang/Berat,Tidak,Risiko Sedang,45–59,DM Saja
+P0494,48,Laki-laki,Tidak,Tidak,Tidak,Tidak,Tidak,Miopia Ringan,Jangka Panjang,Risiko Sedang,45–59,Tidak Ada
+P0495,28,Laki-laki,Ya,Tidak,Tidak,Tidak,Tidak,Miopia Ringan,Tidak,Risiko Rendah,< 30,Riwayat Saja
+P0496,64,Laki-laki,Tidak,Ya,Ya,Ya,Tidak,Miopia Sedang/Berat,Jangka Panjang,Risiko Tinggi,60+,DM + HT
+P0497,27,Perempuan,Tidak,Tidak,Ya,Tidak,Tidak,Tidak Ada,Jangka Pendek,Risiko Rendah,< 30,HT Saja
+P0498,47,Perempuan,Tidak,Tidak,Tidak,Tidak,Tidak,Tidak Ada,Tidak,Risiko Rendah,45–59,Tidak Ada
+P0499,32,Laki-laki,Ya,Tidak,Tidak,Tidak,Tidak,Tidak Ada,Tidak,Risiko Rendah,30–44,Riwayat Saja
+P0500,80,Perempuan,Ya,Ya,Ya,Tidak,Ya,Miopia Ringan,Jangka Pendek,Risiko Tinggi,60+,Riwayat + DM + HT
+P0501,76,Perempuan,Ya,Ya,Ya,Ya,Tidak,Hipermetropia Ringan,Jangka Pendek,Risiko Tinggi,60+,Riwayat + DM + HT
+P0502,41,Laki-laki,Ya,Ya,Tidak,Tidak,Ya,Miopia Sedang/Berat,Tidak,Risiko Sedang,30–44,Riwayat + DM
+P0503,47,Laki-laki,Ya,Ya,Ya,Tidak,Tidak,Hipermetropia Ringan,Tidak,Risiko Sedang,45–59,Riwayat + DM + HT
+P0504,71,Laki-laki,Tidak,Ya,Tidak,Ya,Ya,Hipermetropia Ringan,Jangka Panjang,Risiko Tinggi,60+,DM Saja
+P0505,36,Perempuan,Tidak,Tidak,Tidak,Ya,Ya,Hipermetropia Ringan,Jangka Panjang,Risiko Sedang,30–44,Tidak Ada
+P0506,31,Laki-laki,Tidak,Tidak,Tidak,Tidak,Tidak,Tidak Ada,Tidak,Risiko Rendah,30–44,Tidak Ada
+P0507,62,Perempuan,Ya,Tidak,Tidak,Ya,Ya,Miopia Ringan,Jangka Panjang,Risiko Tinggi,60+,Riwayat Saja
+P0508,45,Perempuan,Tidak,Ya,Tidak,Tidak,Tidak,Hipermetropia Ringan,Jangka Pendek,Risiko Sedang,30–44,DM Saja
+P0509,69,Laki-laki,Tidak,Tidak,Ya,Tidak,Tidak,Hipermetropia Sedang/Berat,Jangka Panjang,Risiko Sedang,60+,HT Saja
+P0510,75,Perempuan,Tidak,Ya,Ya,Ya,Tidak,Hipermetropia Sedang/Berat,Jangka Pendek,Risiko Tinggi,60+,DM + HT
+P0511,48,Perempuan,Tidak,Tidak,Tidak,Tidak,Tidak,Hipermetropia Ringan,Tidak,Risiko Rendah,45–59,Tidak Ada
+P0512,71,Laki-laki,Ya,Ya,Ya,Ya,Tidak,Hipermetropia Ringan,Jangka Panjang,Risiko Tinggi,60+,Riwayat + DM + HT
+P0513,71,Laki-laki,Ya,Tidak,Ya,Ya,Ya,Hipermetropia Sedang/Berat,Jangka Pendek,Risiko Tinggi,60+,Riwayat + HT
+P0514,45,Laki-laki,Ya,Tidak,Tidak,Tidak,Tidak,Hipermetropia Ringan,Jangka Pendek,Risiko Sedang,30–44,Riwayat Saja
+P0515,56,Perempuan,Ya,Tidak,Ya,Ya,Tidak,Miopia Sedang/Berat,Jangka Panjang,Risiko Tinggi,45–59,Riwayat + HT
+P0516,62,Perempuan,Ya,Ya,Ya,Tidak,Ya,Miopia Sedang/Berat,Jangka Panjang,Risiko Tinggi,60+,Riwayat + DM + HT
+P0517,36,Laki-laki,Ya,Tidak,Tidak,Tidak,Tidak,Hipermetropia Ringan,Tidak,Risiko Rendah,30–44,Riwayat Saja
+P0518,22,Perempuan,Ya,Tidak,Tidak,Tidak,Tidak,Tidak Ada,Tidak,Risiko Rendah,< 30,Riwayat Saja
+P0519,77,Laki-laki,Ya,Ya,Ya,Ya,Tidak,Miopia Sedang/Berat,Jangka Pendek,Risiko Tinggi,60+,Riwayat + DM + HT
+P0520,53,Perempuan,Tidak,Ya,Ya,Ya,Ya,Miopia Ringan,Jangka Panjang,Risiko Tinggi,45–59,DM + HT
+P0521,68,Laki-laki,Tidak,Ya,Ya,Tidak,Tidak,Hipermetropia Ringan,Tidak,Risiko Sedang,60+,DM + HT
+P0522,74,Laki-laki,Tidak,Ya,Ya,Ya,Tidak,Hipermetropia Ringan,Jangka Panjang,Risiko Tinggi,60+,DM + HT
+P0523,77,Perempuan,Tidak,Ya,Ya,Tidak,Tidak,Miopia Sedang/Berat,Jangka Panjang,Risiko Tinggi,60+,DM + HT
+P0524,68,Laki-laki,Ya,Tidak,Ya,Ya,Ya,Miopia Ringan,Jangka Pendek,Risiko Tinggi,60+,Riwayat + HT
+P0525,47,Laki-laki,Ya,Ya,Tidak,Tidak,Tidak,Miopia Ringan,Tidak,Risiko Sedang,45–59,Riwayat + DM
+P0526,62,Perempuan,Ya,Tidak,Tidak,Tidak,Tidak,Miopia Sedang/Berat,Jangka Panjang,Risiko Sedang,60+,Riwayat Saja
+P0527,81,Laki-laki,Ya,Ya,Ya,Ya,Ya,Miopia Ringan,Jangka Pendek,Risiko Tinggi,60+,Riwayat + DM + HT
+P0528,72,Perempuan,Ya,Ya,Ya,Tidak,Ya,Hipermetropia Sedang/Berat,Jangka Pendek,Risiko Tinggi,60+,Riwayat + DM + HT
+P0529,66,Perempuan,Ya,Tidak,Tidak,Tidak,Tidak,Hipermetropia Sedang/Berat,Jangka Pendek,Risiko Sedang,60+,Riwayat Saja
+P0530,24,Perempuan,Tidak,Tidak,Tidak,Tidak,Tidak,Tidak Ada,Tidak,Risiko Rendah,< 30,Tidak Ada
+P0531,52,Laki-laki,Ya,Ya,Ya,Ya,Ya,Miopia Ringan,Jangka Pendek,Risiko Tinggi,45–59,Riwayat + DM + HT
+P0532,21,Laki-laki,Tidak,Ya,Ya,Tidak,Tidak,Tidak Ada,Tidak,Risiko Rendah,< 30,DM + HT
+P0533,60,Laki-laki,Ya,Tidak,Tidak,Ya,Ya,Miopia Ringan,Jangka Panjang,Risiko Tinggi,45–59,Riwayat Saja
+P0534,64,Laki-laki,Tidak,Tidak,Tidak,Tidak,Ya,Hipermetropia Ringan,Tidak,Risiko Sedang,60+,Tidak Ada
+P0535,74,Laki-laki,Tidak,Ya,Ya,Tidak,Ya,Hipermetropia Ringan,Jangka Panjang,Risiko Tinggi,60+,DM + HT
+P0536,82,Perempuan,Ya,Ya,Ya,Tidak,Ya,Miopia Sedang/Berat,Jangka Pendek,Risiko Tinggi,60+,Riwayat + DM + HT
+P0537,53,Laki-laki,Tidak,Tidak,Tidak,Tidak,Ya,Hipermetropia Sedang/Berat,Tidak,Risiko Sedang,45–59,Tidak Ada
+P0538,80,Perempuan,Ya,Ya,Tidak,Tidak,Tidak,Hipermetropia Sedang/Berat,Jangka Panjang,Risiko Tinggi,60+,Riwayat + DM
+P0539,53,Perempuan,Ya,Ya,Ya,Tidak,Ya,Miopia Ringan,Tidak,Risiko Sedang,45–59,Riwayat + DM + HT
+P0540,56,Perempuan,Ya,Ya,Tidak,Tidak,Tidak,Hipermetropia Ringan,Jangka Pendek,Risiko Sedang,45–59,Riwayat + DM
+P0541,41,Perempuan,Tidak,Ya,Tidak,Tidak,Ya,Tidak Ada,Jangka Pendek,Risiko Sedang,30–44,DM Saja
+P0542,42,Perempuan,Tidak,Ya,Tidak,Tidak,Tidak,Hipermetropia Ringan,Tidak,Risiko Rendah,30–44,DM Saja
+P0543,68,Perempuan,Ya,Tidak,Tidak,Ya,Ya,Miopia Sedang/Berat,Jangka Panjang,Risiko Tinggi,60+,Riwayat Saja
+P0544,49,Laki-laki,Tidak,Tidak,Tidak,Tidak,Ya,Miopia Sedang/Berat,Tidak,Risiko Sedang,45–59,Tidak Ada
+P0545,41,Perempuan,Ya,Ya,Tidak,Tidak,Tidak,Hipermetropia Ringan,Jangka Pendek,Risiko Sedang,30–44,Riwayat + DM
+P0546,54,Laki-laki,Ya,Ya,Ya,Ya,Tidak,Tidak Ada,Jangka Pendek,Risiko Sedang,45–59,Riwayat + DM + HT
+P0547,38,Perempuan,Ya,Tidak,Tidak,Tidak,Tidak,Miopia Ringan,Tidak,Risiko Rendah,30–44,Riwayat Saja
+P0548,38,Perempuan,Tidak,Tidak,Tidak,Tidak,Tidak,Tidak Ada,Tidak,Risiko Rendah,30–44,Tidak Ada
+P0549,57,Perempuan,Tidak,Ya,Ya,Tidak,Ya,Hipermetropia Sedang/Berat,Tidak,Risiko Sedang,45–59,DM + HT
+P0550,65,Laki-laki,Ya,Tidak,Ya,Tidak,Tidak,Miopia Ringan,Tidak,Risiko Sedang,60+,Riwayat + HT
+P0551,27,Perempuan,Tidak,Tidak,Tidak,Tidak,Tidak,Hipermetropia Ringan,Jangka Pendek,Risiko Rendah,< 30,Tidak Ada
+P0552,68,Laki-laki,Ya,Tidak,Ya,Tidak,Ya,Hipermetropia Sedang/Berat,Jangka Pendek,Risiko Tinggi,60+,Riwayat + HT
+P0553,62,Perempuan,Tidak,Tidak,Tidak,Ya,Tidak,Hipermetropia Ringan,Jangka Panjang,Risiko Sedang,60+,Tidak Ada
+P0554,80,Laki-laki,Ya,Ya,Ya,Ya,Tidak,Miopia Ringan,Jangka Panjang,Risiko Tinggi,60+,Riwayat + DM + HT
+P0555,77,Laki-laki,Ya,Ya,Ya,Ya,Tidak,Miopia Sedang/Berat,Jangka Pendek,Risiko Tinggi,60+,Riwayat + DM + HT
+P0556,66,Laki-laki,Tidak,Ya,Tidak,Tidak,Tidak,Hipermetropia Sedang/Berat,Jangka Pendek,Risiko Sedang,60+,DM Saja
+P0557,30,Perempuan,Tidak,Tidak,Tidak,Tidak,Tidak,Tidak Ada,Tidak,Risiko Rendah,< 30,Tidak Ada
+P0558,57,Laki-laki,Ya,Ya,Ya,Ya,Tidak,Miopia Sedang/Berat,Jangka Panjang,Risiko Tinggi,45–59,Riwayat + DM + HT
+P0559,21,Perempuan,Ya,Tidak,Tidak,Tidak,Tidak,Tidak Ada,Tidak,Risiko Rendah,< 30,Riwayat Saja
+P0560,79,Laki-laki,Ya,Tidak,Ya,Ya,Tidak,Miopia Sedang/Berat,Jangka Pendek,Risiko Tinggi,60+,Riwayat + HT
+P0561,38,Laki-laki,Tidak,Ya,Tidak,Tidak,Tidak,Tidak Ada,Jangka Pendek,Risiko Rendah,30–44,DM Saja
+P0562,61,Perempuan,Ya,Ya,Ya,Tidak,Ya,Hipermetropia Ringan,Jangka Panjang,Risiko Tinggi,60+,Riwayat + DM + HT
+P0563,76,Laki-laki,Tidak,Ya,Ya,Tidak,Ya,Hipermetropia Ringan,Jangka Panjang,Risiko Tinggi,60+,DM + HT
+P0564,39,Laki-laki,Tidak,Tidak,Tidak,Tidak,Tidak,Hipermetropia Ringan,Jangka Pendek,Risiko Rendah,30–44,Tidak Ada
+P0565,61,Perempuan,Tidak,Tidak,Tidak,Tidak,Ya,Hipermetropia Ringan,Jangka Panjang,Risiko Sedang,60+,Tidak Ada
+P0566,24,Perempuan,Tidak,Tidak,Tidak,Tidak,Tidak,Tidak Ada,Jangka Pendek,Risiko Rendah,< 30,Tidak Ada
+P0567,66,Perempuan,Tidak,Tidak,Tidak,Tidak,Tidak,Hipermetropia Sedang/Berat,Tidak,Risiko Sedang,60+,Tidak Ada
+P0568,32,Perempuan,Tidak,Tidak,Tidak,Tidak,Tidak,Tidak Ada,Tidak,Risiko Rendah,30–44,Tidak Ada
+P0569,70,Laki-laki,Ya,Tidak,Tidak,Ya,Ya,Hipermetropia Sedang/Berat,Jangka Panjang,Risiko Tinggi,60+,Riwayat Saja
+P0570,38,Perempuan,Tidak,Ya,Ya,Tidak,Tidak,Miopia Sedang/Berat,Tidak,Risiko Sedang,30–44,DM + HT
+P0571,39,Perempuan,Ya,Ya,Ya,Tidak,Tidak,Hipermetropia Ringan,Jangka Pendek,Risiko Sedang,30–44,Riwayat + DM + HT
+P0572,59,Laki-laki,Ya,Ya,Ya,Tidak,Ya,Miopia Ringan,Jangka Panjang,Risiko Tinggi,45–59,Riwayat + DM + HT
+P0573,46,Perempuan,Tidak,Ya,Ya,Tidak,Ya,Hipermetropia Sedang/Berat,Tidak,Risiko Sedang,45–59,DM + HT
+P0574,61,Laki-laki,Ya,Tidak,Ya,Ya,Tidak,Miopia Sedang/Berat,Jangka Pendek,Risiko Tinggi,60+,Riwayat + HT
+P0575,52,Perempuan,Ya,Ya,Ya,Ya,Tidak,Miopia Ringan,Jangka Panjang,Risiko Tinggi,45–59,Riwayat + DM + HT
+P0576,63,Perempuan,Ya,Ya,Ya,Ya,Ya,Miopia Ringan,Jangka Panjang,Risiko Tinggi,60+,Riwayat + DM + HT
+P0577,84,Perempuan,Tidak,Ya,Ya,Ya,Ya,Miopia Ringan,Jangka Panjang,Risiko Tinggi,60+,DM + HT
+P0578,43,Laki-laki,Tidak,Tidak,Ya,Tidak,Ya,Hipermetropia Ringan,Jangka Pendek,Risiko Sedang,30–44,HT Saja
+P0579,75,Laki-laki,Tidak,Ya,Ya,Ya,Tidak,Hipermetropia Sedang/Berat,Jangka Pendek,Risiko Tinggi,60+,DM + HT
+P0580,30,Perempuan,Tidak,Ya,Ya,Tidak,Tidak,Tidak Ada,Tidak,Risiko Rendah,< 30,DM + HT
+P0581,35,Laki-laki,Tidak,Tidak,Tidak,Tidak,Tidak,Miopia Ringan,Tidak,Risiko Rendah,30–44,Tidak Ada
+P0582,41,Laki-laki,Tidak,Ya,Ya,Tidak,Ya,Hipermetropia Ringan,Jangka Pendek,Risiko Sedang,30–44,DM + HT
+P0583,61,Perempuan,Ya,Tidak,Ya,Tidak,Ya,Hipermetropia Ringan,Jangka Panjang,Risiko Tinggi,60+,Riwayat + HT
+P0584,30,Laki-laki,Tidak,Tidak,Tidak,Ya,Tidak,Tidak Ada,Tidak,Risiko Rendah,< 30,Tidak Ada
+P0585,57,Perempuan,Ya,Tidak,Ya,Tidak,Tidak,Miopia Ringan,Tidak,Risiko Sedang,45–59,Riwayat + HT
+P0586,61,Perempuan,Ya,Tidak,Ya,Ya,Tidak,Hipermetropia Sedang/Berat,Jangka Panjang,Risiko Tinggi,60+,Riwayat + HT
+P0587,49,Perempuan,Ya,Tidak,Tidak,Tidak,Tidak,Hipermetropia Ringan,Tidak,Risiko Rendah,45–59,Riwayat Saja
+P0588,22,Perempuan,Tidak,Tidak,Tidak,Tidak,Tidak,Miopia Ringan,Tidak,Risiko Rendah,< 30,Tidak Ada
+P0589,58,Laki-laki,Tidak,Tidak,Ya,Tidak,Tidak,Tidak Ada,Jangka Panjang,Risiko Sedang,45–59,HT Saja
+P0590,37,Perempuan,Ya,Ya,Ya,Ya,Tidak,Hipermetropia Sedang/Berat,Tidak,Risiko Sedang,30–44,Riwayat + DM + HT
+P0591,63,Laki-laki,Tidak,Ya,Ya,Tidak,Tidak,Hipermetropia Ringan,Jangka Pendek,Risiko Sedang,60+,DM + HT
+P0592,82,Perempuan,Ya,Ya,Ya,Tidak,Tidak,Miopia Ringan,Jangka Panjang,Risiko Tinggi,60+,Riwayat + DM + HT
+P0593,43,Laki-laki,Tidak,Ya,Tidak,Tidak,Ya,Tidak Ada,Jangka Pendek,Risiko Sedang,30–44,DM Saja
+P0594,29,Perempuan,Tidak,Tidak,Tidak,Tidak,Tidak,Miopia Ringan,Tidak,Risiko Rendah,< 30,Tidak Ada
+P0595,39,Laki-laki,Tidak,Tidak,Tidak,Tidak,Tidak,Miopia Ringan,Tidak,Risiko Rendah,30–44,Tidak Ada
+P0596,60,Laki-laki,Tidak,Tidak,Ya,Tidak,Tidak,Tidak Ada,Jangka Pendek,Risiko Sedang,45–59,HT Saja
+P0597,62,Laki-laki,Tidak,Ya,Ya,Tidak,Ya,Miopia Sedang/Berat,Jangka Pendek,Risiko Tinggi,60+,DM + HT
+P0598,64,Perempuan,Ya,Tidak,Ya,Tidak,Ya,Tidak Ada,Tidak,Risiko Sedang,60+,Riwayat + HT
+P0599,67,Laki-laki,Tidak,Ya,Ya,Tidak,Ya,Miopia Sedang/Berat,Jangka Panjang,Risiko Tinggi,60+,DM + HT
+P0600,83,Perempuan,Tidak,Tidak,Ya,Ya,Ya,Miopia Sedang/Berat,Jangka Panjang,Risiko Tinggi,60+,HT Saja
+P0601,65,Perempuan,Ya,Ya,Ya,Ya,Tidak,Hipermetropia Sedang/Berat,Jangka Panjang,Risiko Tinggi,60+,Riwayat + DM + HT
+P0602,69,Laki-laki,Ya,Ya,Ya,Ya,Tidak,Miopia Sedang/Berat,Jangka Panjang,Risiko Tinggi,60+,Riwayat + DM + HT
+P0603,42,Laki-laki,Tidak,Tidak,Tidak,Tidak,Tidak,Hipermetropia Ringan,Jangka Pendek,Risiko Rendah,30–44,Tidak Ada
+P0604,22,Laki-laki,Ya,Tidak,Tidak,Tidak,Tidak,Tidak Ada,Tidak,Risiko Rendah,< 30,Riwayat Saja
+P0605,37,Laki-laki,Tidak,Tidak,Tidak,Tidak,Tidak,Tidak Ada,Tidak,Risiko Rendah,30–44,Tidak Ada
+P0606,30,Laki-laki,Tidak,Tidak,Tidak,Tidak,Tidak,Tidak Ada,Tidak,Risiko Rendah,< 30,Tidak Ada
+P0607,59,Perempuan,Tidak,Tidak,Tidak,Tidak,Ya,Tidak Ada,Jangka Panjang,Risiko Sedang,45–59,Tidak Ada
+P0608,21,Laki-laki,Tidak,Tidak,Ya,Tidak,Tidak,Tidak Ada,Tidak,Risiko Rendah,< 30,HT Saja
+P0609,55,Laki-laki,Ya,Tidak,Tidak,Ya,Tidak,Tidak Ada,Jangka Pendek,Risiko Sedang,45–59,Riwayat Saja
+P0610,60,Laki-laki,Tidak,Tidak,Tidak,Tidak,Tidak,Miopia Sedang/Berat,Tidak,Risiko Sedang,45–59,Tidak Ada
+P0611,64,Laki-laki,Ya,Ya,Ya,Tidak,Ya,Miopia Sedang/Berat,Jangka Panjang,Risiko Tinggi,60+,Riwayat + DM + HT
+P0612,51,Perempuan,Ya,Tidak,Tidak,Tidak,Tidak,Miopia Ringan,Jangka Pendek,Risiko Sedang,45–59,Riwayat Saja
+P0613,24,Perempuan,Ya,Ya,Tidak,Tidak,Tidak,Tidak Ada,Tidak,Risiko Rendah,< 30,Riwayat + DM
+P0614,20,Laki-laki,Tidak,Tidak,Tidak,Tidak,Tidak,Tidak Ada,Tidak,Risiko Rendah,< 30,Tidak Ada
+P0615,81,Laki-laki,Ya,Ya,Ya,Tidak,Tidak,Miopia Sedang/Berat,Jangka Panjang,Risiko Tinggi,60+,Riwayat + DM + HT
+P0616,25,Perempuan,Ya,Tidak,Ya,Tidak,Tidak,Tidak Ada,Tidak,Risiko Rendah,< 30,Riwayat + HT
+P0617,27,Perempuan,Tidak,Tidak,Tidak,Tidak,Tidak,Miopia Ringan,Tidak,Risiko Rendah,< 30,Tidak Ada
+P0618,79,Perempuan,Tidak,Tidak,Tidak,Ya,Ya,Hipermetropia Sedang/Berat,Jangka Panjang,Risiko Tinggi,60+,Tidak Ada
+P0619,63,Laki-laki,Ya,Ya,Tidak,Ya,Ya,Miopia Ringan,Jangka Panjang,Risiko Tinggi,60+,Riwayat + DM
+P0620,67,Perempuan,Ya,Ya,Tidak,Ya,Ya,Hipermetropia Sedang/Berat,Jangka Pendek,Risiko Tinggi,60+,Riwayat + DM
+P0621,51,Laki-laki,Tidak,Ya,Ya,Tidak,Ya,Miopia Sedang/Berat,Jangka Panjang,Risiko Tinggi,45–59,DM + HT
+P0622,51,Laki-laki,Tidak,Tidak,Tidak,Tidak,Tidak,Miopia Sedang/Berat,Jangka Pendek,Risiko Sedang,45–59,Tidak Ada
+P0623,50,Perempuan,Tidak,Tidak,Tidak,Ya,Tidak,Hipermetropia Ringan,Jangka Panjang,Risiko Sedang,45–59,Tidak Ada
+P0624,49,Laki-laki,Tidak,Tidak,Tidak,Tidak,Tidak,Tidak Ada,Tidak,Risiko Rendah,45–59,Tidak Ada
+P0625,60,Perempuan,Ya,Tidak,Tidak,Ya,Tidak,Miopia Sedang/Berat,Jangka Panjang,Risiko Tinggi,45–59,Riwayat Saja
+P0626,20,Laki-laki,Tidak,Tidak,Ya,Tidak,Tidak,Tidak Ada,Tidak,Risiko Rendah,< 30,HT Saja
+P0627,67,Perempuan,Tidak,Tidak,Ya,Tidak,Tidak,Miopia Sedang/Berat,Tidak,Risiko Sedang,60+,HT Saja
+P0628,38,Perempuan,Tidak,Ya,Tidak,Ya,Tidak,Tidak Ada,Tidak,Risiko Rendah,30–44,DM Saja
+P0629,68,Perempuan,Tidak,Tidak,Tidak,Tidak,Ya,Hipermetropia Sedang/Berat,Tidak,Risiko Sedang,60+,Tidak Ada
+P0630,43,Perempuan,Tidak,Tidak,Ya,Tidak,Tidak,Tidak Ada,Jangka Pendek,Risiko Rendah,30–44,HT Saja
+P0631,40,Perempuan,Tidak,Tidak,Tidak,Tidak,Ya,Miopia Sedang/Berat,Jangka Pendek,Risiko Sedang,30–44,Tidak Ada
+P0632,23,Perempuan,Tidak,Tidak,Tidak,Tidak,Tidak,Tidak Ada,Jangka Pendek,Risiko Rendah,< 30,Tidak Ada
+P0633,64,Perempuan,Ya,Tidak,Tidak,Ya,Ya,Miopia Sedang/Berat,Jangka Panjang,Risiko Tinggi,60+,Riwayat Saja
+P0634,74,Laki-laki,Tidak,Ya,Ya,Tidak,Ya,Miopia Sedang/Berat,Jangka Pendek,Risiko Tinggi,60+,DM + HT
+P0635,82,Laki-laki,Ya,Ya,Ya,Ya,Ya,Miopia Sedang/Berat,Jangka Panjang,Risiko Tinggi,60+,Riwayat + DM + HT
+P0636,54,Laki-laki,Tidak,Ya,Ya,Ya,Tidak,Hipermetropia Sedang/Berat,Jangka Panjang,Risiko Tinggi,45–59,DM + HT
+P0637,20,Laki-laki,Tidak,Tidak,Tidak,Tidak,Tidak,Tidak Ada,Tidak,Risiko Rendah,< 30,Tidak Ada
+P0638,24,Perempuan,Ya,Tidak,Tidak,Tidak,Tidak,Tidak Ada,Jangka Pendek,Risiko Rendah,< 30,Riwayat Saja
+P0639,77,Laki-laki,Tidak,Ya,Ya,Tidak,Tidak,Miopia Sedang/Berat,Jangka Panjang,Risiko Tinggi,60+,DM + HT
+P0640,51,Laki-laki,Tidak,Tidak,Ya,Tidak,Tidak,Hipermetropia Ringan,Jangka Pendek,Risiko Sedang,45–59,HT Saja
+P0641,66,Perempuan,Tidak,Tidak,Tidak,Tidak,Tidak,Miopia Sedang/Berat,Jangka Pendek,Risiko Sedang,60+,Tidak Ada
+P0642,30,Laki-laki,Tidak,Tidak,Ya,Tidak,Tidak,Tidak Ada,Tidak,Risiko Rendah,< 30,HT Saja
+P0643,50,Perempuan,Ya,Ya,Ya,Tidak,Ya,Miopia Ringan,Jangka Panjang,Risiko Tinggi,45–59,Riwayat + DM + HT
+P0644,51,Laki-laki,Tidak,Tidak,Ya,Tidak,Tidak,Hipermetropia Ringan,Jangka Panjang,Risiko Sedang,45–59,HT Saja
+P0645,68,Perempuan,Tidak,Tidak,Ya,Tidak,Tidak,Miopia Ringan,Tidak,Risiko Sedang,60+,HT Saja
+P0646,65,Laki-laki,Ya,Tidak,Tidak,Tidak,Tidak,Miopia Sedang/Berat,Jangka Panjang,Risiko Sedang,60+,Riwayat Saja
+P0647,26,Laki-laki,Tidak,Tidak,Tidak,Tidak,Tidak,Tidak Ada,Tidak,Risiko Rendah,< 30,Tidak Ada
+P0648,64,Perempuan,Ya,Ya,Tidak,Tidak,Ya,Miopia Sedang/Berat,Tidak,Risiko Sedang,60+,Riwayat + DM
+P0649,78,Perempuan,Ya,Ya,Ya,Tidak,Tidak,Hipermetropia Ringan,Jangka Panjang,Risiko Tinggi,60+,Riwayat + DM + HT
+P0650,63,Laki-laki,Tidak,Ya,Tidak,Tidak,Tidak,Hipermetropia Sedang/Berat,Tidak,Risiko Sedang,60+,DM Saja
+P0651,46,Laki-laki,Tidak,Ya,Ya,Ya,Tidak,Hipermetropia Ringan,Tidak,Risiko Sedang,45–59,DM + HT
+P0652,36,Laki-laki,Tidak,Tidak,Ya,Tidak,Tidak,Tidak Ada,Tidak,Risiko Rendah,30–44,HT Saja
+P0653,60,Perempuan,Ya,Tidak,Ya,Tidak,Tidak,Miopia Ringan,Tidak,Risiko Sedang,45–59,Riwayat + HT
+P0654,54,Perempuan,Tidak,Ya,Tidak,Ya,Tidak,Hipermetropia Ringan,Jangka Pendek,Risiko Sedang,45–59,DM Saja
+P0655,81,Laki-laki,Ya,Ya,Tidak,Ya,Tidak,Hipermetropia Ringan,Jangka Panjang,Risiko Tinggi,60+,Riwayat + DM
+P0656,71,Laki-laki,Tidak,Ya,Ya,Ya,Tidak,Hipermetropia Sedang/Berat,Jangka Pendek,Risiko Tinggi,60+,DM + HT
+P0657,74,Laki-laki,Ya,Ya,Ya,Ya,Tidak,Miopia Sedang/Berat,Jangka Pendek,Risiko Tinggi,60+,Riwayat + DM + HT
+P0658,47,Laki-laki,Tidak,Tidak,Tidak,Tidak,Tidak,Hipermetropia Sedang/Berat,Jangka Panjang,Risiko Sedang,45–59,Tidak Ada
+P0659,70,Perempuan,Ya,Ya,Ya,Tidak,Ya,Hipermetropia Sedang/Berat,Jangka Pendek,Risiko Tinggi,60+,Riwayat + DM + HT
+P0660,24,Laki-laki,Ya,Tidak,Tidak,Ya,Tidak,Tidak Ada,Jangka Pendek,Risiko Rendah,< 30,Riwayat Saja
+P0661,40,Laki-laki,Tidak,Tidak,Ya,Tidak,Tidak,Hipermetropia Sedang/Berat,Tidak,Risiko Sedang,30–44,HT Saja
+P0662,50,Laki-laki,Ya,Ya,Ya,Tidak,Ya,Tidak Ada,Jangka Panjang,Risiko Sedang,45–59,Riwayat + DM + HT
+P0663,74,Laki-laki,Ya,Ya,Tidak,Tidak,Ya,Hipermetropia Ringan,Jangka Panjang,Risiko Tinggi,60+,Riwayat + DM
+P0664,72,Laki-laki,Ya,Tidak,Tidak,Ya,Ya,Miopia Sedang/Berat,Jangka Pendek,Risiko Tinggi,60+,Riwayat Saja
+P0665,43,Perempuan,Tidak,Ya,Tidak,Ya,Ya,Tidak Ada,Jangka Pendek,Risiko Sedang,30–44,DM Saja
+P0666,72,Perempuan,Ya,Tidak,Ya,Ya,Ya,Hipermetropia Ringan,Jangka Pendek,Risiko Tinggi,60+,Riwayat + HT
+P0667,31,Perempuan,Tidak,Tidak,Ya,Tidak,Tidak,Tidak Ada,Tidak,Risiko Rendah,30–44,HT Saja
+P0668,85,Laki-laki,Ya,Ya,Ya,Ya,Ya,Miopia Ringan,Jangka Panjang,Risiko Tinggi,60+,Riwayat + DM + HT
+P0669,68,Perempuan,Tidak,Ya,Tidak,Ya,Tidak,Hipermetropia Sedang/Berat,Jangka Panjang,Risiko Tinggi,60+,DM Saja
+P0670,54,Laki-laki,Ya,Tidak,Ya,Tidak,Tidak,Miopia Ringan,Jangka Pendek,Risiko Sedang,45–59,Riwayat + HT
+P0671,48,Perempuan,Tidak,Tidak,Ya,Tidak,Ya,Miopia Sedang/Berat,Jangka Pendek,Risiko Sedang,45–59,HT Saja
+P0672,64,Perempuan,Tidak,Tidak,Tidak,Tidak,Tidak,Miopia Ringan,Jangka Pendek,Risiko Sedang,60+,Tidak Ada
+P0673,49,Perempuan,Tidak,Tidak,Ya,Tidak,Tidak,Tidak Ada,Tidak,Risiko Rendah,45–59,HT Saja
+P0674,21,Perempuan,Tidak,Tidak,Tidak,Tidak,Tidak,Miopia Ringan,Tidak,Risiko Rendah,< 30,Tidak Ada
+P0675,51,Laki-laki,Ya,Ya,Ya,Ya,Ya,Miopia Ringan,Jangka Pendek,Risiko Tinggi,45–59,Riwayat + DM + HT
+P0676,61,Laki-laki,Tidak,Tidak,Tidak,Tidak,Tidak,Miopia Ringan,Jangka Pendek,Risiko Sedang,60+,Tidak Ada
+P0677,46,Perempuan,Tidak,Tidak,Tidak,Tidak,Tidak,Hipermetropia Ringan,Tidak,Risiko Rendah,45–59,Tidak Ada
+P0678,45,Perempuan,Tidak,Ya,Ya,Tidak,Tidak,Miopia Sedang/Berat,Jangka Pendek,Risiko Sedang,30–44,DM + HT
+P0679,58,Laki-laki,Tidak,Tidak,Ya,Tidak,Tidak,Hipermetropia Ringan,Jangka Panjang,Risiko Sedang,45–59,HT Saja
+P0680,28,Perempuan,Tidak,Tidak,Tidak,Tidak,Tidak,Tidak Ada,Tidak,Risiko Rendah,< 30,Tidak Ada
+P0681,41,Laki-laki,Tidak,Tidak,Tidak,Tidak,Tidak,Miopia Sedang/Berat,Jangka Pendek,Risiko Sedang,30–44,Tidak Ada
+P0682,43,Perempuan,Tidak,Tidak,Tidak,Ya,Tidak,Hipermetropia Sedang/Berat,Jangka Panjang,Risiko Sedang,30–44,Tidak Ada
+P0683,44,Laki-laki,Tidak,Tidak,Ya,Tidak,Tidak,Tidak Ada,Jangka Panjang,Risiko Sedang,30–44,HT Saja
+P0684,63,Laki-laki,Ya,Tidak,Tidak,Tidak,Tidak,Hipermetropia Ringan,Tidak,Risiko Sedang,60+,Riwayat Saja
+P0685,37,Laki-laki,Tidak,Tidak,Tidak,Tidak,Tidak,Miopia Ringan,Jangka Pendek,Risiko Rendah,30–44,Tidak Ada
+P0686,56,Laki-laki,Ya,Tidak,Tidak,Ya,Ya,Miopia Sedang/Berat,Tidak,Risiko Sedang,45–59,Riwayat Saja
+P0687,68,Laki-laki,Tidak,Tidak,Tidak,Tidak,Tidak,Hipermetropia Ringan,Jangka Panjang,Risiko Sedang,60+,Tidak Ada
+P0688,80,Perempuan,Tidak,Ya,Ya,Ya,Ya,Hipermetropia Ringan,Jangka Pendek,Risiko Tinggi,60+,DM + HT
+P0689,70,Laki-laki,Tidak,Ya,Ya,Ya,Ya,Hipermetropia Sedang/Berat,Jangka Panjang,Risiko Tinggi,60+,DM + HT
+P0690,83,Perempuan,Tidak,Ya,Ya,Tidak,Ya,Miopia Sedang/Berat,Jangka Pendek,Risiko Tinggi,60+,DM + HT
+P0691,28,Laki-laki,Tidak,Tidak,Tidak,Tidak,Tidak,Tidak Ada,Tidak,Risiko Rendah,< 30,Tidak Ada
+P0692,62,Laki-laki,Tidak,Tidak,Ya,Tidak,Ya,Miopia Ringan,Jangka Pendek,Risiko Sedang,60+,HT Saja
+P0693,64,Laki-laki,Tidak,Tidak,Ya,Tidak,Ya,Hipermetropia Ringan,Jangka Pendek,Risiko Sedang,60+,HT Saja
+P0694,51,Laki-laki,Tidak,Tidak,Ya,Ya,Ya,Miopia Sedang/Berat,Tidak,Risiko Sedang,45–59,HT Saja
+P0695,32,Perempuan,Tidak,Ya,Ya,Tidak,Tidak,Tidak Ada,Tidak,Risiko Rendah,30–44,DM + HT
+P0696,51,Laki-laki,Tidak,Tidak,Tidak,Ya,Tidak,Miopia Sedang/Berat,Tidak,Risiko Sedang,45–59,Tidak Ada
+P0697,43,Laki-laki,Tidak,Tidak,Ya,Tidak,Tidak,Tidak Ada,Jangka Pendek,Risiko Rendah,30–44,HT Saja
+P0698,39,Perempuan,Ya,Ya,Tidak,Ya,Tidak,Miopia Ringan,Jangka Pendek,Risiko Sedang,30–44,Riwayat + DM
+P0699,72,Laki-laki,Ya,Tidak,Tidak,Ya,Ya,Miopia Ringan,Jangka Panjang,Risiko Tinggi,60+,Riwayat Saja
+P0700,67,Laki-laki,Tidak,Tidak,Tidak,Tidak,Tidak,Hipermetropia Sedang/Berat,Jangka Pendek,Risiko Sedang,60+,Tidak Ada
+P0701,49,Laki-laki,Tidak,Tidak,Ya,Ya,Tidak,Tidak Ada,Tidak,Risiko Rendah,45–59,HT Saja
+P0702,39,Perempuan,Ya,Ya,Ya,Tidak,Tidak,Miopia Sedang/Berat,Tidak,Risiko Sedang,30–44,Riwayat + DM + HT
+P0703,52,Laki-laki,Ya,Ya,Ya,Ya,Ya,Hipermetropia Sedang/Berat,Jangka Panjang,Risiko Tinggi,45–59,Riwayat + DM + HT
+P0704,58,Laki-laki,Ya,Ya,Ya,Ya,Ya,Miopia Ringan,Jangka Pendek,Risiko Tinggi,45–59,Riwayat + DM + HT
+P0705,49,Perempuan,Tidak,Tidak,Ya,Tidak,Ya,Hipermetropia Sedang/Berat,Tidak,Risiko Sedang,45–59,HT Saja
+P0706,32,Perempuan,Tidak,Tidak,Tidak,Tidak,Tidak,Miopia Ringan,Tidak,Risiko Rendah,30–44,Tidak Ada
+P0707,56,Perempuan,Ya,Tidak,Tidak,Tidak,Tidak,Hipermetropia Sedang/Berat,Jangka Pendek,Risiko Sedang,45–59,Riwayat Saja
+P0708,37,Perempuan,Tidak,Tidak,Tidak,Tidak,Tidak,Tidak Ada,Tidak,Risiko Rendah,30–44,Tidak Ada
+P0709,69,Laki-laki,Tidak,Ya,Ya,Tidak,Tidak,Hipermetropia Sedang/Berat,Jangka Panjang,Risiko Tinggi,60+,DM + HT
+P0710,45,Perempuan,Ya,Tidak,Tidak,Tidak,Tidak,Tidak Ada,Jangka Pendek,Risiko Rendah,30–44,Riwayat Saja
+P0711,33,Perempuan,Tidak,Tidak,Tidak,Tidak,Tidak,Miopia Ringan,Tidak,Risiko Rendah,30–44,Tidak Ada
+P0712,36,Perempuan,Tidak,Ya,Ya,Ya,Tidak,Miopia Sedang/Berat,Tidak,Risiko Sedang,30–44,DM + HT
+P0713,84,Laki-laki,Ya,Ya,Ya,Tidak,Tidak,Miopia Ringan,Jangka Panjang,Risiko Tinggi,60+,Riwayat + DM + HT
+P0714,50,Perempuan,Tidak,Ya,Ya,Tidak,Tidak,Miopia Ringan,Jangka Panjang,Risiko Sedang,45–59,DM + HT
+P0715,42,Perempuan,Tidak,Tidak,Tidak,Tidak,Tidak,Tidak Ada,Tidak,Risiko Rendah,30–44,Tidak Ada
+P0716,30,Perempuan,Tidak,Tidak,Tidak,Tidak,Tidak,Miopia Ringan,Tidak,Risiko Rendah,< 30,Tidak Ada
+P0717,52,Laki-laki,Tidak,Ya,Ya,Ya,Tidak,Miopia Ringan,Tidak,Risiko Sedang,45–59,DM + HT
+P0718,43,Perempuan,Ya,Tidak,Tidak,Tidak,Tidak,Hipermetropia Sedang/Berat,Tidak,Risiko Sedang,30–44,Riwayat Saja
+P0719,69,Perempuan,Ya,Ya,Ya,Tidak,Ya,Hipermetropia Ringan,Jangka Pendek,Risiko Tinggi,60+,Riwayat + DM + HT
+P0720,37,Laki-laki,Ya,Tidak,Tidak,Tidak,Tidak,Tidak Ada,Tidak,Risiko Rendah,30–44,Riwayat Saja
+P0721,30,Laki-laki,Tidak,Tidak,Tidak,Tidak,Tidak,Tidak Ada,Tidak,Risiko Rendah,< 30,Tidak Ada
+P0722,41,Perempuan,Ya,Tidak,Ya,Ya,Tidak,Hipermetropia Ringan,Tidak,Risiko Sedang,30–44,Riwayat + HT
+P0723,40,Laki-laki,Tidak,Ya,Ya,Ya,Tidak,Miopia Sedang/Berat,Tidak,Risiko Sedang,30–44,DM + HT
+P0724,46,Laki-laki,Tidak,Tidak,Ya,Tidak,Ya,Tidak Ada,Jangka Panjang,Risiko Sedang,45–59,HT Saja
+P0725,37,Perempuan,Tidak,Tidak,Ya,Tidak,Tidak,Miopia Sedang/Berat,Jangka Pendek,Risiko Sedang,30–44,HT Saja
+P0726,54,Perempuan,Ya,Ya,Ya,Ya,Ya,Miopia Ringan,Jangka Panjang,Risiko Tinggi,45–59,Riwayat + DM + HT
+P0727,63,Laki-laki,Tidak,Tidak,Tidak,Ya,Tidak,Miopia Ringan,Jangka Pendek,Risiko Sedang,60+,Tidak Ada
+P0728,32,Perempuan,Tidak,Tidak,Tidak,Tidak,Tidak,Hipermetropia Ringan,Tidak,Risiko Rendah,30–44,Tidak Ada
+P0729,71,Perempuan,Ya,Tidak,Ya,Ya,Ya,Miopia Ringan,Jangka Pendek,Risiko Tinggi,60+,Riwayat + HT
+P0730,80,Laki-laki,Ya,Ya,Ya,Ya,Tidak,Miopia Sedang/Berat,Jangka Panjang,Risiko Tinggi,60+,Riwayat + DM + HT
+P0731,58,Perempuan,Tidak,Ya,Ya,Ya,Tidak,Miopia Ringan,Tidak,Risiko Sedang,45–59,DM + HT
+P0732,29,Laki-laki,Tidak,Tidak,Tidak,Tidak,Tidak,Tidak Ada,Tidak,Risiko Rendah,< 30,Tidak Ada
+P0733,68,Perempuan,Ya,Tidak,Tidak,Tidak,Tidak,Tidak Ada,Jangka Pendek,Risiko Sedang,60+,Riwayat Saja
+P0734,21,Perempuan,Tidak,Ya,Ya,Tidak,Ya,Tidak Ada,Tidak,Risiko Rendah,< 30,DM + HT
+P0735,50,Laki-laki,Ya,Tidak,Ya,Ya,Ya,Miopia Sedang/Berat,Jangka Pendek,Risiko Tinggi,45–59,Riwayat + HT
+P0736,64,Laki-laki,Tidak,Tidak,Tidak,Tidak,Tidak,Hipermetropia Sedang/Berat,Jangka Panjang,Risiko Sedang,60+,Tidak Ada
+P0737,22,Perempuan,Tidak,Tidak,Tidak,Tidak,Tidak,Tidak Ada,Jangka Pendek,Risiko Rendah,< 30,Tidak Ada
+P0738,27,Perempuan,Tidak,Tidak,Tidak,Tidak,Tidak,Tidak Ada,Tidak,Risiko Rendah,< 30,Tidak Ada
+P0739,50,Laki-laki,Ya,Ya,Ya,Ya,Ya,Miopia Ringan,Jangka Panjang,Risiko Tinggi,45–59,Riwayat + DM + HT
+P0740,63,Perempuan,Tidak,Ya,Tidak,Tidak,Tidak,Miopia Ringan,Jangka Pendek,Risiko Sedang,60+,DM Saja
+P0741,26,Perempuan,Tidak,Tidak,Tidak,Tidak,Tidak,Tidak Ada,Tidak,Risiko Rendah,< 30,Tidak Ada
+P0742,84,Laki-laki,Tidak,Ya,Ya,Ya,Tidak,Hipermetropia Sedang/Berat,Jangka Panjang,Risiko Tinggi,60+,DM + HT
+P0743,61,Perempuan,Tidak,Ya,Ya,Tidak,Tidak,Hipermetropia Ringan,Jangka Panjang,Risiko Sedang,60+,DM + HT
+P0744,68,Laki-laki,Tidak,Ya,Ya,Tidak,Ya,Hipermetropia Ringan,Jangka Panjang,Risiko Tinggi,60+,DM + HT
+P0745,68,Laki-laki,Tidak,Ya,Ya,Tidak,Tidak,Miopia Ringan,Tidak,Risiko Sedang,60+,DM + HT
+P0746,60,Perempuan,Ya,Tidak,Tidak,Ya,Ya,Miopia Sedang/Berat,Jangka Panjang,Risiko Tinggi,45–59,Riwayat Saja
+P0747,68,Laki-laki,Ya,Tidak,Ya,Ya,Tidak,Miopia Ringan,Jangka Panjang,Risiko Tinggi,60+,Riwayat + HT
+P0748,62,Laki-laki,Ya,Tidak,Ya,Ya,Ya,Hipermetropia Sedang/Berat,Jangka Pendek,Risiko Tinggi,60+,Riwayat + HT
+P0749,21,Laki-laki,Tidak,Ya,Ya,Tidak,Tidak,Tidak Ada,Tidak,Risiko Rendah,< 30,DM + HT
+P0750,69,Laki-laki,Ya,Ya,Ya,Tidak,Tidak,Hipermetropia Ringan,Jangka Panjang,Risiko Tinggi,60+,Riwayat + DM + HT
+P0751,58,Laki-laki,Ya,Ya,Ya,Ya,Ya,Miopia Ringan,Jangka Panjang,Risiko Tinggi,45–59,Riwayat + DM + HT
+P0752,61,Perempuan,Ya,Tidak,Tidak,Ya,Tidak,Tidak Ada,Tidak,Risiko Sedang,60+,Riwayat Saja
+P0753,45,Laki-laki,Ya,Ya,Ya,Tidak,Tidak,Hipermetropia Sedang/Berat,Tidak,Risiko Sedang,30–44,Riwayat + DM + HT
+P0754,31,Perempuan,Tidak,Tidak,Tidak,Tidak,Tidak,Tidak Ada,Jangka Pendek,Risiko Rendah,30–44,Tidak Ada
+P0755,20,Laki-laki,Tidak,Tidak,Ya,Tidak,Tidak,Tidak Ada,Tidak,Risiko Rendah,< 30,HT Saja
+P0756,74,Perempuan,Ya,Ya,Ya,Tidak,Ya,Miopia Ringan,Jangka Panjang,Risiko Tinggi,60+,Riwayat + DM + HT
+P0757,74,Perempuan,Ya,Ya,Ya,Tidak,Ya,Miopia Ringan,Jangka Pendek,Risiko Tinggi,60+,Riwayat + DM + HT
+P0758,66,Laki-laki,Ya,Tidak,Ya,Ya,Tidak,Miopia Sedang/Berat,Tidak,Risiko Sedang,60+,Riwayat + HT
+P0759,25,Perempuan,Tidak,Tidak,Tidak,Tidak,Tidak,Hipermetropia Ringan,Jangka Pendek,Risiko Rendah,< 30,Tidak Ada
+P0760,82,Perempuan,Ya,Tidak,Ya,Ya,Ya,Hipermetropia Ringan,Jangka Pendek,Risiko Tinggi,60+,Riwayat + HT
+P0761,65,Laki-laki,Tidak,Tidak,Ya,Ya,Tidak,Hipermetropia Sedang/Berat,Jangka Panjang,Risiko Tinggi,60+,HT Saja
+P0762,76,Laki-laki,Ya,Ya,Ya,Tidak,Tidak,Hipermetropia Sedang/Berat,Jangka Panjang,Risiko Tinggi,60+,Riwayat + DM + HT
+P0763,72,Laki-laki,Ya,Tidak,Ya,Ya,Tidak,Miopia Sedang/Berat,Jangka Pendek,Risiko Tinggi,60+,Riwayat + HT
+P0764,39,Laki-laki,Tidak,Tidak,Tidak,Tidak,Tidak,Tidak Ada,Tidak,Risiko Rendah,30–44,Tidak Ada
+P0765,34,Perempuan,Tidak,Tidak,Tidak,Tidak,Tidak,Tidak Ada,Tidak,Risiko Rendah,30–44,Tidak Ada
+P0766,31,Perempuan,Tidak,Tidak,Tidak,Tidak,Tidak,Hipermetropia Ringan,Tidak,Risiko Rendah,30–44,Tidak Ada
+P0767,39,Laki-laki,Ya,Tidak,Tidak,Ya,Tidak,Miopia Sedang/Berat,Tidak,Risiko Sedang,30–44,Riwayat Saja
+P0768,26,Perempuan,Ya,Tidak,Tidak,Tidak,Tidak,Tidak Ada,Jangka Pendek,Risiko Rendah,< 30,Riwayat Saja
+P0769,41,Laki-laki,Tidak,Tidak,Tidak,Tidak,Ya,Miopia Sedang/Berat,Jangka Panjang,Risiko Sedang,30–44,Tidak Ada
+P0770,33,Perempuan,Tidak,Tidak,Tidak,Tidak,Ya,Hipermetropia Ringan,Tidak,Risiko Rendah,30–44,Tidak Ada
+P0771,22,Laki-laki,Tidak,Tidak,Ya,Tidak,Tidak,Tidak Ada,Tidak,Risiko Rendah,< 30,HT Saja
+P0772,74,Perempuan,Ya,Ya,Ya,Ya,Ya,Miopia Sedang/Berat,Jangka Pendek,Risiko Tinggi,60+,Riwayat + DM + HT
+P0773,69,Perempuan,Ya,Tidak,Tidak,Tidak,Tidak,Miopia Ringan,Tidak,Risiko Sedang,60+,Riwayat Saja
+P0774,68,Laki-laki,Tidak,Tidak,Ya,Ya,Ya,Hipermetropia Ringan,Jangka Panjang,Risiko Tinggi,60+,HT Saja
+P0775,42,Perempuan,Tidak,Tidak,Tidak,Tidak,Tidak,Hipermetropia Ringan,Tidak,Risiko Rendah,30–44,Tidak Ada
+P0776,22,Perempuan,Tidak,Tidak,Tidak,Tidak,Tidak,Tidak Ada,Jangka Pendek,Risiko Rendah,< 30,Tidak Ada
+P0777,56,Perempuan,Tidak,Tidak,Ya,Tidak,Tidak,Hipermetropia Sedang/Berat,Jangka Pendek,Risiko Sedang,45–59,HT Saja
+P0778,36,Laki-laki,Ya,Tidak,Ya,Tidak,Tidak,Hipermetropia Sedang/Berat,Jangka Pendek,Risiko Sedang,30–44,Riwayat + HT
+P0779,66,Laki-laki,Ya,Ya,Ya,Ya,Tidak,Tidak Ada,Jangka Pendek,Risiko Sedang,60+,Riwayat + DM + HT
+P0780,63,Laki-laki,Ya,Tidak,Ya,Ya,Ya,Tidak Ada,Tidak,Risiko Sedang,60+,Riwayat + HT
+P0781,62,Laki-laki,Tidak,Tidak,Tidak,Tidak,Tidak,Miopia Sedang/Berat,Jangka Pendek,Risiko Sedang,60+,Tidak Ada
+P0782,64,Laki-laki,Tidak,Tidak,Ya,Ya,Tidak,Miopia Ringan,Jangka Pendek,Risiko Sedang,60+,HT Saja
+P0783,42,Perempuan,Ya,Tidak,Tidak,Tidak,Tidak,Hipermetropia Ringan,Jangka Panjang,Risiko Sedang,30–44,Riwayat Saja
+P0784,57,Perempuan,Tidak,Ya,Ya,Tidak,Tidak,Hipermetropia Ringan,Tidak,Risiko Sedang,45–59,DM + HT
+P0785,62,Perempuan,Ya,Ya,Tidak,Tidak,Ya,Miopia Sedang/Berat,Jangka Pendek,Risiko Tinggi,60+,Riwayat + DM
+P0786,59,Laki-laki,Tidak,Ya,Ya,Tidak,Tidak,Miopia Ringan,Tidak,Risiko Sedang,45–59,DM + HT
+P0787,47,Perempuan,Ya,Tidak,Ya,Tidak,Tidak,Tidak Ada,Tidak,Risiko Rendah,45–59,Riwayat + HT
+P0788,61,Laki-laki,Tidak,Ya,Tidak,Ya,Ya,Hipermetropia Sedang/Berat,Jangka Panjang,Risiko Tinggi,60+,DM Saja
+P0789,24,Perempuan,Tidak,Tidak,Tidak,Tidak,Tidak,Tidak Ada,Tidak,Risiko Rendah,< 30,Tidak Ada
+P0790,40,Laki-laki,Ya,Tidak,Tidak,Tidak,Tidak,Hipermetropia Ringan,Tidak,Risiko Rendah,30–44,Riwayat Saja
+P0791,59,Laki-laki,Ya,Tidak,Tidak,Tidak,Tidak,Tidak Ada,Jangka Panjang,Risiko Sedang,45–59,Riwayat Saja
+P0792,22,Laki-laki,Tidak,Tidak,Tidak,Tidak,Ya,Tidak Ada,Tidak,Risiko Rendah,< 30,Tidak Ada
+P0793,58,Laki-laki,Tidak,Ya,Ya,Tidak,Tidak,Tidak Ada,Jangka Panjang,Risiko Sedang,45–59,DM + HT
+P0794,64,Laki-laki,Tidak,Tidak,Ya,Ya,Ya,Hipermetropia Ringan,Tidak,Risiko Sedang,60+,HT Saja
+P0795,77,Laki-laki,Ya,Ya,Ya,Tidak,Tidak,Miopia Sedang/Berat,Jangka Panjang,Risiko Tinggi,60+,Riwayat + DM + HT
+P0796,44,Perempuan,Tidak,Ya,Ya,Tidak,Tidak,Hipermetropia Ringan,Jangka Pendek,Risiko Sedang,30–44,DM + HT
+P0797,33,Laki-laki,Tidak,Tidak,Tidak,Ya,Tidak,Tidak Ada,Jangka Pendek,Risiko Rendah,30–44,Tidak Ada
+P0798,68,Laki-laki,Ya,Ya,Ya,Tidak,Ya,Hipermetropia Sedang/Berat,Jangka Pendek,Risiko Tinggi,60+,Riwayat + DM + HT
+P0799,29,Laki-laki,Tidak,Tidak,Tidak,Tidak,Tidak,Tidak Ada,Jangka Pendek,Risiko Rendah,< 30,Tidak Ada
+P0800,67,Laki-laki,Tidak,Ya,Ya,Ya,Ya,Miopia Sedang/Berat,Jangka Pendek,Risiko Tinggi,60+,DM + HT
+P0801,46,Laki-laki,Tidak,Ya,Ya,Tidak,Tidak,Tidak Ada,Jangka Panjang,Risiko Sedang,45–59,DM + HT
+P0802,82,Perempuan,Ya,Tidak,Ya,Tidak,Ya,Miopia Sedang/Berat,Jangka Panjang,Risiko Tinggi,60+,Riwayat + HT
+P0803,46,Perempuan,Tidak,Tidak,Tidak,Tidak,Tidak,Tidak Ada,Tidak,Risiko Rendah,45–59,Tidak Ada
+P0804,25,Perempuan,Tidak,Tidak,Tidak,Tidak,Tidak,Tidak Ada,Tidak,Risiko Rendah,< 30,Tidak Ada
+P0805,28,Laki-laki,Tidak,Tidak,Tidak,Tidak,Tidak,Tidak Ada,Tidak,Risiko Rendah,< 30,Tidak Ada
+P0806,82,Laki-laki,Tidak,Ya,Tidak,Ya,Ya,Miopia Ringan,Jangka Panjang,Risiko Tinggi,60+,DM Saja
+P0807,48,Perempuan,Ya,Tidak,Tidak,Tidak,Tidak,Miopia Ringan,Tidak,Risiko Rendah,45–59,Riwayat Saja
+P0808,60,Laki-laki,Tidak,Tidak,Tidak,Tidak,Ya,Hipermetropia Sedang/Berat,Jangka Pendek,Risiko Sedang,45–59,Tidak Ada
+P0809,68,Laki-laki,Ya,Ya,Ya,Ya,Ya,Miopia Sedang/Berat,Jangka Pendek,Risiko Tinggi,60+,Riwayat + DM + HT
+P0810,71,Perempuan,Tidak,Ya,Ya,Ya,Tidak,Miopia Ringan,Jangka Panjang,Risiko Tinggi,60+,DM + HT
+P0811,22,Perempuan,Tidak,Tidak,Tidak,Ya,Tidak,Hipermetropia Ringan,Jangka Pendek,Risiko Rendah,< 30,Tidak Ada
+P0812,73,Laki-laki,Ya,Ya,Ya,Ya,Ya,Hipermetropia Ringan,Jangka Pendek,Risiko Tinggi,60+,Riwayat + DM + HT
+P0813,51,Perempuan,Ya,Tidak,Ya,Tidak,Ya,Hipermetropia Sedang/Berat,Jangka Panjang,Risiko Tinggi,45–59,Riwayat + HT
+P0814,25,Laki-laki,Tidak,Tidak,Tidak,Tidak,Tidak,Tidak Ada,Jangka Pendek,Risiko Rendah,< 30,Tidak Ada
+P0815,28,Perempuan,Tidak,Tidak,Ya,Tidak,Ya,Miopia Ringan,Tidak,Risiko Rendah,< 30,HT Saja
+P0816,34,Laki-laki,Tidak,Tidak,Ya,Tidak,Tidak,Tidak Ada,Jangka Pendek,Risiko Rendah,30–44,HT Saja
+P0817,38,Laki-laki,Ya,Tidak,Tidak,Tidak,Tidak,Miopia Ringan,Jangka Pendek,Risiko Rendah,30–44,Riwayat Saja
+P0818,25,Perempuan,Tidak,Tidak,Tidak,Tidak,Tidak,Hipermetropia Ringan,Tidak,Risiko Rendah,< 30,Tidak Ada
+P0819,51,Laki-laki,Ya,Ya,Ya,Ya,Tidak,Hipermetropia Sedang/Berat,Jangka Pendek,Risiko Tinggi,45–59,Riwayat + DM + HT
+P0820,67,Perempuan,Ya,Tidak,Ya,Ya,Ya,Miopia Ringan,Tidak,Risiko Sedang,60+,Riwayat + HT
+P0821,65,Laki-laki,Ya,Tidak,Tidak,Tidak,Tidak,Hipermetropia Ringan,Tidak,Risiko Sedang,60+,Riwayat Saja
+P0822,64,Laki-laki,Ya,Ya,Ya,Ya,Ya,Hipermetropia Sedang/Berat,Jangka Pendek,Risiko Tinggi,60+,Riwayat + DM + HT
+P0823,38,Laki-laki,Tidak,Tidak,Tidak,Tidak,Tidak,Hipermetropia Ringan,Tidak,Risiko Rendah,30–44,Tidak Ada
+P0824,75,Laki-laki,Ya,Ya,Tidak,Ya,Ya,Hipermetropia Ringan,Jangka Pendek,Risiko Tinggi,60+,Riwayat + DM
+P0825,67,Laki-laki,Tidak,Ya,Ya,Tidak,Ya,Hipermetropia Ringan,Tidak,Risiko Sedang,60+,DM + HT
+P0826,74,Perempuan,Ya,Ya,Ya,Ya,Tidak,Hipermetropia Sedang/Berat,Jangka Panjang,Risiko Tinggi,60+,Riwayat + DM + HT
+P0827,53,Perempuan,Ya,Tidak,Tidak,Ya,Ya,Miopia Sedang/Berat,Jangka Panjang,Risiko Tinggi,45–59,Riwayat Saja
+P0828,68,Laki-laki,Tidak,Ya,Ya,Ya,Tidak,Hipermetropia Sedang/Berat,Jangka Panjang,Risiko Tinggi,60+,DM + HT
+P0829,26,Laki-laki,Tidak,Tidak,Tidak,Tidak,Tidak,Miopia Ringan,Tidak,Risiko Rendah,< 30,Tidak Ada
+P0830,65,Perempuan,Ya,Tidak,Tidak,Tidak,Ya,Tidak Ada,Tidak,Risiko Sedang,60+,Riwayat Saja
+P0831,38,Perempuan,Tidak,Tidak,Tidak,Ya,Tidak,Tidak Ada,Tidak,Risiko Rendah,30–44,Tidak Ada
+P0832,49,Perempuan,Tidak,Ya,Ya,Tidak,Tidak,Tidak Ada,Tidak,Risiko Rendah,45–59,DM + HT
+P0833,43,Perempuan,Tidak,Tidak,Tidak,Tidak,Tidak,Hipermetropia Ringan,Tidak,Risiko Rendah,30–44,Tidak Ada
+P0834,47,Laki-laki,Ya,Ya,Tidak,Tidak,Tidak,Miopia Sedang/Berat,Jangka Pendek,Risiko Sedang,45–59,Riwayat + DM
+P0835,30,Perempuan,Ya,Tidak,Tidak,Tidak,Tidak,Tidak Ada,Tidak,Risiko Rendah,< 30,Riwayat Saja
+P0836,29,Perempuan,Tidak,Ya,Ya,Tidak,Tidak,Tidak Ada,Tidak,Risiko Rendah,< 30,DM + HT
+P0837,70,Perempuan,Ya,Ya,Ya,Ya,Tidak,Miopia Ringan,Jangka Pendek,Risiko Tinggi,60+,Riwayat + DM + HT
+P0838,68,Perempuan,Ya,Tidak,Ya,Tidak,Ya,Hipermetropia Ringan,Jangka Panjang,Risiko Tinggi,60+,Riwayat + HT
+P0839,71,Laki-laki,Ya,Tidak,Tidak,Ya,Ya,Hipermetropia Ringan,Jangka Panjang,Risiko Tinggi,60+,Riwayat Saja
+P0840,78,Laki-laki,Ya,Ya,Tidak,Ya,Tidak,Hipermetropia Ringan,Jangka Panjang,Risiko Tinggi,60+,Riwayat + DM
+P0841,38,Perempuan,Tidak,Tidak,Tidak,Tidak,Ya,Hipermetropia Sedang/Berat,Jangka Pendek,Risiko Sedang,30–44,Tidak Ada
+P0842,57,Perempuan,Tidak,Tidak,Tidak,Tidak,Ya,Miopia Ringan,Jangka Pendek,Risiko Sedang,45–59,Tidak Ada
+P0843,78,Perempuan,Tidak,Ya,Ya,Ya,Tidak,Miopia Ringan,Jangka Panjang,Risiko Tinggi,60+,DM + HT
+P0844,51,Perempuan,Ya,Ya,Ya,Ya,Ya,Miopia Ringan,Jangka Pendek,Risiko Tinggi,45–59,Riwayat + DM + HT
+P0845,67,Laki-laki,Tidak,Ya,Ya,Tidak,Ya,Hipermetropia Sedang/Berat,Jangka Panjang,Risiko Tinggi,60+,DM + HT
+P0846,37,Perempuan,Tidak,Tidak,Tidak,Tidak,Tidak,Tidak Ada,Tidak,Risiko Rendah,30–44,Tidak Ada
+P0847,67,Laki-laki,Tidak,Tidak,Ya,Ya,Tidak,Hipermetropia Ringan,Tidak,Risiko Sedang,60+,HT Saja
+P0848,77,Perempuan,Tidak,Tidak,Ya,Ya,Tidak,Hipermetropia Sedang/Berat,Jangka Panjang,Risiko Tinggi,60+,HT Saja
+P0849,57,Laki-laki,Ya,Tidak,Tidak,Ya,Tidak,Hipermetropia Ringan,Jangka Panjang,Risiko Sedang,45–59,Riwayat Saja
+P0850,77,Perempuan,Tidak,Ya,Ya,Tidak,Ya,Miopia Sedang/Berat,Jangka Panjang,Risiko Tinggi,60+,DM + HT
+P0851,50,Perempuan,Tidak,Tidak,Tidak,Tidak,Tidak,Hipermetropia Sedang/Berat,Jangka Pendek,Risiko Sedang,45–59,Tidak Ada
+P0852,59,Perempuan,Tidak,Tidak,Ya,Ya,Tidak,Miopia Ringan,Tidak,Risiko Sedang,45–59,HT Saja
+P0853,36,Laki-laki,Tidak,Tidak,Tidak,Ya,Tidak,Hipermetropia Ringan,Tidak,Risiko Rendah,30–44,Tidak Ada
+P0854,41,Laki-laki,Tidak,Tidak,Ya,Tidak,Tidak,Tidak Ada,Tidak,Risiko Rendah,30–44,HT Saja
+P0855,22,Laki-laki,Tidak,Tidak,Tidak,Tidak,Tidak,Tidak Ada,Tidak,Risiko Rendah,< 30,Tidak Ada
+P0856,58,Laki-laki,Ya,Tidak,Tidak,Tidak,Ya,Hipermetropia Ringan,Tidak,Risiko Sedang,45–59,Riwayat Saja
+P0857,38,Laki-laki,Tidak,Ya,Ya,Tidak,Ya,Miopia Ringan,Tidak,Risiko Sedang,30–44,DM + HT
+P0858,54,Perempuan,Tidak,Tidak,Tidak,Ya,Tidak,Miopia Sedang/Berat,Jangka Pendek,Risiko Sedang,45–59,Tidak Ada
+P0859,24,Perempuan,Tidak,Ya,Tidak,Tidak,Tidak,Tidak Ada,Tidak,Risiko Rendah,< 30,DM Saja
+P0860,59,Laki-laki,Ya,Ya,Ya,Tidak,Tidak,Hipermetropia Sedang/Berat,Jangka Panjang,Risiko Tinggi,45–59,Riwayat + DM + HT
+P0861,38,Perempuan,Tidak,Tidak,Tidak,Tidak,Tidak,Tidak Ada,Tidak,Risiko Rendah,30–44,Tidak Ada
+P0862,45,Laki-laki,Tidak,Tidak,Tidak,Tidak,Tidak,Tidak Ada,Tidak,Risiko Rendah,30–44,Tidak Ada
+P0863,75,Laki-laki,Ya,Ya,Ya,Ya,Tidak,Miopia Ringan,Jangka Pendek,Risiko Tinggi,60+,Riwayat + DM + HT
+P0864,65,Laki-laki,Ya,Ya,Ya,Tidak,Ya,Hipermetropia Sedang/Berat,Jangka Pendek,Risiko Tinggi,60+,Riwayat + DM + HT
+P0865,49,Laki-laki,Ya,Tidak,Tidak,Tidak,Tidak,Miopia Ringan,Tidak,Risiko Rendah,45–59,Riwayat Saja
+P0866,41,Laki-laki,Tidak,Tidak,Tidak,Tidak,Tidak,Tidak Ada,Jangka Pendek,Risiko Rendah,30–44,Tidak Ada
+P0867,64,Perempuan,Ya,Ya,Ya,Ya,Ya,Miopia Ringan,Jangka Panjang,Risiko Tinggi,60+,Riwayat + DM + HT
+P0868,65,Perempuan,Ya,Ya,Tidak,Ya,Ya,Hipermetropia Ringan,Jangka Pendek,Risiko Tinggi,60+,Riwayat + DM
+P0869,56,Laki-laki,Tidak,Ya,Ya,Tidak,Tidak,Miopia Sedang/Berat,Jangka Pendek,Risiko Sedang,45–59,DM + HT
+P0870,55,Laki-laki,Tidak,Ya,Ya,Ya,Ya,Miopia Ringan,Jangka Panjang,Risiko Tinggi,45–59,DM + HT
+P0871,49,Perempuan,Tidak,Tidak,Tidak,Tidak,Tidak,Hipermetropia Ringan,Tidak,Risiko Rendah,45–59,Tidak Ada
+P0872,50,Laki-laki,Ya,Ya,Ya,Tidak,Tidak,Miopia Sedang/Berat,Jangka Panjang,Risiko Tinggi,45–59,Riwayat + DM + HT
+P0873,48,Perempuan,Tidak,Tidak,Tidak,Tidak,Tidak,Hipermetropia Ringan,Jangka Panjang,Risiko Sedang,45–59,Tidak Ada
+P0874,44,Perempuan,Tidak,Tidak,Tidak,Tidak,Tidak,Tidak Ada,Tidak,Risiko Rendah,30–44,Tidak Ada
+P0875,28,Perempuan,Tidak,Tidak,Tidak,Tidak,Tidak,Tidak Ada,Tidak,Risiko Rendah,< 30,Tidak Ada
+P0876,68,Laki-laki,Tidak,Ya,Ya,Tidak,Ya,Miopia Sedang/Berat,Tidak,Risiko Sedang,60+,DM + HT
+P0877,28,Laki-laki,Tidak,Tidak,Tidak,Ya,Tidak,Miopia Ringan,Tidak,Risiko Rendah,< 30,Tidak Ada
+P0878,26,Laki-laki,Tidak,Ya,Tidak,Ya,Tidak,Miopia Ringan,Tidak,Risiko Rendah,< 30,DM Saja
+P0879,59,Laki-laki,Ya,Ya,Ya,Ya,Tidak,Hipermetropia Sedang/Berat,Jangka Panjang,Risiko Tinggi,45–59,Riwayat + DM + HT
+P0880,24,Laki-laki,Tidak,Tidak,Tidak,Tidak,Tidak,Miopia Ringan,Tidak,Risiko Rendah,< 30,Tidak Ada
+P0881,24,Laki-laki,Tidak,Tidak,Tidak,Tidak,Tidak,Hipermetropia Ringan,Tidak,Risiko Rendah,< 30,Tidak Ada
+P0882,44,Perempuan,Ya,Tidak,Tidak,Tidak,Ya,Tidak Ada,Jangka Pendek,Risiko Sedang,30–44,Riwayat Saja
+P0883,67,Perempuan,Ya,Tidak,Tidak,Tidak,Tidak,Hipermetropia Sedang/Berat,Tidak,Risiko Sedang,60+,Riwayat Saja
+P0884,25,Laki-laki,Tidak,Tidak,Ya,Tidak,Tidak,Tidak Ada,Tidak,Risiko Rendah,< 30,HT Saja
+P0885,45,Perempuan,Tidak,Tidak,Tidak,Tidak,Tidak,Hipermetropia Ringan,Tidak,Risiko Rendah,30–44,Tidak Ada
+P0886,26,Perempuan,Tidak,Tidak,Tidak,Ya,Tidak,Tidak Ada,Jangka Pendek,Risiko Rendah,< 30,Tidak Ada
+P0887,59,Perempuan,Ya,Ya,Tidak,Tidak,Ya,Miopia Sedang/Berat,Jangka Panjang,Risiko Tinggi,45–59,Riwayat + DM
+P0888,67,Perempuan,Ya,Ya,Tidak,Ya,Ya,Miopia Sedang/Berat,Jangka Pendek,Risiko Tinggi,60+,Riwayat + DM
+P0889,53,Laki-laki,Ya,Tidak,Tidak,Tidak,Tidak,Hipermetropia Sedang/Berat,Tidak,Risiko Sedang,45–59,Riwayat Saja
+P0890,55,Perempuan,Ya,Tidak,Ya,Tidak,Tidak,Miopia Ringan,Tidak,Risiko Sedang,45–59,Riwayat + HT
+P0891,75,Laki-laki,Ya,Ya,Ya,Tidak,Ya,Hipermetropia Ringan,Jangka Panjang,Risiko Tinggi,60+,Riwayat + DM + HT
+P0892,53,Perempuan,Ya,Ya,Ya,Tidak,Tidak,Miopia Sedang/Berat,Jangka Panjang,Risiko Tinggi,45–59,Riwayat + DM + HT
+P0893,59,Perempuan,Ya,Ya,Ya,Ya,Tidak,Miopia Sedang/Berat,Jangka Pendek,Risiko Tinggi,45–59,Riwayat + DM + HT
+P0894,52,Laki-laki,Tidak,Tidak,Tidak,Tidak,Ya,Miopia Ringan,Jangka Pendek,Risiko Sedang,45–59,Tidak Ada
+P0895,72,Perempuan,Tidak,Ya,Ya,Ya,Ya,Hipermetropia Sedang/Berat,Jangka Panjang,Risiko Tinggi,60+,DM + HT
+P0896,65,Perempuan,Tidak,Tidak,Ya,Ya,Ya,Hipermetropia Sedang/Berat,Tidak,Risiko Sedang,60+,HT Saja
+P0897,70,Perempuan,Ya,Ya,Tidak,Ya,Tidak,Miopia Sedang/Berat,Jangka Pendek,Risiko Tinggi,60+,Riwayat + DM
+P0898,63,Perempuan,Tidak,Ya,Tidak,Ya,Ya,Hipermetropia Sedang/Berat,Jangka Pendek,Risiko Tinggi,60+,DM Saja
+P0899,40,Perempuan,Tidak,Ya,Ya,Tidak,Tidak,Tidak Ada,Tidak,Risiko Rendah,30–44,DM + HT
+P0900,53,Perempuan,Ya,Tidak,Ya,Tidak,Ya,Miopia Sedang/Berat,Jangka Panjang,Risiko Tinggi,45–59,Riwayat + HT
+P0901,72,Laki-laki,Ya,Tidak,Ya,Tidak,Tidak,Hipermetropia Sedang/Berat,Jangka Panjang,Risiko Tinggi,60+,Riwayat + HT
+P0902,73,Laki-laki,Ya,Ya,Ya,Tidak,Ya,Hipermetropia Ringan,Jangka Panjang,Risiko Tinggi,60+,Riwayat + DM + HT
+P0903,75,Perempuan,Ya,Tidak,Tidak,Ya,Ya,Miopia Sedang/Berat,Jangka Pendek,Risiko Tinggi,60+,Riwayat Saja
+P0904,21,Laki-laki,Tidak,Tidak,Tidak,Tidak,Tidak,Tidak Ada,Tidak,Risiko Rendah,< 30,Tidak Ada
+P0905,58,Laki-laki,Ya,Tidak,Tidak,Tidak,Tidak,Miopia Ringan,Jangka Pendek,Risiko Sedang,45–59,Riwayat Saja
+P0906,26,Laki-laki,Tidak,Tidak,Tidak,Tidak,Tidak,Tidak Ada,Tidak,Risiko Rendah,< 30,Tidak Ada
+P0907,80,Laki-laki,Ya,Ya,Ya,Tidak,Ya,Miopia Sedang/Berat,Jangka Pendek,Risiko Tinggi,60+,Riwayat + DM + HT
+P0908,62,Perempuan,Ya,Tidak,Tidak,Ya,Ya,Miopia Sedang/Berat,Jangka Pendek,Risiko Tinggi,60+,Riwayat Saja
+P0909,57,Laki-laki,Tidak,Ya,Ya,Tidak,Tidak,Miopia Ringan,Tidak,Risiko Sedang,45–59,DM + HT
+P0910,85,Perempuan,Ya,Ya,Ya,Tidak,Ya,Hipermetropia Sedang/Berat,Jangka Pendek,Risiko Tinggi,60+,Riwayat + DM + HT
+P0911,23,Laki-laki,Tidak,Ya,Tidak,Tidak,Ya,Tidak Ada,Tidak,Risiko Rendah,< 30,DM Saja
+P0912,62,Laki-laki,Tidak,Tidak,Ya,Tidak,Ya,Miopia Sedang/Berat,Jangka Panjang,Risiko Tinggi,60+,HT Saja
+P0913,62,Perempuan,Ya,Tidak,Ya,Tidak,Tidak,Tidak Ada,Tidak,Risiko Sedang,60+,Riwayat + HT
+P0914,44,Perempuan,Tidak,Tidak,Ya,Ya,Tidak,Hipermetropia Ringan,Tidak,Risiko Sedang,30–44,HT Saja
+P0915,53,Laki-laki,Tidak,Tidak,Tidak,Tidak,Tidak,Miopia Ringan,Jangka Panjang,Risiko Sedang,45–59,Tidak Ada
+P0916,64,Perempuan,Ya,Tidak,Tidak,Tidak,Ya,Hipermetropia Ringan,Jangka Pendek,Risiko Sedang,60+,Riwayat Saja
+P0917,43,Perempuan,Tidak,Tidak,Tidak,Tidak,Tidak,Miopia Ringan,Jangka Pendek,Risiko Rendah,30–44,Tidak Ada
+P0918,21,Laki-laki,Tidak,Tidak,Tidak,Tidak,Tidak,Miopia Ringan,Tidak,Risiko Rendah,< 30,Tidak Ada
+P0919,30,Laki-laki,Tidak,Tidak,Tidak,Tidak,Tidak,Hipermetropia Ringan,Tidak,Risiko Rendah,< 30,Tidak Ada
+P0920,68,Laki-laki,Ya,Ya,Ya,Tidak,Tidak,Tidak Ada,Jangka Panjang,Risiko Sedang,60+,Riwayat + DM + HT
+P0921,38,Laki-laki,Tidak,Tidak,Tidak,Tidak,Tidak,Miopia Sedang/Berat,Jangka Panjang,Risiko Sedang,30–44,Tidak Ada
+P0922,53,Laki-laki,Ya,Ya,Ya,Tidak,Ya,Miopia Ringan,Jangka Panjang,Risiko Tinggi,45–59,Riwayat + DM + HT
+P0923,64,Laki-laki,Tidak,Ya,Ya,Ya,Ya,Miopia Sedang/Berat,Jangka Panjang,Risiko Tinggi,60+,DM + HT
+P0924,64,Perempuan,Ya,Ya,Ya,Ya,Tidak,Hipermetropia Ringan,Jangka Pendek,Risiko Tinggi,60+,Riwayat + DM + HT
+P0925,20,Perempuan,Tidak,Tidak,Tidak,Tidak,Tidak,Tidak Ada,Tidak,Risiko Rendah,< 30,Tidak Ada
+P0926,70,Perempuan,Ya,Tidak,Ya,Ya,Ya,Hipermetropia Ringan,Jangka Panjang,Risiko Tinggi,60+,Riwayat + HT
+P0927,61,Laki-laki,Ya,Tidak,Ya,Tidak,Tidak,Tidak Ada,Jangka Pendek,Risiko Sedang,60+,Riwayat + HT
+P0928,57,Laki-laki,Ya,Ya,Ya,Ya,Ya,Miopia Ringan,Jangka Panjang,Risiko Tinggi,45–59,Riwayat + DM + HT
+P0929,34,Laki-laki,Tidak,Tidak,Tidak,Tidak,Tidak,Tidak Ada,Tidak,Risiko Rendah,30–44,Tidak Ada
+P0930,28,Laki-laki,Tidak,Ya,Tidak,Tidak,Tidak,Tidak Ada,Tidak,Risiko Rendah,< 30,DM Saja
+P0931,44,Laki-laki,Tidak,Ya,Ya,Tidak,Tidak,Tidak Ada,Jangka Pendek,Risiko Sedang,30–44,DM + HT
+P0932,53,Perempuan,Ya,Ya,Ya,Tidak,Ya,Hipermetropia Ringan,Jangka Panjang,Risiko Tinggi,45–59,Riwayat + DM + HT
+P0933,75,Perempuan,Tidak,Tidak,Ya,Ya,Tidak,Hipermetropia Sedang/Berat,Jangka Panjang,Risiko Tinggi,60+,HT Saja
+P0934,44,Laki-laki,Tidak,Tidak,Tidak,Ya,Tidak,Hipermetropia Ringan,Jangka Panjang,Risiko Sedang,30–44,Tidak Ada
+P0935,29,Laki-laki,Tidak,Tidak,Tidak,Tidak,Tidak,Tidak Ada,Tidak,Risiko Rendah,< 30,Tidak Ada
+P0936,53,Laki-laki,Ya,Tidak,Ya,Tidak,Tidak,Miopia Sedang/Berat,Jangka Pendek,Risiko Sedang,45–59,Riwayat + HT
+P0937,54,Laki-laki,Tidak,Tidak,Tidak,Tidak,Tidak,Hipermetropia Sedang/Berat,Jangka Panjang,Risiko Sedang,45–59,Tidak Ada
+P0938,20,Perempuan,Tidak,Tidak,Tidak,Tidak,Tidak,Tidak Ada,Tidak,Risiko Rendah,< 30,Tidak Ada
+P0939,41,Perempuan,Ya,Ya,Tidak,Tidak,Ya,Tidak Ada,Tidak,Risiko Sedang,30–44,Riwayat + DM
+P0940,37,Laki-laki,Tidak,Tidak,Tidak,Tidak,Tidak,Hipermetropia Ringan,Tidak,Risiko Rendah,30–44,Tidak Ada
+P0941,26,Laki-laki,Tidak,Tidak,Tidak,Tidak,Tidak,Tidak Ada,Tidak,Risiko Rendah,< 30,Tidak Ada
+P0942,66,Laki-laki,Ya,Ya,Ya,Tidak,Tidak,Hipermetropia Sedang/Berat,Tidak,Risiko Sedang,60+,Riwayat + DM + HT
+P0943,23,Perempuan,Tidak,Tidak,Tidak,Tidak,Tidak,Tidak Ada,Tidak,Risiko Rendah,< 30,Tidak Ada
+P0944,47,Laki-laki,Tidak,Tidak,Tidak,Tidak,Tidak,Miopia Ringan,Jangka Panjang,Risiko Sedang,45–59,Tidak Ada
+P0945,60,Perempuan,Tidak,Tidak,Tidak,Tidak,Ya,Hipermetropia Ringan,Jangka Pendek,Risiko Sedang,45–59,Tidak Ada
+P0946,75,Perempuan,Ya,Tidak,Ya,Tidak,Ya,Miopia Sedang/Berat,Jangka Panjang,Risiko Tinggi,60+,Riwayat + HT
+P0947,67,Perempuan,Ya,Tidak,Ya,Ya,Tidak,Hipermetropia Ringan,Jangka Panjang,Risiko Tinggi,60+,Riwayat + HT
+P0948,58,Perempuan,Ya,Ya,Ya,Tidak,Tidak,Hipermetropia Ringan,Jangka Pendek,Risiko Sedang,45–59,Riwayat + DM + HT
+P0949,47,Perempuan,Ya,Tidak,Tidak,Ya,Tidak,Miopia Sedang/Berat,Jangka Panjang,Risiko Sedang,45–59,Riwayat Saja
+P0950,28,Perempuan,Tidak,Tidak,Tidak,Tidak,Tidak,Hipermetropia Ringan,Tidak,Risiko Rendah,< 30,Tidak Ada
+P0951,20,Perempuan,Tidak,Tidak,Tidak,Tidak,Tidak,Tidak Ada,Tidak,Risiko Rendah,< 30,Tidak Ada
+P0952,68,Laki-laki,Ya,Tidak,Tidak,Tidak,Tidak,Miopia Ringan,Jangka Pendek,Risiko Sedang,60+,Riwayat Saja
+P0953,69,Laki-laki,Ya,Tidak,Ya,Tidak,Tidak,Miopia Ringan,Tidak,Risiko Sedang,60+,Riwayat + HT
+P0954,21,Perempuan,Tidak,Tidak,Tidak,Tidak,Tidak,Hipermetropia Ringan,Tidak,Risiko Rendah,< 30,Tidak Ada
+P0955,48,Laki-laki,Tidak,Tidak,Tidak,Tidak,Tidak,Hipermetropia Ringan,Tidak,Risiko Rendah,45–59,Tidak Ada
+P0956,43,Perempuan,Tidak,Tidak,Tidak,Tidak,Tidak,Tidak Ada,Tidak,Risiko Rendah,30–44,Tidak Ada
+P0957,20,Perempuan,Tidak,Tidak,Tidak,Tidak,Tidak,Miopia Ringan,Tidak,Risiko Rendah,< 30,Tidak Ada
+P0958,33,Laki-laki,Tidak,Tidak,Tidak,Tidak,Tidak,Tidak Ada,Tidak,Risiko Rendah,30–44,Tidak Ada
+P0959,44,Laki-laki,Tidak,Tidak,Tidak,Tidak,Ya,Tidak Ada,Jangka Pendek,Risiko Rendah,30–44,Tidak Ada
+P0960,47,Laki-laki,Tidak,Tidak,Tidak,Tidak,Tidak,Tidak Ada,Tidak,Risiko Rendah,45–59,Tidak Ada
+P0961,79,Perempuan,Ya,Ya,Ya,Ya,Tidak,Miopia Sedang/Berat,Jangka Pendek,Risiko Tinggi,60+,Riwayat + DM + HT
+P0962,49,Laki-laki,Ya,Tidak,Ya,Tidak,Tidak,Hipermetropia Sedang/Berat,Tidak,Risiko Sedang,45–59,Riwayat + HT
+P0963,54,Laki-laki,Ya,Ya,Ya,Tidak,Ya,Miopia Sedang/Berat,Jangka Pendek,Risiko Tinggi,45–59,Riwayat + DM + HT
+P0964,85,Laki-laki,Ya,Ya,Ya,Ya,Ya,Miopia Sedang/Berat,Jangka Pendek,Risiko Tinggi,60+,Riwayat + DM + HT
+P0965,59,Perempuan,Ya,Tidak,Tidak,Tidak,Tidak,Hipermetropia Sedang/Berat,Jangka Panjang,Risiko Sedang,45–59,Riwayat Saja
+P0966,47,Perempuan,Tidak,Tidak,Tidak,Tidak,Tidak,Tidak Ada,Jangka Pendek,Risiko Rendah,45–59,Tidak Ada
+P0967,43,Laki-laki,Tidak,Ya,Ya,Ya,Tidak,Tidak Ada,Tidak,Risiko Sedang,30–44,DM + HT
+P0968,48,Perempuan,Tidak,Tidak,Tidak,Tidak,Tidak,Miopia Ringan,Tidak,Risiko Rendah,45–59,Tidak Ada
+P0969,56,Laki-laki,Ya,Tidak,Ya,Tidak,Tidak,Miopia Ringan,Jangka Pendek,Risiko Sedang,45–59,Riwayat + HT
+P0970,58,Perempuan,Tidak,Ya,Ya,Ya,Tidak,Miopia Ringan,Tidak,Risiko Sedang,45–59,DM + HT
+P0971,25,Laki-laki,Tidak,Tidak,Ya,Tidak,Ya,Tidak Ada,Tidak,Risiko Rendah,< 30,HT Saja
+P0972,60,Perempuan,Tidak,Tidak,Tidak,Ya,Ya,Hipermetropia Ringan,Jangka Pendek,Risiko Sedang,45–59,Tidak Ada
+P0973,45,Perempuan,Tidak,Tidak,Tidak,Tidak,Tidak,Hipermetropia Sedang/Berat,Jangka Pendek,Risiko Sedang,30–44,Tidak Ada
+P0974,48,Laki-laki,Tidak,Tidak,Ya,Ya,Tidak,Miopia Ringan,Jangka Pendek,Risiko Sedang,45–59,HT Saja
+P0975,34,Perempuan,Tidak,Tidak,Ya,Tidak,Tidak,Tidak Ada,Tidak,Risiko Rendah,30–44,HT Saja
+P0976,24,Laki-laki,Tidak,Tidak,Tidak,Tidak,Tidak,Tidak Ada,Tidak,Risiko Rendah,< 30,Tidak Ada
+P0977,73,Laki-laki,Ya,Ya,Ya,Ya,Ya,Miopia Sedang/Berat,Jangka Pendek,Risiko Tinggi,60+,Riwayat + DM + HT
+P0978,35,Laki-laki,Tidak,Tidak,Ya,Tidak,Tidak,Miopia Sedang/Berat,Jangka Panjang,Risiko Sedang,30–44,HT Saja
+P0979,42,Perempuan,Tidak,Tidak,Tidak,Tidak,Tidak,Tidak Ada,Tidak,Risiko Rendah,30–44,Tidak Ada
+P0980,58,Perempuan,Ya,Tidak,Ya,Tidak,Ya,Tidak Ada,Tidak,Risiko Sedang,45–59,Riwayat + HT
+P0981,56,Perempuan,Tidak,Tidak,Tidak,Ya,Tidak,Miopia Sedang/Berat,Jangka Pendek,Risiko Sedang,45–59,Tidak Ada
+P0982,81,Laki-laki,Tidak,Ya,Tidak,Ya,Tidak,Hipermetropia Sedang/Berat,Jangka Panjang,Risiko Tinggi,60+,DM Saja
+P0983,20,Laki-laki,Tidak,Tidak,Tidak,Tidak,Tidak,Tidak Ada,Tidak,Risiko Rendah,< 30,Tidak Ada
+P0984,72,Laki-laki,Tidak,Tidak,Ya,Ya,Ya,Miopia Sedang/Berat,Jangka Panjang,Risiko Tinggi,60+,HT Saja
+P0985,37,Laki-laki,Tidak,Tidak,Tidak,Tidak,Tidak,Hipermetropia Ringan,Jangka Pendek,Risiko Rendah,30–44,Tidak Ada
+P0986,43,Laki-laki,Tidak,Tidak,Tidak,Tidak,Tidak,Tidak Ada,Tidak,Risiko Rendah,30–44,Tidak Ada
+P0987,39,Laki-laki,Tidak,Tidak,Ya,Tidak,Tidak,Miopia Ringan,Tidak,Risiko Rendah,30–44,HT Saja
+P0988,76,Perempuan,Tidak,Ya,Ya,Tidak,Ya,Miopia Sedang/Berat,Jangka Panjang,Risiko Tinggi,60+,DM + HT
+P0989,67,Perempuan,Ya,Tidak,Tidak,Tidak,Tidak,Tidak Ada,Jangka Pendek,Risiko Sedang,60+,Riwayat Saja
+P0990,35,Perempuan,Tidak,Tidak,Tidak,Ya,Ya,Hipermetropia Ringan,Tidak,Risiko Rendah,30–44,Tidak Ada
+P0991,47,Perempuan,Tidak,Tidak,Tidak,Tidak,Tidak,Tidak Ada,Tidak,Risiko Rendah,45–59,Tidak Ada
+P0992,42,Laki-laki,Tidak,Ya,Ya,Ya,Tidak,Hipermetropia Sedang/Berat,Jangka Pendek,Risiko Sedang,30–44,DM + HT
+P0993,50,Laki-laki,Ya,Ya,Tidak,Ya,Tidak,Miopia Sedang/Berat,Jangka Panjang,Risiko Tinggi,45–59,Riwayat + DM
+P0994,47,Laki-laki,Tidak,Tidak,Tidak,Tidak,Tidak,Tidak Ada,Tidak,Risiko Rendah,45–59,Tidak Ada
+P0995,71,Laki-laki,Ya,Ya,Ya,Tidak,Ya,Hipermetropia Sedang/Berat,Jangka Panjang,Risiko Tinggi,60+,Riwayat + DM + HT
+P0996,61,Laki-laki,Ya,Tidak,Ya,Ya,Tidak,Hipermetropia Sedang/Berat,Jangka Panjang,Risiko Tinggi,60+,Riwayat + HT
+P0997,64,Laki-laki,Tidak,Ya,Ya,Ya,Tidak,Tidak Ada,Jangka Pendek,Risiko Sedang,60+,DM + HT
+P0998,33,Perempuan,Tidak,Tidak,Ya,Tidak,Tidak,Tidak Ada,Jangka Pendek,Risiko Rendah,30–44,HT Saja
+P0999,60,Perempuan,Ya,Tidak,Tidak,Tidak,Ya,Miopia Sedang/Berat,Jangka Panjang,Risiko Tinggi,45–59,Riwayat Saja
+P1000,41,Laki-laki,Ya,Tidak,Tidak,Tidak,Tidak,Tidak Ada,Tidak,Risiko Rendah,30–44,Riwayat Saja
+P1001,51,Laki-laki,Tidak,Tidak,Tidak,Ya,Ya,Hipermetropia Ringan,Tidak,Risiko Sedang,45–59,Tidak Ada
+P1002,49,Laki-laki,Tidak,Tidak,Tidak,Tidak,Tidak,Tidak Ada,Jangka Pendek,Risiko Rendah,45–59,Tidak Ada
+P1003,45,Laki-laki,Ya,Ya,Tidak,Ya,Tidak,Tidak Ada,Jangka Pendek,Risiko Sedang,30–44,Riwayat + DM
+P1004,43,Laki-laki,Tidak,Tidak,Ya,Tidak,Tidak,Hipermetropia Ringan,Tidak,Risiko Rendah,30–44,HT Saja
+P1005,58,Perempuan,Ya,Ya,Ya,Tidak,Tidak,Tidak Ada,Tidak,Risiko Sedang,45–59,Riwayat + DM + HT
+P1006,84,Perempuan,Ya,Tidak,Ya,Tidak,Ya,Hipermetropia Sedang/Berat,Jangka Panjang,Risiko Tinggi,60+,Riwayat + HT
+P1007,62,Perempuan,Tidak,Ya,Tidak,Tidak,Tidak,Miopia Sedang/Berat,Jangka Pendek,Risiko Sedang,60+,DM Saja
+P1008,45,Laki-laki,Tidak,Tidak,Tidak,Tidak,Ya,Tidak Ada,Jangka Pendek,Risiko Rendah,30–44,Tidak Ada
+P1009,43,Perempuan,Tidak,Tidak,Tidak,Ya,Ya,Hipermetropia Sedang/Berat,Jangka Pendek,Risiko Sedang,30–44,Tidak Ada
+P1010,30,Laki-laki,Tidak,Tidak,Ya,Tidak,Tidak,Tidak Ada,Tidak,Risiko Rendah,< 30,HT Saja
+P1011,37,Perempuan,Ya,Ya,Tidak,Ya,Tidak,Hipermetropia Sedang/Berat,Jangka Pendek,Risiko Sedang,30–44,Riwayat + DM
+P1012,76,Laki-laki,Ya,Tidak,Ya,Ya,Tidak,Hipermetropia Sedang/Berat,Jangka Pendek,Risiko Tinggi,60+,Riwayat + HT
+P1013,36,Perempuan,Tidak,Tidak,Tidak,Tidak,Ya,Tidak Ada,Jangka Pendek,Risiko Rendah,30–44,Tidak Ada
+P1014,51,Laki-laki,Ya,Ya,Ya,Tidak,Tidak,Miopia Sedang/Berat,Jangka Panjang,Risiko Tinggi,45–59,Riwayat + DM + HT
+P1015,22,Laki-laki,Tidak,Tidak,Tidak,Tidak,Tidak,Hipermetropia Ringan,Tidak,Risiko Rendah,< 30,Tidak Ada
+P1016,60,Laki-laki,Ya,Ya,Tidak,Tidak,Ya,Miopia Ringan,Jangka Panjang,Risiko Tinggi,45–59,Riwayat + DM
+P1017,35,Laki-laki,Tidak,Tidak,Ya,Tidak,Tidak,Tidak Ada,Tidak,Risiko Rendah,30–44,HT Saja
+P1018,68,Perempuan,Ya,Tidak,Ya,Tidak,Ya,Miopia Ringan,Jangka Panjang,Risiko Tinggi,60+,Riwayat + HT
+P1019,64,Laki-laki,Ya,Tidak,Tidak,Tidak,Ya,Hipermetropia Sedang/Berat,Jangka Panjang,Risiko Tinggi,60+,Riwayat Saja
+P1020,36,Laki-laki,Tidak,Ya,Ya,Tidak,Tidak,Miopia Sedang/Berat,Tidak,Risiko Sedang,30–44,DM + HT
+P1021,23,Perempuan,Tidak,Tidak,Tidak,Tidak,Tidak,Tidak Ada,Tidak,Risiko Rendah,< 30,Tidak Ada
+P1022,31,Perempuan,Tidak,Tidak,Ya,Tidak,Tidak,Tidak Ada,Tidak,Risiko Rendah,30–44,HT Saja
+P1023,55,Perempuan,Ya,Ya,Ya,Ya,Tidak,Miopia Ringan,Tidak,Risiko Sedang,45–59,Riwayat + DM + HT
+P1024,34,Perempuan,Ya,Ya,Ya,Tidak,Tidak,Tidak Ada,Tidak,Risiko Rendah,30–44,Riwayat + DM + HT
+P1025,75,Laki-laki,Tidak,Ya,Ya,Ya,Ya,Hipermetropia Ringan,Jangka Panjang,Risiko Tinggi,60+,DM + HT
+P1026,51,Perempuan,Ya,Tidak,Ya,Ya,Ya,Miopia Sedang/Berat,Jangka Panjang,Risiko Tinggi,45–59,Riwayat + HT
+P1027,26,Laki-laki,Tidak,Tidak,Ya,Tidak,Tidak,Tidak Ada,Tidak,Risiko Rendah,< 30,HT Saja
+P1028,30,Perempuan,Tidak,Tidak,Tidak,Tidak,Ya,Tidak Ada,Tidak,Risiko Rendah,< 30,Tidak Ada
+P1029,76,Laki-laki,Tidak,Tidak,Ya,Ya,Tidak,Miopia Sedang/Berat,Jangka Panjang,Risiko Tinggi,60+,HT Saja
+P1030,76,Perempuan,Ya,Tidak,Ya,Ya,Tidak,Hipermetropia Sedang/Berat,Jangka Pendek,Risiko Tinggi,60+,Riwayat + HT
+P1031,72,Laki-laki,Tidak,Ya,Tidak,Tidak,Ya,Hipermetropia Sedang/Berat,Jangka Panjang,Risiko Tinggi,60+,DM Saja
+P1032,57,Perempuan,Tidak,Ya,Tidak,Ya,Tidak,Tidak Ada,Jangka Pendek,Risiko Sedang,45–59,DM Saja
+P1033,64,Perempuan,Ya,Ya,Tidak,Tidak,Ya,Hipermetropia Sedang/Berat,Jangka Panjang,Risiko Tinggi,60+,Riwayat + DM
+P1034,34,Perempuan,Ya,Tidak,Tidak,Tidak,Ya,Tidak Ada,Tidak,Risiko Rendah,30–44,Riwayat Saja
+P1035,71,Perempuan,Ya,Tidak,Ya,Ya,Ya,Miopia Ringan,Jangka Pendek,Risiko Tinggi,60+,Riwayat + HT
+P1036,77,Laki-laki,Ya,Tidak,Tidak,Ya,Ya,Hipermetropia Sedang/Berat,Jangka Pendek,Risiko Tinggi,60+,Riwayat Saja
+P1037,51,Laki-laki,Ya,Ya,Ya,Tidak,Tidak,Miopia Ringan,Jangka Panjang,Risiko Sedang,45–59,Riwayat + DM + HT
+P1038,73,Perempuan,Ya,Ya,Ya,Ya,Ya,Hipermetropia Sedang/Berat,Jangka Panjang,Risiko Tinggi,60+,Riwayat + DM + HT
+P1039,57,Laki-laki,Tidak,Tidak,Ya,Tidak,Tidak,Hipermetropia Sedang/Berat,Tidak,Risiko Sedang,45–59,HT Saja
+P1040,39,Perempuan,Tidak,Tidak,Tidak,Tidak,Tidak,Miopia Ringan,Tidak,Risiko Rendah,30–44,Tidak Ada
+P1041,78,Perempuan,Ya,Ya,Ya,Tidak,Tidak,Miopia Sedang/Berat,Jangka Panjang,Risiko Tinggi,60+,Riwayat + DM + HT
+P1042,21,Laki-laki,Ya,Tidak,Tidak,Tidak,Tidak,Hipermetropia Ringan,Tidak,Risiko Rendah,< 30,Riwayat Saja
+P1043,61,Perempuan,Ya,Ya,Ya,Ya,Ya,Miopia Ringan,Jangka Panjang,Risiko Tinggi,60+,Riwayat + DM + HT
+P1044,53,Laki-laki,Tidak,Ya,Ya,Ya,Tidak,Tidak Ada,Jangka Panjang,Risiko Sedang,45–59,DM + HT
+P1045,30,Laki-laki,Tidak,Tidak,Tidak,Tidak,Tidak,Tidak Ada,Tidak,Risiko Rendah,< 30,Tidak Ada
+P1046,71,Laki-laki,Ya,Tidak,Ya,Ya,Tidak,Miopia Ringan,Jangka Panjang,Risiko Tinggi,60+,Riwayat + HT
+P1047,37,Perempuan,Ya,Tidak,Ya,Tidak,Tidak,Hipermetropia Sedang/Berat,Tidak,Risiko Sedang,30–44,Riwayat + HT
+P1048,20,Perempuan,Tidak,Tidak,Ya,Tidak,Tidak,Hipermetropia Ringan,Tidak,Risiko Rendah,< 30,HT Saja
+P1049,80,Perempuan,Ya,Tidak,Ya,Ya,Ya,Miopia Sedang/Berat,Jangka Pendek,Risiko Tinggi,60+,Riwayat + HT
+P1050,27,Perempuan,Tidak,Tidak,Tidak,Tidak,Tidak,Tidak Ada,Tidak,Risiko Rendah,< 30,Tidak Ada
+P1051,78,Perempuan,Ya,Tidak,Ya,Ya,Ya,Hipermetropia Sedang/Berat,Jangka Panjang,Risiko Tinggi,60+,Riwayat + HT
+P1052,64,Laki-laki,Tidak,Tidak,Ya,Tidak,Ya,Miopia Ringan,Jangka Pendek,Risiko Sedang,60+,HT Saja
+P1053,61,Perempuan,Tidak,Tidak,Ya,Tidak,Tidak,Hipermetropia Ringan,Tidak,Risiko Sedang,60+,HT Saja
+P1054,63,Perempuan,Ya,Ya,Tidak,Ya,Ya,Miopia Ringan,Jangka Panjang,Risiko Tinggi,60+,Riwayat + DM
+P1055,23,Perempuan,Tidak,Tidak,Tidak,Tidak,Tidak,Hipermetropia Ringan,Tidak,Risiko Rendah,< 30,Tidak Ada
+P1056,60,Laki-laki,Tidak,Ya,Ya,Tidak,Ya,Tidak Ada,Jangka Pendek,Risiko Sedang,45–59,DM + HT
+P1057,62,Laki-laki,Tidak,Tidak,Ya,Tidak,Ya,Miopia Ringan,Tidak,Risiko Sedang,60+,HT Saja
+P1058,31,Laki-laki,Ya,Tidak,Tidak,Tidak,Tidak,Tidak Ada,Tidak,Risiko Rendah,30–44,Riwayat Saja
+P1059,50,Laki-laki,Tidak,Ya,Ya,Ya,Tidak,Tidak Ada,Jangka Panjang,Risiko Sedang,45–59,DM + HT
+P1060,81,Laki-laki,Ya,Ya,Tidak,Ya,Tidak,Miopia Ringan,Jangka Panjang,Risiko Tinggi,60+,Riwayat + DM
+P1061,30,Laki-laki,Tidak,Tidak,Tidak,Tidak,Tidak,Tidak Ada,Jangka Pendek,Risiko Rendah,< 30,Tidak Ada
+P1062,54,Perempuan,Tidak,Ya,Ya,Tidak,Tidak,Hipermetropia Sedang/Berat,Tidak,Risiko Sedang,45–59,DM + HT
+P1063,83,Perempuan,Ya,Tidak,Tidak,Ya,Ya,Hipermetropia Sedang/Berat,Jangka Pendek,Risiko Tinggi,60+,Riwayat Saja
+P1064,40,Laki-laki,Tidak,Tidak,Tidak,Tidak,Ya,Tidak Ada,Tidak,Risiko Rendah,30–44,Tidak Ada
+P1065,55,Perempuan,Tidak,Ya,Ya,Ya,Tidak,Hipermetropia Sedang/Berat,Jangka Panjang,Risiko Tinggi,45–59,DM + HT
+P1066,45,Laki-laki,Ya,Ya,Ya,Tidak,Ya,Miopia Ringan,Tidak,Risiko Sedang,30–44,Riwayat + DM + HT
+P1067,49,Perempuan,Tidak,Tidak,Tidak,Tidak,Tidak,Miopia Ringan,Jangka Pendek,Risiko Rendah,45–59,Tidak Ada
+P1068,41,Laki-laki,Tidak,Tidak,Tidak,Tidak,Ya,Tidak Ada,Tidak,Risiko Rendah,30–44,Tidak Ada
+P1069,23,Perempuan,Tidak,Tidak,Tidak,Tidak,Tidak,Hipermetropia Ringan,Jangka Pendek,Risiko Rendah,< 30,Tidak Ada
+P1070,22,Perempuan,Tidak,Ya,Ya,Tidak,Tidak,Tidak Ada,Tidak,Risiko Rendah,< 30,DM + HT
+P1071,51,Laki-laki,Ya,Ya,Ya,Ya,Tidak,Hipermetropia Ringan,Tidak,Risiko Sedang,45–59,Riwayat + DM + HT
+P1072,66,Perempuan,Ya,Tidak,Tidak,Tidak,Tidak,Miopia Ringan,Jangka Pendek,Risiko Sedang,60+,Riwayat Saja
+P1073,35,Perempuan,Tidak,Tidak,Tidak,Tidak,Tidak,Tidak Ada,Tidak,Risiko Rendah,30–44,Tidak Ada
+P1074,43,Laki-laki,Tidak,Tidak,Tidak,Tidak,Ya,Miopia Ringan,Jangka Pendek,Risiko Sedang,30–44,Tidak Ada
+P1075,59,Perempuan,Tidak,Tidak,Ya,Ya,Tidak,Hipermetropia Ringan,Jangka Pendek,Risiko Sedang,45–59,HT Saja
+P1076,81,Perempuan,Ya,Ya,Ya,Ya,Tidak,Miopia Ringan,Jangka Panjang,Risiko Tinggi,60+,Riwayat + DM + HT
+P1077,44,Perempuan,Ya,Tidak,Ya,Tidak,Tidak,Hipermetropia Sedang/Berat,Jangka Pendek,Risiko Sedang,30–44,Riwayat + HT
+P1078,36,Perempuan,Tidak,Tidak,Tidak,Tidak,Tidak,Tidak Ada,Tidak,Risiko Rendah,30–44,Tidak Ada
+P1079,46,Perempuan,Tidak,Tidak,Tidak,Tidak,Tidak,Hipermetropia Ringan,Tidak,Risiko Rendah,45–59,Tidak Ada
+P1080,72,Laki-laki,Ya,Tidak,Tidak,Tidak,Ya,Miopia Sedang/Berat,Jangka Panjang,Risiko Tinggi,60+,Riwayat Saja
+P1081,27,Perempuan,Tidak,Tidak,Tidak,Tidak,Tidak,Tidak Ada,Tidak,Risiko Rendah,< 30,Tidak Ada
+P1082,85,Laki-laki,Ya,Ya,Ya,Tidak,Ya,Miopia Ringan,Jangka Panjang,Risiko Tinggi,60+,Riwayat + DM + HT
+P1083,48,Laki-laki,Tidak,Tidak,Tidak,Tidak,Ya,Tidak Ada,Jangka Panjang,Risiko Sedang,45–59,Tidak Ada
+P1084,64,Laki-laki,Tidak,Ya,Tidak,Ya,Ya,Hipermetropia Sedang/Berat,Jangka Panjang,Risiko Tinggi,60+,DM Saja
+P1085,60,Laki-laki,Tidak,Ya,Ya,Ya,Tidak,Tidak Ada,Jangka Panjang,Risiko Sedang,45–59,DM + HT
+P1086,46,Perempuan,Tidak,Tidak,Tidak,Tidak,Tidak,Tidak Ada,Tidak,Risiko Rendah,45–59,Tidak Ada
+P1087,64,Perempuan,Ya,Tidak,Tidak,Tidak,Ya,Hipermetropia Sedang/Berat,Jangka Panjang,Risiko Tinggi,60+,Riwayat Saja
+P1088,56,Laki-laki,Ya,Ya,Ya,Ya,Tidak,Hipermetropia Sedang/Berat,Jangka Pendek,Risiko Tinggi,45–59,Riwayat + DM + HT
+P1089,35,Perempuan,Tidak,Ya,Ya,Ya,Tidak,Tidak Ada,Jangka Pendek,Risiko Sedang,30–44,DM + HT
+P1090,64,Laki-laki,Tidak,Tidak,Ya,Tidak,Tidak,Hipermetropia Ringan,Jangka Panjang,Risiko Sedang,60+,HT Saja
+P1091,60,Perempuan,Ya,Ya,Ya,Ya,Ya,Hipermetropia Ringan,Jangka Panjang,Risiko Tinggi,45–59,Riwayat + DM + HT
+P1092,73,Laki-laki,Tidak,Tidak,Ya,Ya,Ya,Hipermetropia Ringan,Jangka Panjang,Risiko Tinggi,60+,HT Saja
+P1093,35,Laki-laki,Ya,Ya,Ya,Ya,Ya,Miopia Ringan,Jangka Pendek,Risiko Sedang,30–44,Riwayat + DM + HT
+P1094,71,Laki-laki,Ya,Tidak,Ya,Ya,Ya,Hipermetropia Ringan,Jangka Panjang,Risiko Tinggi,60+,Riwayat + HT
+P1095,84,Laki-laki,Tidak,Ya,Tidak,Ya,Ya,Hipermetropia Ringan,Jangka Panjang,Risiko Tinggi,60+,DM Saja
+P1096,69,Laki-laki,Tidak,Ya,Tidak,Tidak,Tidak,Hipermetropia Ringan,Jangka Panjang,Risiko Sedang,60+,DM Saja
+P1097,41,Laki-laki,Ya,Tidak,Ya,Tidak,Tidak,Miopia Sedang/Berat,Tidak,Risiko Sedang,30–44,Riwayat + HT
+P1098,38,Perempuan,Tidak,Tidak,Tidak,Ya,Tidak,Tidak Ada,Tidak,Risiko Rendah,30–44,Tidak Ada
+P1099,53,Perempuan,Tidak,Ya,Tidak,Ya,Ya,Miopia Sedang/Berat,Jangka Panjang,Risiko Tinggi,45–59,DM Saja
+P1100,39,Perempuan,Ya,Tidak,Tidak,Tidak,Tidak,Hipermetropia Ringan,Tidak,Risiko Rendah,30–44,Riwayat Saja
+P1101,64,Perempuan,Ya,Ya,Tidak,Ya,Tidak,Miopia Sedang/Berat,Jangka Panjang,Risiko Tinggi,60+,Riwayat + DM
+P1102,63,Perempuan,Ya,Tidak,Ya,Tidak,Tidak,Hipermetropia Sedang/Berat,Tidak,Risiko Sedang,60+,Riwayat + HT
+P1103,35,Perempuan,Tidak,Tidak,Tidak,Tidak,Tidak,Tidak Ada,Tidak,Risiko Rendah,30–44,Tidak Ada
+P1104,67,Laki-laki,Tidak,Tidak,Ya,Tidak,Ya,Miopia Sedang/Berat,Jangka Panjang,Risiko Tinggi,60+,HT Saja
+P1105,53,Laki-laki,Ya,Ya,Ya,Ya,Ya,Miopia Sedang/Berat,Jangka Panjang,Risiko Tinggi,45–59,Riwayat + DM + HT
+P1106,65,Perempuan,Ya,Tidak,Ya,Tidak,Ya,Miopia Sedang/Berat,Jangka Pendek,Risiko Tinggi,60+,Riwayat + HT
+P1107,41,Perempuan,Tidak,Tidak,Tidak,Ya,Tidak,Tidak Ada,Tidak,Risiko Rendah,30–44,Tidak Ada
+P1108,26,Laki-laki,Tidak,Tidak,Tidak,Tidak,Tidak,Hipermetropia Ringan,Jangka Pendek,Risiko Rendah,< 30,Tidak Ada
+P1109,47,Perempuan,Tidak,Tidak,Ya,Tidak,Tidak,Tidak Ada,Tidak,Risiko Rendah,45–59,HT Saja
+P1110,49,Laki-laki,Ya,Tidak,Ya,Tidak,Tidak,Miopia Ringan,Tidak,Risiko Sedang,45–59,Riwayat + HT
+P1111,22,Perempuan,Tidak,Tidak,Tidak,Tidak,Tidak,Tidak Ada,Jangka Pendek,Risiko Rendah,< 30,Tidak Ada
+P1112,68,Perempuan,Ya,Ya,Ya,Ya,Ya,Miopia Ringan,Jangka Pendek,Risiko Tinggi,60+,Riwayat + DM + HT
+P1113,65,Perempuan,Tidak,Tidak,Tidak,Ya,Tidak,Hipermetropia Sedang/Berat,Tidak,Risiko Sedang,60+,Tidak Ada
+P1114,63,Perempuan,Tidak,Tidak,Tidak,Ya,Tidak,Miopia Ringan,Jangka Pendek,Risiko Sedang,60+,Tidak Ada
+P1115,63,Laki-laki,Tidak,Tidak,Tidak,Tidak,Ya,Miopia Sedang/Berat,Jangka Pendek,Risiko Sedang,60+,Tidak Ada
+P1116,64,Perempuan,Ya,Tidak,Tidak,Ya,Tidak,Hipermetropia Sedang/Berat,Tidak,Risiko Sedang,60+,Riwayat Saja
+P1117,79,Perempuan,Ya,Ya,Tidak,Ya,Tidak,Miopia Sedang/Berat,Jangka Panjang,Risiko Tinggi,60+,Riwayat + DM
+P1118,51,Laki-laki,Tidak,Tidak,Tidak,Tidak,Tidak,Miopia Sedang/Berat,Jangka Pendek,Risiko Sedang,45–59,Tidak Ada
+P1119,21,Perempuan,Tidak,Tidak,Tidak,Tidak,Tidak,Hipermetropia Ringan,Tidak,Risiko Rendah,< 30,Tidak Ada
+P1120,66,Laki-laki,Tidak,Ya,Tidak,Ya,Ya,Tidak Ada,Jangka Pendek,Risiko Sedang,60+,DM Saja
+P1121,40,Laki-laki,Tidak,Tidak,Ya,Tidak,Tidak,Tidak Ada,Tidak,Risiko Rendah,30–44,HT Saja
+P1122,37,Laki-laki,Ya,Tidak,Ya,Tidak,Tidak,Miopia Ringan,Jangka Pendek,Risiko Sedang,30–44,Riwayat + HT
+P1123,69,Laki-laki,Ya,Tidak,Ya,Ya,Ya,Miopia Sedang/Berat,Jangka Pendek,Risiko Tinggi,60+,Riwayat + HT
+P1124,52,Perempuan,Ya,Ya,Ya,Tidak,Tidak,Miopia Sedang/Berat,Jangka Panjang,Risiko Tinggi,45–59,Riwayat + DM + HT
+P1125,77,Laki-laki,Ya,Tidak,Tidak,Ya,Ya,Miopia Sedang/Berat,Jangka Panjang,Risiko Tinggi,60+,Riwayat Saja
+P1126,27,Laki-laki,Tidak,Tidak,Tidak,Tidak,Tidak,Tidak Ada,Jangka Pendek,Risiko Rendah,< 30,Tidak Ada
+P1127,80,Perempuan,Tidak,Tidak,Ya,Ya,Ya,Miopia Sedang/Berat,Jangka Pendek,Risiko Tinggi,60+,HT Saja
+P1128,23,Perempuan,Tidak,Tidak,Tidak,Tidak,Tidak,Tidak Ada,Jangka Pendek,Risiko Rendah,< 30,Tidak Ada
+P1129,50,Perempuan,Ya,Ya,Ya,Tidak,Tidak,Hipermetropia Sedang/Berat,Jangka Pendek,Risiko Sedang,45–59,Riwayat + DM + HT
+P1130,84,Laki-laki,Ya,Ya,Ya,Tidak,Ya,Miopia Sedang/Berat,Jangka Panjang,Risiko Tinggi,60+,Riwayat + DM + HT
+P1131,43,Laki-laki,Ya,Tidak,Tidak,Tidak,Tidak,Miopia Sedang/Berat,Tidak,Risiko Sedang,30–44,Riwayat Saja
+P1132,39,Perempuan,Tidak,Tidak,Tidak,Tidak,Tidak,Tidak Ada,Tidak,Risiko Rendah,30–44,Tidak Ada
+P1133,38,Perempuan,Ya,Tidak,Tidak,Tidak,Tidak,Tidak Ada,Tidak,Risiko Rendah,30–44,Riwayat Saja
+P1134,47,Laki-laki,Tidak,Tidak,Tidak,Tidak,Tidak,Miopia Ringan,Tidak,Risiko Rendah,45–59,Tidak Ada
+P1135,50,Perempuan,Tidak,Ya,Ya,Tidak,Tidak,Miopia Sedang/Berat,Jangka Pendek,Risiko Sedang,45–59,DM + HT
+P1136,55,Laki-laki,Ya,Ya,Ya,Tidak,Ya,Miopia Ringan,Jangka Pendek,Risiko Sedang,45–59,Riwayat + DM + HT
+P1137,28,Perempuan,Tidak,Tidak,Ya,Tidak,Tidak,Tidak Ada,Jangka Pendek,Risiko Rendah,< 30,HT Saja
+P1138,65,Laki-laki,Tidak,Tidak,Ya,Tidak,Tidak,Miopia Sedang/Berat,Tidak,Risiko Sedang,60+,HT Saja
+P1139,35,Perempuan,Tidak,Tidak,Tidak,Tidak,Ya,Tidak Ada,Tidak,Risiko Rendah,30–44,Tidak Ada
+P1140,33,Perempuan,Tidak,Tidak,Ya,Tidak,Tidak,Tidak Ada,Jangka Pendek,Risiko Rendah,30–44,HT Saja
+P1141,48,Perempuan,Tidak,Tidak,Tidak,Tidak,Tidak,Tidak Ada,Tidak,Risiko Rendah,45–59,Tidak Ada
+P1142,69,Laki-laki,Ya,Tidak,Tidak,Ya,Tidak,Hipermetropia Sedang/Berat,Jangka Panjang,Risiko Tinggi,60+,Riwayat Saja
+P1143,47,Perempuan,Ya,Tidak,Ya,Tidak,Ya,Miopia Ringan,Jangka Panjang,Risiko Sedang,45–59,Riwayat + HT
+P1144,54,Perempuan,Ya,Tidak,Tidak,Tidak,Ya,Miopia Sedang/Berat,Jangka Pendek,Risiko Sedang,45–59,Riwayat Saja
+P1145,83,Laki-laki,Ya,Ya,Ya,Ya,Tidak,Miopia Ringan,Jangka Panjang,Risiko Tinggi,60+,Riwayat + DM + HT
+P1146,57,Perempuan,Tidak,Ya,Ya,Ya,Ya,Miopia Ringan,Jangka Panjang,Risiko Tinggi,45–59,DM + HT
+P1147,65,Laki-laki,Tidak,Tidak,Tidak,Tidak,Tidak,Hipermetropia Sedang/Berat,Jangka Pendek,Risiko Sedang,60+,Tidak Ada
+P1148,68,Perempuan,Tidak,Tidak,Ya,Ya,Tidak,Miopia Ringan,Tidak,Risiko Sedang,60+,HT Saja
+P1149,45,Laki-laki,Tidak,Tidak,Ya,Tidak,Tidak,Miopia Sedang/Berat,Tidak,Risiko Sedang,30–44,HT Saja
+P1150,26,Laki-laki,Tidak,Tidak,Tidak,Tidak,Tidak,Tidak Ada,Tidak,Risiko Rendah,< 30,Tidak Ada
+P1151,75,Perempuan,Tidak,Ya,Ya,Tidak,Ya,Hipermetropia Sedang/Berat,Jangka Panjang,Risiko Tinggi,60+,DM + HT
+P1152,49,Laki-laki,Tidak,Tidak,Tidak,Ya,Tidak,Hipermetropia Ringan,Jangka Pendek,Risiko Sedang,45–59,Tidak Ada
+P1153,69,Perempuan,Tidak,Tidak,Tidak,Ya,Ya,Hipermetropia Ringan,Jangka Pendek,Risiko Sedang,60+,Tidak Ada
+P1154,45,Perempuan,Tidak,Ya,Ya,Tidak,Tidak,Miopia Sedang/Berat,Jangka Pendek,Risiko Sedang,30–44,DM + HT
+P1155,33,Laki-laki,Tidak,Tidak,Tidak,Tidak,Ya,Miopia Ringan,Tidak,Risiko Rendah,30–44,Tidak Ada
+P1156,66,Laki-laki,Ya,Ya,Ya,Ya,Tidak,Hipermetropia Sedang/Berat,Jangka Panjang,Risiko Tinggi,60+,Riwayat + DM + HT
+P1157,52,Laki-laki,Tidak,Ya,Ya,Tidak,Ya,Miopia Ringan,Tidak,Risiko Sedang,45–59,DM + HT
+P1158,38,Perempuan,Ya,Ya,Ya,Tidak,Tidak,Hipermetropia Ringan,Tidak,Risiko Sedang,30–44,Riwayat + DM + HT
+P1159,38,Laki-laki,Ya,Ya,Ya,Tidak,Ya,Miopia Sedang/Berat,Jangka Pendek,Risiko Sedang,30–44,Riwayat + DM + HT
+P1160,67,Laki-laki,Tidak,Ya,Ya,Ya,Ya,Hipermetropia Sedang/Berat,Jangka Panjang,Risiko Tinggi,60+,DM + HT
+P1161,29,Perempuan,Tidak,Tidak,Tidak,Tidak,Tidak,Tidak Ada,Tidak,Risiko Rendah,< 30,Tidak Ada
+P1162,37,Laki-laki,Tidak,Tidak,Tidak,Tidak,Tidak,Tidak Ada,Tidak,Risiko Rendah,30–44,Tidak Ada
+P1163,85,Perempuan,Ya,Ya,Tidak,Tidak,Ya,Hipermetropia Sedang/Berat,Jangka Pendek,Risiko Tinggi,60+,Riwayat + DM
+P1164,80,Laki-laki,Ya,Ya,Ya,Tidak,Tidak,Miopia Ringan,Jangka Panjang,Risiko Tinggi,60+,Riwayat + DM + HT
+P1165,76,Perempuan,Ya,Ya,Ya,Tidak,Ya,Hipermetropia Sedang/Berat,Jangka Panjang,Risiko Tinggi,60+,Riwayat + DM + HT
+P1166,28,Laki-laki,Tidak,Tidak,Tidak,Tidak,Ya,Tidak Ada,Jangka Pendek,Risiko Rendah,< 30,Tidak Ada
+P1167,42,Laki-laki,Tidak,Tidak,Ya,Tidak,Tidak,Tidak Ada,Tidak,Risiko Rendah,30–44,HT Saja
+P1168,46,Perempuan,Tidak,Tidak,Tidak,Ya,Tidak,Miopia Ringan,Tidak,Risiko Rendah,45–59,Tidak Ada
+P1169,41,Laki-laki,Tidak,Tidak,Tidak,Ya,Tidak,Hipermetropia Ringan,Tidak,Risiko Rendah,30–44,Tidak Ada
+P1170,28,Perempuan,Tidak,Tidak,Tidak,Tidak,Tidak,Tidak Ada,Tidak,Risiko Rendah,< 30,Tidak Ada
+P1171,61,Laki-laki,Ya,Tidak,Tidak,Tidak,Tidak,Hipermetropia Sedang/Berat,Tidak,Risiko Sedang,60+,Riwayat Saja
+P1172,49,Perempuan,Tidak,Tidak,Tidak,Tidak,Tidak,Tidak Ada,Tidak,Risiko Rendah,45–59,Tidak Ada
+P1173,32,Laki-laki,Tidak,Tidak,Tidak,Tidak,Tidak,Hipermetropia Ringan,Tidak,Risiko Rendah,30–44,Tidak Ada
+P1174,74,Perempuan,Ya,Ya,Ya,Ya,Ya,Hipermetropia Sedang/Berat,Jangka Panjang,Risiko Tinggi,60+,Riwayat + DM + HT
+P1175,47,Laki-laki,Tidak,Ya,Ya,Tidak,Tidak,Hipermetropia Sedang/Berat,Tidak,Risiko Sedang,45–59,DM + HT
+P1176,55,Perempuan,Ya,Tidak,Ya,Ya,Ya,Hipermetropia Sedang/Berat,Jangka Panjang,Risiko Tinggi,45–59,Riwayat + HT
+P1177,55,Perempuan,Ya,Tidak,Ya,Ya,Tidak,Hipermetropia Sedang/Berat,Jangka Panjang,Risiko Tinggi,45–59,Riwayat + HT
+P1178,72,Perempuan,Ya,Tidak,Ya,Tidak,Ya,Hipermetropia Sedang/Berat,Jangka Panjang,Risiko Tinggi,60+,Riwayat + HT
+P1179,42,Perempuan,Ya,Tidak,Tidak,Tidak,Ya,Miopia Ringan,Tidak,Risiko Sedang,30–44,Riwayat Saja
+P1180,45,Perempuan,Tidak,Tidak,Tidak,Tidak,Tidak,Tidak Ada,Tidak,Risiko Rendah,30–44,Tidak Ada
+P1181,41,Perempuan,Tidak,Tidak,Ya,Tidak,Tidak,Hipermetropia Ringan,Jangka Pendek,Risiko Sedang,30–44,HT Saja
+P1182,58,Perempuan,Tidak,Tidak,Tidak,Ya,Tidak,Miopia Ringan,Jangka Panjang,Risiko Sedang,45–59,Tidak Ada
+P1183,65,Perempuan,Tidak,Ya,Tidak,Tidak,Tidak,Hipermetropia Sedang/Berat,Tidak,Risiko Sedang,60+,DM Saja
+P1184,67,Laki-laki,Ya,Tidak,Ya,Ya,Ya,Hipermetropia Ringan,Jangka Pendek,Risiko Tinggi,60+,Riwayat + HT
+P1185,57,Laki-laki,Ya,Ya,Ya,Ya,Ya,Miopia Sedang/Berat,Jangka Panjang,Risiko Tinggi,45–59,Riwayat + DM + HT
+P1186,81,Laki-laki,Ya,Ya,Ya,Ya,Tidak,Miopia Ringan,Jangka Panjang,Risiko Tinggi,60+,Riwayat + DM + HT
+P1187,82,Perempuan,Ya,Ya,Ya,Tidak,Ya,Miopia Ringan,Jangka Pendek,Risiko Tinggi,60+,Riwayat + DM + HT
+P1188,20,Perempuan,Tidak,Tidak,Tidak,Tidak,Tidak,Hipermetropia Ringan,Jangka Pendek,Risiko Rendah,< 30,Tidak Ada
+P1189,50,Perempuan,Ya,Ya,Ya,Tidak,Ya,Tidak Ada,Jangka Pendek,Risiko Sedang,45–59,Riwayat + DM + HT
+P1190,46,Perempuan,Ya,Tidak,Ya,Ya,Tidak,Hipermetropia Sedang/Berat,Tidak,Risiko Sedang,45–59,Riwayat + HT
+P1191,74,Perempuan,Ya,Ya,Ya,Ya,Tidak,Hipermetropia Sedang/Berat,Jangka Pendek,Risiko Tinggi,60+,Riwayat + DM + HT
+P1192,57,Perempuan,Tidak,Ya,Tidak,Tidak,Tidak,Hipermetropia Ringan,Jangka Pendek,Risiko Sedang,45–59,DM Saja
+P1193,53,Perempuan,Tidak,Tidak,Ya,Ya,Ya,Miopia Sedang/Berat,Jangka Panjang,Risiko Tinggi,45–59,HT Saja
+P1194,47,Perempuan,Ya,Tidak,Tidak,Tidak,Tidak,Tidak Ada,Tidak,Risiko Rendah,45–59,Riwayat Saja
+P1195,64,Laki-laki,Ya,Tidak,Tidak,Ya,Tidak,Hipermetropia Sedang/Berat,Jangka Panjang,Risiko Tinggi,60+,Riwayat Saja
+P1196,80,Laki-laki,Ya,Tidak,Ya,Tidak,Ya,Miopia Sedang/Berat,Jangka Panjang,Risiko Tinggi,60+,Riwayat + HT
+P1197,43,Laki-laki,Tidak,Tidak,Tidak,Tidak,Tidak,Tidak Ada,Tidak,Risiko Rendah,30–44,Tidak Ada
+P1198,65,Laki-laki,Ya,Ya,Ya,Tidak,Ya,Miopia Sedang/Berat,Jangka Pendek,Risiko Tinggi,60+,Riwayat + DM + HT
+P1199,67,Laki-laki,Tidak,Ya,Ya,Ya,Tidak,Hipermetropia Sedang/Berat,Jangka Pendek,Risiko Tinggi,60+,DM + HT
+P1200,69,Laki-laki,Ya,Tidak,Ya,Tidak,Ya,Miopia Ringan,Tidak,Risiko Sedang,60+,Riwayat + HT
+P1201,71,Laki-laki,Ya,Tidak,Ya,Ya,Tidak,Miopia Sedang/Berat,Jangka Panjang,Risiko Tinggi,60+,Riwayat + HT
+P1202,60,Perempuan,Ya,Tidak,Tidak,Ya,Ya,Miopia Sedang/Berat,Tidak,Risiko Sedang,45–59,Riwayat Saja
+P1203,65,Perempuan,Tidak,Ya,Ya,Ya,Tidak,Hipermetropia Ringan,Tidak,Risiko Sedang,60+,DM + HT
+P1204,31,Perempuan,Tidak,Tidak,Tidak,Tidak,Tidak,Tidak Ada,Tidak,Risiko Rendah,30–44,Tidak Ada
+P1205,23,Perempuan,Ya,Tidak,Tidak,Tidak,Tidak,Tidak Ada,Tidak,Risiko Rendah,< 30,Riwayat Saja
+P1206,37,Perempuan,Tidak,Tidak,Tidak,Tidak,Tidak,Hipermetropia Ringan,Jangka Pendek,Risiko Rendah,30–44,Tidak Ada
+P1207,28,Laki-laki,Tidak,Tidak,Tidak,Ya,Tidak,Hipermetropia Ringan,Tidak,Risiko Rendah,< 30,Tidak Ada
+P1208,29,Laki-laki,Tidak,Tidak,Ya,Tidak,Tidak,Tidak Ada,Tidak,Risiko Rendah,< 30,HT Saja
+P1209,36,Laki-laki,Tidak,Tidak,Ya,Tidak,Tidak,Tidak Ada,Tidak,Risiko Rendah,30–44,HT Saja
+P1210,21,Perempuan,Tidak,Tidak,Tidak,Tidak,Tidak,Tidak Ada,Tidak,Risiko Rendah,< 30,Tidak Ada
+P1211,34,Laki-laki,Tidak,Tidak,Tidak,Tidak,Tidak,Tidak Ada,Jangka Pendek,Risiko Rendah,30–44,Tidak Ada
+P1212,50,Perempuan,Ya,Ya,Ya,Tidak,Ya,Hipermetropia Ringan,Jangka Pendek,Risiko Sedang,45–59,Riwayat + DM + HT
+P1213,38,Perempuan,Tidak,Tidak,Tidak,Tidak,Tidak,Miopia Ringan,Tidak,Risiko Rendah,30–44,Tidak Ada
+P1214,21,Perempuan,Tidak,Ya,Tidak,Tidak,Tidak,Miopia Ringan,Tidak,Risiko Rendah,< 30,DM Saja
+P1215,83,Laki-laki,Tidak,Ya,Ya,Ya,Ya,Miopia Ringan,Jangka Pendek,Risiko Tinggi,60+,DM + HT
+P1216,79,Laki-laki,Ya,Ya,Ya,Tidak,Ya,Hipermetropia Sedang/Berat,Jangka Pendek,Risiko Tinggi,60+,Riwayat + DM + HT
+P1217,77,Laki-laki,Ya,Ya,Ya,Tidak,Ya,Miopia Ringan,Jangka Panjang,Risiko Tinggi,60+,Riwayat + DM + HT
+P1218,66,Laki-laki,Ya,Ya,Ya,Tidak,Ya,Hipermetropia Sedang/Berat,Jangka Panjang,Risiko Tinggi,60+,Riwayat + DM + HT
+P1219,45,Laki-laki,Tidak,Tidak,Tidak,Tidak,Tidak,Tidak Ada,Tidak,Risiko Rendah,30–44,Tidak Ada
+P1220,63,Laki-laki,Tidak,Tidak,Tidak,Tidak,Tidak,Miopia Ringan,Jangka Panjang,Risiko Sedang,60+,Tidak Ada
+P1221,39,Laki-laki,Tidak,Tidak,Ya,Ya,Ya,Miopia Ringan,Jangka Pendek,Risiko Sedang,30–44,HT Saja
+P1222,69,Perempuan,Tidak,Tidak,Tidak,Tidak,Tidak,Miopia Sedang/Berat,Tidak,Risiko Sedang,60+,Tidak Ada
+P1223,44,Laki-laki,Ya,Tidak,Tidak,Ya,Tidak,Hipermetropia Sedang/Berat,Tidak,Risiko Sedang,30–44,Riwayat Saja
+P1224,70,Laki-laki,Tidak,Ya,Ya,Tidak,Ya,Hipermetropia Ringan,Jangka Panjang,Risiko Tinggi,60+,DM + HT
+P1225,60,Laki-laki,Ya,Ya,Ya,Ya,Tidak,Hipermetropia Ringan,Jangka Panjang,Risiko Tinggi,45–59,Riwayat + DM + HT
+P1226,62,Perempuan,Ya,Tidak,Ya,Tidak,Tidak,Hipermetropia Ringan,Tidak,Risiko Sedang,60+,Riwayat + HT
+P1227,78,Laki-laki,Tidak,Ya,Ya,Tidak,Tidak,Hipermetropia Sedang/Berat,Jangka Panjang,Risiko Tinggi,60+,DM + HT
+P1228,54,Perempuan,Tidak,Tidak,Tidak,Tidak,Ya,Hipermetropia Ringan,Jangka Pendek,Risiko Sedang,45–59,Tidak Ada
+P1229,46,Perempuan,Tidak,Tidak,Ya,Ya,Tidak,Miopia Ringan,Jangka Pendek,Risiko Sedang,45–59,HT Saja
+P1230,52,Laki-laki,Ya,Ya,Tidak,Ya,Tidak,Hipermetropia Sedang/Berat,Jangka Panjang,Risiko Tinggi,45–59,Riwayat + DM
+P1231,33,Laki-laki,Tidak,Tidak,Tidak,Tidak,Ya,Tidak Ada,Tidak,Risiko Rendah,30–44,Tidak Ada
+P1232,62,Laki-laki,Ya,Tidak,Tidak,Tidak,Tidak,Hipermetropia Ringan,Tidak,Risiko Sedang,60+,Riwayat Saja
+P1233,30,Laki-laki,Tidak,Tidak,Tidak,Tidak,Tidak,Tidak Ada,Tidak,Risiko Rendah,< 30,Tidak Ada
+P1234,38,Laki-laki,Tidak,Tidak,Tidak,Tidak,Tidak,Hipermetropia Ringan,Tidak,Risiko Rendah,30–44,Tidak Ada
+P1235,62,Perempuan,Tidak,Tidak,Tidak,Ya,Tidak,Hipermetropia Sedang/Berat,Jangka Pendek,Risiko Sedang,60+,Tidak Ada
+P1236,46,Perempuan,Tidak,Tidak,Tidak,Tidak,Tidak,Tidak Ada,Tidak,Risiko Rendah,45–59,Tidak Ada
+P1237,73,Perempuan,Ya,Ya,Tidak,Ya,Tidak,Hipermetropia Ringan,Jangka Panjang,Risiko Tinggi,60+,Riwayat + DM
+P1238,46,Laki-laki,Tidak,Tidak,Tidak,Ya,Ya,Tidak Ada,Jangka Pendek,Risiko Sedang,45–59,Tidak Ada
+P1239,47,Perempuan,Tidak,Ya,Ya,Tidak,Tidak,Miopia Ringan,Jangka Panjang,Risiko Sedang,45–59,DM + HT
+P1240,55,Perempuan,Ya,Ya,Ya,Ya,Tidak,Hipermetropia Ringan,Jangka Panjang,Risiko Tinggi,45–59,Riwayat + DM + HT
+P1241,24,Perempuan,Tidak,Tidak,Tidak,Ya,Tidak,Tidak Ada,Tidak,Risiko Rendah,< 30,Tidak Ada
+P1242,29,Perempuan,Ya,Tidak,Tidak,Tidak,Tidak,Tidak Ada,Tidak,Risiko Rendah,< 30,Riwayat Saja
+P1243,45,Laki-laki,Tidak,Tidak,Ya,Tidak,Ya,Hipermetropia Ringan,Jangka Pendek,Risiko Sedang,30–44,HT Saja
+P1244,41,Perempuan,Tidak,Ya,Ya,Tidak,Ya,Miopia Ringan,Jangka Pendek,Risiko Sedang,30–44,DM + HT
+P1245,21,Laki-laki,Ya,Ya,Tidak,Tidak,Tidak,Tidak Ada,Tidak,Risiko Rendah,< 30,Riwayat + DM
+P1246,38,Laki-laki,Tidak,Tidak,Tidak,Tidak,Tidak,Miopia Ringan,Jangka Pendek,Risiko Rendah,30–44,Tidak Ada
+P1247,68,Laki-laki,Tidak,Ya,Ya,Tidak,Tidak,Hipermetropia Ringan,Tidak,Risiko Sedang,60+,DM + HT
+P1248,58,Laki-laki,Ya,Tidak,Ya,Tidak,Ya,Hipermetropia Sedang/Berat,Jangka Pendek,Risiko Sedang,45–59,Riwayat + HT
+P1249,37,Perempuan,Ya,Tidak,Tidak,Ya,Ya,Tidak Ada,Jangka Pendek,Risiko Sedang,30–44,Riwayat Saja
+P1250,80,Laki-laki,Ya,Ya,Ya,Tidak,Ya,Hipermetropia Ringan,Jangka Pendek,Risiko Tinggi,60+,Riwayat + DM + HT
+P1251,51,Laki-laki,Tidak,Ya,Ya,Ya,Tidak,Hipermetropia Sedang/Berat,Jangka Panjang,Risiko Tinggi,45–59,DM + HT
+P1252,30,Laki-laki,Ya,Tidak,Tidak,Tidak,Tidak,Miopia Ringan,Tidak,Risiko Rendah,< 30,Riwayat Saja
+P1253,41,Laki-laki,Ya,Ya,Ya,Tidak,Tidak,Tidak Ada,Jangka Pendek,Risiko Sedang,30–44,Riwayat + DM + HT
+P1254,66,Perempuan,Ya,Ya,Ya,Ya,Ya,Hipermetropia Sedang/Berat,Jangka Pendek,Risiko Tinggi,60+,Riwayat + DM + HT
+P1255,42,Perempuan,Tidak,Tidak,Tidak,Tidak,Tidak,Tidak Ada,Tidak,Risiko Rendah,30–44,Tidak Ada
+P1256,60,Laki-laki,Ya,Tidak,Ya,Ya,Ya,Miopia Sedang/Berat,Jangka Pendek,Risiko Tinggi,45–59,Riwayat + HT
+P1257,78,Laki-laki,Ya,Ya,Tidak,Tidak,Tidak,Miopia Sedang/Berat,Jangka Panjang,Risiko Tinggi,60+,Riwayat + DM
+P1258,37,Perempuan,Tidak,Tidak,Tidak,Tidak,Tidak,Tidak Ada,Jangka Pendek,Risiko Rendah,30–44,Tidak Ada
+P1259,67,Perempuan,Ya,Tidak,Tidak,Tidak,Tidak,Miopia Sedang/Berat,Jangka Pendek,Risiko Sedang,60+,Riwayat Saja
+P1260,54,Laki-laki,Tidak,Ya,Ya,Tidak,Tidak,Miopia Sedang/Berat,Tidak,Risiko Sedang,45–59,DM + HT
+P1261,77,Laki-laki,Ya,Ya,Tidak,Tidak,Ya,Hipermetropia Ringan,Jangka Panjang,Risiko Tinggi,60+,Riwayat + DM
+P1262,42,Laki-laki,Ya,Tidak,Tidak,Tidak,Tidak,Miopia Ringan,Jangka Panjang,Risiko Sedang,30–44,Riwayat Saja
+P1263,65,Laki-laki,Tidak,Tidak,Ya,Tidak,Tidak,Hipermetropia Ringan,Tidak,Risiko Sedang,60+,HT Saja
+P1264,43,Perempuan,Tidak,Tidak,Tidak,Tidak,Tidak,Tidak Ada,Tidak,Risiko Rendah,30–44,Tidak Ada
+P1265,25,Perempuan,Tidak,Ya,Tidak,Tidak,Tidak,Tidak Ada,Jangka Pendek,Risiko Rendah,< 30,DM Saja
+P1266,47,Perempuan,Ya,Tidak,Tidak,Tidak,Tidak,Miopia Ringan,Tidak,Risiko Rendah,45–59,Riwayat Saja
+P1267,52,Laki-laki,Tidak,Tidak,Ya,Tidak,Tidak,Miopia Sedang/Berat,Jangka Panjang,Risiko Sedang,45–59,HT Saja
+P1268,69,Perempuan,Ya,Tidak,Tidak,Tidak,Ya,Hipermetropia Sedang/Berat,Jangka Pendek,Risiko Sedang,60+,Riwayat Saja
+P1269,79,Laki-laki,Ya,Tidak,Ya,Ya,Tidak,Miopia Sedang/Berat,Jangka Panjang,Risiko Tinggi,60+,Riwayat + HT
+P1270,64,Perempuan,Ya,Tidak,Ya,Tidak,Ya,Miopia Ringan,Jangka Panjang,Risiko Tinggi,60+,Riwayat + HT
+P1271,50,Laki-laki,Ya,Tidak,Tidak,Tidak,Tidak,Hipermetropia Ringan,Jangka Pendek,Risiko Sedang,45–59,Riwayat Saja
+P1272,85,Perempuan,Tidak,Ya,Ya,Ya,Ya,Hipermetropia Ringan,Jangka Pendek,Risiko Tinggi,60+,DM + HT
+P1273,21,Perempuan,Tidak,Tidak,Tidak,Tidak,Tidak,Miopia Ringan,Tidak,Risiko Rendah,< 30,Tidak Ada
+P1274,73,Laki-laki,Ya,Ya,Ya,Ya,Ya,Miopia Ringan,Jangka Pendek,Risiko Tinggi,60+,Riwayat + DM + HT
+P1275,45,Laki-laki,Tidak,Ya,Ya,Tidak,Ya,Tidak Ada,Jangka Pendek,Risiko Sedang,30–44,DM + HT
+P1276,74,Perempuan,Ya,Ya,Ya,Ya,Tidak,Miopia Sedang/Berat,Jangka Panjang,Risiko Tinggi,60+,Riwayat + DM + HT
+P1277,26,Laki-laki,Tidak,Tidak,Ya,Tidak,Tidak,Miopia Ringan,Tidak,Risiko Rendah,< 30,HT Saja
+P1278,25,Perempuan,Tidak,Tidak,Tidak,Tidak,Tidak,Tidak Ada,Tidak,Risiko Rendah,< 30,Tidak Ada
+P1279,52,Laki-laki,Ya,Ya,Ya,Ya,Ya,Miopia Sedang/Berat,Jangka Pendek,Risiko Tinggi,45–59,Riwayat + DM + HT
+P1280,85,Perempuan,Tidak,Ya,Ya,Ya,Ya,Hipermetropia Ringan,Jangka Panjang,Risiko Tinggi,60+,DM + HT
+P1281,50,Laki-laki,Tidak,Ya,Ya,Ya,Tidak,Miopia Sedang/Berat,Jangka Panjang,Risiko Tinggi,45–59,DM + HT
+P1282,77,Perempuan,Tidak,Ya,Ya,Ya,Tidak,Miopia Sedang/Berat,Jangka Panjang,Risiko Tinggi,60+,DM + HT
+P1283,67,Perempuan,Ya,Ya,Ya,Ya,Tidak,Hipermetropia Sedang/Berat,Jangka Panjang,Risiko Tinggi,60+,Riwayat + DM + HT
+P1284,59,Laki-laki,Tidak,Ya,Ya,Tidak,Ya,Tidak Ada,Jangka Panjang,Risiko Sedang,45–59,DM + HT
+P1285,70,Perempuan,Tidak,Ya,Ya,Tidak,Ya,Miopia Sedang/Berat,Jangka Pendek,Risiko Tinggi,60+,DM + HT
+P1286,40,Perempuan,Tidak,Tidak,Tidak,Ya,Tidak,Miopia Ringan,Jangka Pendek,Risiko Sedang,30–44,Tidak Ada
+P1287,55,Laki-laki,Tidak,Tidak,Ya,Ya,Tidak,Hipermetropia Ringan,Jangka Panjang,Risiko Sedang,45–59,HT Saja
+P1288,42,Perempuan,Tidak,Tidak,Tidak,Tidak,Tidak,Tidak Ada,Tidak,Risiko Rendah,30–44,Tidak Ada
+P1289,33,Laki-laki,Tidak,Tidak,Tidak,Tidak,Tidak,Hipermetropia Ringan,Jangka Pendek,Risiko Rendah,30–44,Tidak Ada
+P1290,35,Perempuan,Ya,Tidak,Ya,Tidak,Tidak,Hipermetropia Sedang/Berat,Tidak,Risiko Sedang,30–44,Riwayat + HT
+P1291,42,Laki-laki,Tidak,Tidak,Tidak,Tidak,Tidak,Tidak Ada,Tidak,Risiko Rendah,30–44,Tidak Ada
+P1292,20,Laki-laki,Tidak,Tidak,Tidak,Tidak,Tidak,Tidak Ada,Tidak,Risiko Rendah,< 30,Tidak Ada
+P1293,58,Laki-laki,Tidak,Tidak,Ya,Ya,Ya,Miopia Sedang/Berat,Jangka Panjang,Risiko Tinggi,45–59,HT Saja
+P1294,36,Laki-laki,Ya,Tidak,Tidak,Tidak,Tidak,Tidak Ada,Tidak,Risiko Rendah,30–44,Riwayat Saja
+P1295,60,Perempuan,Tidak,Tidak,Ya,Tidak,Ya,Miopia Sedang/Berat,Jangka Pendek,Risiko Sedang,45–59,HT Saja
+P1296,78,Perempuan,Tidak,Ya,Tidak,Tidak,Ya,Hipermetropia Sedang/Berat,Jangka Panjang,Risiko Tinggi,60+,DM Saja
+P1297,65,Perempuan,Tidak,Tidak,Tidak,Tidak,Ya,Miopia Ringan,Tidak,Risiko Sedang,60+,Tidak Ada
+P1298,27,Laki-laki,Tidak,Tidak,Tidak,Tidak,Tidak,Miopia Ringan,Tidak,Risiko Rendah,< 30,Tidak Ada
+P1299,75,Perempuan,Ya,Ya,Tidak,Ya,Tidak,Hipermetropia Ringan,Jangka Panjang,Risiko Tinggi,60+,Riwayat + DM
+P1300,67,Perempuan,Tidak,Tidak,Tidak,Tidak,Tidak,Hipermetropia Sedang/Berat,Jangka Panjang,Risiko Sedang,60+,Tidak Ada
+P1301,44,Perempuan,Tidak,Tidak,Tidak,Tidak,Ya,Tidak Ada,Tidak,Risiko Rendah,30–44,Tidak Ada
+P1302,71,Perempuan,Ya,Ya,Tidak,Tidak,Tidak,Hipermetropia Sedang/Berat,Jangka Panjang,Risiko Tinggi,60+,Riwayat + DM
+P1303,59,Perempuan,Tidak,Ya,Ya,Ya,Tidak,Hipermetropia Ringan,Jangka Pendek,Risiko Sedang,45–59,DM + HT
+P1304,48,Perempuan,Tidak,Tidak,Ya,Tidak,Ya,Miopia Sedang/Berat,Tidak,Risiko Sedang,45–59,HT Saja
+P1305,44,Laki-laki,Tidak,Tidak,Ya,Ya,Tidak,Hipermetropia Ringan,Jangka Pendek,Risiko Sedang,30–44,HT Saja
+P1306,84,Perempuan,Ya,Ya,Ya,Tidak,Ya,Hipermetropia Sedang/Berat,Jangka Panjang,Risiko Tinggi,60+,Riwayat + DM + HT
+P1307,63,Perempuan,Tidak,Tidak,Ya,Tidak,Tidak,Miopia Ringan,Jangka Panjang,Risiko Sedang,60+,HT Saja
+P1308,65,Laki-laki,Ya,Tidak,Tidak,Ya,Tidak,Hipermetropia Sedang/Berat,Jangka Panjang,Risiko Tinggi,60+,Riwayat Saja
+P1309,84,Perempuan,Ya,Ya,Ya,Ya,Ya,Miopia Sedang/Berat,Jangka Pendek,Risiko Tinggi,60+,Riwayat + DM + HT
+P1310,53,Perempuan,Ya,Tidak,Tidak,Tidak,Tidak,Hipermetropia Sedang/Berat,Tidak,Risiko Sedang,45–59,Riwayat Saja
+P1311,76,Perempuan,Tidak,Tidak,Ya,Ya,Tidak,Hipermetropia Sedang/Berat,Jangka Panjang,Risiko Tinggi,60+,HT Saja
+P1312,69,Laki-laki,Tidak,Tidak,Tidak,Tidak,Tidak,Hipermetropia Ringan,Jangka Panjang,Risiko Sedang,60+,Tidak Ada
+P1313,39,Laki-laki,Tidak,Tidak,Ya,Tidak,Tidak,Hipermetropia Sedang/Berat,Jangka Panjang,Risiko Sedang,30–44,HT Saja
+P1314,61,Perempuan,Ya,Ya,Tidak,Ya,Ya,Miopia Sedang/Berat,Jangka Panjang,Risiko Tinggi,60+,Riwayat + DM
+P1315,58,Perempuan,Tidak,Tidak,Ya,Tidak,Ya,Hipermetropia Ringan,Jangka Panjang,Risiko Sedang,45–59,HT Saja
+P1316,63,Laki-laki,Ya,Tidak,Ya,Ya,Ya,Hipermetropia Sedang/Berat,Jangka Pendek,Risiko Tinggi,60+,Riwayat + HT
+P1317,21,Laki-laki,Tidak,Tidak,Tidak,Tidak,Tidak,Tidak Ada,Tidak,Risiko Rendah,< 30,Tidak Ada
+P1318,31,Perempuan,Tidak,Tidak,Ya,Tidak,Tidak,Tidak Ada,Tidak,Risiko Rendah,30–44,HT Saja
+P1319,69,Laki-laki,Ya,Tidak,Ya,Tidak,Tidak,Hipermetropia Ringan,Tidak,Risiko Sedang,60+,Riwayat + HT
+P1320,42,Laki-laki,Tidak,Tidak,Tidak,Tidak,Tidak,Miopia Ringan,Tidak,Risiko Rendah,30–44,Tidak Ada
+P1321,40,Laki-laki,Tidak,Tidak,Tidak,Ya,Tidak,Miopia Sedang/Berat,Jangka Pendek,Risiko Sedang,30–44,Tidak Ada
+P1322,24,Perempuan,Tidak,Tidak,Tidak,Tidak,Tidak,Miopia Ringan,Tidak,Risiko Rendah,< 30,Tidak Ada
+P1323,56,Laki-laki,Tidak,Tidak,Tidak,Tidak,Tidak,Hipermetropia Sedang/Berat,Jangka Pendek,Risiko Sedang,45–59,Tidak Ada
+P1324,35,Laki-laki,Tidak,Tidak,Tidak,Tidak,Tidak,Tidak Ada,Tidak,Risiko Rendah,30–44,Tidak Ada
+P1325,46,Perempuan,Tidak,Tidak,Tidak,Tidak,Tidak,Tidak Ada,Tidak,Risiko Rendah,45–59,Tidak Ada
+P1326,48,Perempuan,Tidak,Tidak,Tidak,Tidak,Tidak,Tidak Ada,Tidak,Risiko Rendah,45–59,Tidak Ada
+P1327,84,Perempuan,Ya,Ya,Ya,Tidak,Ya,Miopia Ringan,Jangka Panjang,Risiko Tinggi,60+,Riwayat + DM + HT
+P1328,70,Laki-laki,Tidak,Tidak,Ya,Tidak,Ya,Miopia Sedang/Berat,Jangka Panjang,Risiko Tinggi,60+,HT Saja
+P1329,51,Perempuan,Ya,Tidak,Ya,Tidak,Ya,Miopia Sedang/Berat,Jangka Panjang,Risiko Tinggi,45–59,Riwayat + HT
+P1330,70,Perempuan,Ya,Tidak,Ya,Ya,Tidak,Miopia Sedang/Berat,Jangka Panjang,Risiko Tinggi,60+,Riwayat + HT
+P1331,33,Laki-laki,Tidak,Tidak,Tidak,Tidak,Tidak,Tidak Ada,Tidak,Risiko Rendah,30–44,Tidak Ada
+P1332,23,Laki-laki,Tidak,Tidak,Tidak,Tidak,Tidak,Tidak Ada,Tidak,Risiko Rendah,< 30,Tidak Ada
+P1333,39,Laki-laki,Tidak,Tidak,Tidak,Tidak,Tidak,Miopia Ringan,Tidak,Risiko Rendah,30–44,Tidak Ada
+P1334,49,Laki-laki,Tidak,Tidak,Tidak,Tidak,Tidak,Miopia Ringan,Jangka Pendek,Risiko Rendah,45–59,Tidak Ada
+P1335,79,Laki-laki,Ya,Tidak,Ya,Tidak,Tidak,Hipermetropia Sedang/Berat,Jangka Panjang,Risiko Tinggi,60+,Riwayat + HT
+P1336,48,Laki-laki,Tidak,Ya,Ya,Tidak,Tidak,Miopia Ringan,Jangka Pendek,Risiko Sedang,45–59,DM + HT
+P1337,20,Laki-laki,Tidak,Tidak,Tidak,Tidak,Tidak,Miopia Ringan,Jangka Pendek,Risiko Rendah,< 30,Tidak Ada
+P1338,60,Perempuan,Tidak,Ya,Ya,Tidak,Ya,Miopia Ringan,Jangka Panjang,Risiko Tinggi,45–59,DM + HT
+P1339,65,Laki-laki,Tidak,Tidak,Ya,Tidak,Tidak,Hipermetropia Ringan,Jangka Pendek,Risiko Sedang,60+,HT Saja
+P1340,42,Laki-laki,Ya,Ya,Ya,Ya,Ya,Tidak Ada,Jangka Pendek,Risiko Sedang,30–44,Riwayat + DM + HT
+P1341,49,Perempuan,Tidak,Tidak,Tidak,Tidak,Tidak,Hipermetropia Ringan,Tidak,Risiko Rendah,45–59,Tidak Ada
+P1342,40,Laki-laki,Tidak,Ya,Ya,Tidak,Tidak,Tidak Ada,Tidak,Risiko Rendah,30–44,DM + HT
+P1343,47,Perempuan,Ya,Tidak,Ya,Tidak,Tidak,Hipermetropia Sedang/Berat,Jangka Pendek,Risiko Sedang,45–59,Riwayat + HT
+P1344,56,Perempuan,Ya,Tidak,Tidak,Tidak,Tidak,Hipermetropia Sedang/Berat,Jangka Pendek,Risiko Sedang,45–59,Riwayat Saja
+P1345,42,Perempuan,Ya,Tidak,Ya,Tidak,Tidak,Miopia Ringan,Tidak,Risiko Sedang,30–44,Riwayat + HT
+P1346,45,Laki-laki,Tidak,Ya,Tidak,Tidak,Tidak,Tidak Ada,Tidak,Risiko Rendah,30–44,DM Saja
+P1347,74,Laki-laki,Ya,Ya,Ya,Ya,Tidak,Hipermetropia Sedang/Berat,Jangka Panjang,Risiko Tinggi,60+,Riwayat + DM + HT
+P1348,50,Laki-laki,Ya,Ya,Tidak,Ya,Ya,Hipermetropia Sedang/Berat,Jangka Pendek,Risiko Tinggi,45–59,Riwayat + DM
+P1349,32,Perempuan,Ya,Ya,Tidak,Tidak,Tidak,Miopia Ringan,Tidak,Risiko Rendah,30–44,Riwayat + DM
+P1350,71,Laki-laki,Ya,Ya,Ya,Ya,Tidak,Hipermetropia Sedang/Berat,Jangka Pendek,Risiko Tinggi,60+,Riwayat + DM + HT
+P1351,37,Perempuan,Tidak,Tidak,Tidak,Tidak,Tidak,Miopia Ringan,Tidak,Risiko Rendah,30–44,Tidak Ada
+P1352,58,Laki-laki,Ya,Ya,Ya,Ya,Ya,Tidak Ada,Jangka Pendek,Risiko Sedang,45–59,Riwayat + DM + HT
+P1353,36,Laki-laki,Tidak,Tidak,Tidak,Ya,Tidak,Hipermetropia Ringan,Jangka Panjang,Risiko Sedang,30–44,Tidak Ada
+P1354,38,Perempuan,Ya,Tidak,Tidak,Tidak,Tidak,Miopia Ringan,Tidak,Risiko Rendah,30–44,Riwayat Saja
+P1355,76,Perempuan,Ya,Ya,Ya,Tidak,Ya,Miopia Sedang/Berat,Jangka Panjang,Risiko Tinggi,60+,Riwayat + DM + HT
+P1356,52,Laki-laki,Ya,Tidak,Tidak,Ya,Tidak,Hipermetropia Sedang/Berat,Tidak,Risiko Sedang,45–59,Riwayat Saja
+P1357,82,Laki-laki,Ya,Tidak,Tidak,Tidak,Ya,Hipermetropia Sedang/Berat,Jangka Panjang,Risiko Tinggi,60+,Riwayat Saja
+P1358,44,Perempuan,Tidak,Ya,Ya,Tidak,Tidak,Hipermetropia Ringan,Jangka Panjang,Risiko Sedang,30–44,DM + HT
+P1359,50,Perempuan,Tidak,Tidak,Tidak,Tidak,Tidak,Miopia Sedang/Berat,Jangka Pendek,Risiko Sedang,45–59,Tidak Ada
+P1360,40,Laki-laki,Tidak,Tidak,Tidak,Tidak,Ya,Tidak Ada,Tidak,Risiko Rendah,30–44,Tidak Ada
+P1361,75,Perempuan,Ya,Ya,Tidak,Ya,Tidak,Hipermetropia Sedang/Berat,Jangka Panjang,Risiko Tinggi,60+,Riwayat + DM
+P1362,68,Laki-laki,Ya,Tidak,Ya,Tidak,Tidak,Hipermetropia Sedang/Berat,Jangka Panjang,Risiko Tinggi,60+,Riwayat + HT
+P1363,47,Laki-laki,Tidak,Tidak,Tidak,Tidak,Tidak,Tidak Ada,Tidak,Risiko Rendah,45–59,Tidak Ada
+P1364,67,Laki-laki,Ya,Tidak,Ya,Tidak,Ya,Hipermetropia Ringan,Jangka Panjang,Risiko Tinggi,60+,Riwayat + HT
+P1365,60,Perempuan,Ya,Tidak,Tidak,Tidak,Tidak,Miopia Ringan,Tidak,Risiko Sedang,45–59,Riwayat Saja
+P1366,75,Laki-laki,Ya,Ya,Ya,Ya,Tidak,Miopia Ringan,Jangka Panjang,Risiko Tinggi,60+,Riwayat + DM + HT
+P1367,57,Perempuan,Ya,Ya,Ya,Tidak,Ya,Tidak Ada,Jangka Panjang,Risiko Sedang,45–59,Riwayat + DM + HT
+P1368,67,Perempuan,Ya,Tidak,Tidak,Ya,Ya,Tidak Ada,Jangka Panjang,Risiko Sedang,60+,Riwayat Saja
+P1369,47,Laki-laki,Tidak,Tidak,Tidak,Tidak,Tidak,Hipermetropia Ringan,Tidak,Risiko Rendah,45–59,Tidak Ada
+P1370,60,Laki-laki,Tidak,Ya,Ya,Tidak,Tidak,Miopia Sedang/Berat,Jangka Pendek,Risiko Sedang,45–59,DM + HT
+P1371,76,Perempuan,Ya,Tidak,Tidak,Ya,Ya,Miopia Sedang/Berat,Jangka Pendek,Risiko Tinggi,60+,Riwayat Saja
+P1372,27,Laki-laki,Tidak,Tidak,Tidak,Tidak,Tidak,Tidak Ada,Tidak,Risiko Rendah,< 30,Tidak Ada
+P1373,61,Laki-laki,Ya,Ya,Ya,Tidak,Tidak,Miopia Sedang/Berat,Jangka Pendek,Risiko Tinggi,60+,Riwayat + DM + HT
+P1374,52,Perempuan,Tidak,Tidak,Tidak,Tidak,Ya,Miopia Ringan,Jangka Panjang,Risiko Sedang,45–59,Tidak Ada
+P1375,25,Perempuan,Tidak,Tidak,Tidak,Tidak,Tidak,Tidak Ada,Tidak,Risiko Rendah,< 30,Tidak Ada
+P1376,25,Laki-laki,Tidak,Ya,Ya,Tidak,Tidak,Tidak Ada,Tidak,Risiko Rendah,< 30,DM + HT
+P1377,44,Laki-laki,Ya,Ya,Ya,Tidak,Ya,Tidak Ada,Tidak,Risiko Sedang,30–44,Riwayat + DM + HT
+P1378,67,Perempuan,Tidak,Ya,Ya,Tidak,Tidak,Miopia Ringan,Jangka Panjang,Risiko Sedang,60+,DM + HT
+P1379,49,Perempuan,Ya,Ya,Tidak,Ya,Tidak,Tidak Ada,Jangka Pendek,Risiko Sedang,45–59,Riwayat + DM
+P1380,50,Perempuan,Ya,Ya,Ya,Tidak,Ya,Miopia Sedang/Berat,Jangka Pendek,Risiko Tinggi,45–59,Riwayat + DM + HT
+P1381,49,Laki-laki,Tidak,Tidak,Ya,Tidak,Tidak,Hipermetropia Ringan,Tidak,Risiko Rendah,45–59,HT Saja
+P1382,81,Perempuan,Ya,Ya,Tidak,Tidak,Tidak,Miopia Sedang/Berat,Jangka Panjang,Risiko Tinggi,60+,Riwayat + DM
+P1383,31,Laki-laki,Ya,Tidak,Tidak,Tidak,Tidak,Hipermetropia Ringan,Tidak,Risiko Rendah,30–44,Riwayat Saja
+P1384,41,Laki-laki,Tidak,Tidak,Ya,Tidak,Tidak,Hipermetropia Ringan,Tidak,Risiko Rendah,30–44,HT Saja
+P1385,73,Perempuan,Ya,Ya,Ya,Ya,Ya,Miopia Ringan,Jangka Panjang,Risiko Tinggi,60+,Riwayat + DM + HT
+P1386,47,Perempuan,Ya,Tidak,Ya,Tidak,Tidak,Hipermetropia Ringan,Jangka Panjang,Risiko Sedang,45–59,Riwayat + HT
+P1387,37,Perempuan,Tidak,Tidak,Tidak,Ya,Tidak,Tidak Ada,Jangka Pendek,Risiko Rendah,30–44,Tidak Ada
+P1388,46,Perempuan,Tidak,Tidak,Tidak,Tidak,Tidak,Tidak Ada,Tidak,Risiko Rendah,45–59,Tidak Ada
+P1389,72,Laki-laki,Tidak,Ya,Ya,Tidak,Ya,Miopia Sedang/Berat,Jangka Pendek,Risiko Tinggi,60+,DM + HT
+P1390,49,Perempuan,Tidak,Tidak,Tidak,Tidak,Tidak,Miopia Ringan,Tidak,Risiko Rendah,45–59,Tidak Ada
+P1391,66,Laki-laki,Tidak,Tidak,Tidak,Tidak,Ya,Tidak Ada,Jangka Panjang,Risiko Sedang,60+,Tidak Ada
+P1392,56,Perempuan,Ya,Tidak,Tidak,Tidak,Ya,Miopia Ringan,Jangka Panjang,Risiko Sedang,45–59,Riwayat Saja
+P1393,34,Perempuan,Ya,Tidak,Tidak,Tidak,Tidak,Tidak Ada,Tidak,Risiko Rendah,30–44,Riwayat Saja
+P1394,69,Laki-laki,Ya,Ya,Ya,Ya,Ya,Miopia Ringan,Jangka Panjang,Risiko Tinggi,60+,Riwayat + DM + HT
+P1395,49,Laki-laki,Ya,Ya,Ya,Ya,Tidak,Hipermetropia Ringan,Jangka Pendek,Risiko Sedang,45–59,Riwayat + DM + HT
+P1396,41,Laki-laki,Tidak,Tidak,Tidak,Tidak,Tidak,Hipermetropia Ringan,Tidak,Risiko Rendah,30–44,Tidak Ada
+P1397,64,Laki-laki,Ya,Tidak,Ya,Ya,Tidak,Miopia Ringan,Tidak,Risiko Sedang,60+,Riwayat + HT
+P1398,60,Laki-laki,Tidak,Ya,Ya,Tidak,Ya,Hipermetropia Ringan,Jangka Pendek,Risiko Sedang,45–59,DM + HT
+P1399,84,Perempuan,Tidak,Ya,Ya,Ya,Ya,Miopia Sedang/Berat,Jangka Pendek,Risiko Tinggi,60+,DM + HT
+P1400,25,Laki-laki,Tidak,Tidak,Tidak,Ya,Tidak,Hipermetropia Ringan,Jangka Pendek,Risiko Rendah,< 30,Tidak Ada
+P1401,81,Laki-laki,Ya,Ya,Ya,Ya,Tidak,Hipermetropia Sedang/Berat,Jangka Panjang,Risiko Tinggi,60+,Riwayat + DM + HT
+P1402,22,Laki-laki,Tidak,Tidak,Tidak,Tidak,Tidak,Tidak Ada,Tidak,Risiko Rendah,< 30,Tidak Ada
+P1403,35,Laki-laki,Tidak,Tidak,Tidak,Tidak,Tidak,Tidak Ada,Jangka Pendek,Risiko Rendah,30–44,Tidak Ada
+P1404,37,Perempuan,Tidak,Tidak,Tidak,Tidak,Tidak,Miopia Ringan,Tidak,Risiko Rendah,30–44,Tidak Ada
+P1405,79,Laki-laki,Ya,Ya,Ya,Ya,Tidak,Hipermetropia Sedang/Berat,Jangka Panjang,Risiko Tinggi,60+,Riwayat + DM + HT
+P1406,38,Laki-laki,Tidak,Tidak,Tidak,Tidak,Tidak,Tidak Ada,Tidak,Risiko Rendah,30–44,Tidak Ada
+P1407,23,Perempuan,Tidak,Tidak,Tidak,Tidak,Tidak,Tidak Ada,Tidak,Risiko Rendah,< 30,Tidak Ada
+P1408,48,Laki-laki,Tidak,Tidak,Tidak,Tidak,Tidak,Tidak Ada,Tidak,Risiko Rendah,45–59,Tidak Ada
+P1409,49,Laki-laki,Tidak,Tidak,Tidak,Tidak,Tidak,Tidak Ada,Jangka Pendek,Risiko Rendah,45–59,Tidak Ada
+P1410,76,Perempuan,Tidak,Ya,Ya,Ya,Tidak,Miopia Sedang/Berat,Jangka Pendek,Risiko Tinggi,60+,DM + HT
+P1411,32,Laki-laki,Tidak,Tidak,Tidak,Tidak,Tidak,Miopia Ringan,Tidak,Risiko Rendah,30–44,Tidak Ada
+P1412,20,Laki-laki,Ya,Tidak,Tidak,Tidak,Ya,Miopia Ringan,Tidak,Risiko Rendah,< 30,Riwayat Saja
+P1413,28,Perempuan,Tidak,Tidak,Ya,Tidak,Tidak,Tidak Ada,Tidak,Risiko Rendah,< 30,HT Saja
+P1414,26,Perempuan,Tidak,Tidak,Ya,Ya,Tidak,Miopia Ringan,Tidak,Risiko Rendah,< 30,HT Saja
+P1415,53,Perempuan,Ya,Tidak,Tidak,Ya,Tidak,Hipermetropia Ringan,Tidak,Risiko Sedang,45–59,Riwayat Saja
+P1416,52,Perempuan,Ya,Ya,Ya,Ya,Tidak,Hipermetropia Sedang/Berat,Jangka Pendek,Risiko Tinggi,45–59,Riwayat + DM + HT
+P1417,25,Laki-laki,Tidak,Tidak,Tidak,Tidak,Tidak,Tidak Ada,Tidak,Risiko Rendah,< 30,Tidak Ada
+P1418,37,Laki-laki,Ya,Tidak,Ya,Tidak,Tidak,Miopia Ringan,Jangka Panjang,Risiko Sedang,30–44,Riwayat + HT
+P1419,41,Laki-laki,Tidak,Ya,Tidak,Tidak,Tidak,Miopia Ringan,Jangka Pendek,Risiko Sedang,30–44,DM Saja
+P1420,58,Perempuan,Tidak,Ya,Ya,Ya,Ya,Miopia Sedang/Berat,Jangka Panjang,Risiko Tinggi,45–59,DM + HT
+P1421,36,Laki-laki,Ya,Tidak,Tidak,Ya,Ya,Hipermetropia Ringan,Jangka Pendek,Risiko Sedang,30–44,Riwayat Saja
+P1422,62,Laki-laki,Ya,Ya,Ya,Tidak,Ya,Miopia Ringan,Jangka Pendek,Risiko Tinggi,60+,Riwayat + DM + HT
+P1423,38,Perempuan,Tidak,Tidak,Tidak,Tidak,Tidak,Miopia Ringan,Tidak,Risiko Rendah,30–44,Tidak Ada
+P1424,76,Laki-laki,Ya,Ya,Ya,Ya,Tidak,Hipermetropia Ringan,Jangka Panjang,Risiko Tinggi,60+,Riwayat + DM + HT
+P1425,69,Perempuan,Tidak,Tidak,Tidak,Tidak,Tidak,Hipermetropia Sedang/Berat,Jangka Pendek,Risiko Sedang,60+,Tidak Ada
+P1426,85,Laki-laki,Ya,Ya,Ya,Tidak,Ya,Hipermetropia Ringan,Jangka Panjang,Risiko Tinggi,60+,Riwayat + DM + HT
+P1427,45,Perempuan,Tidak,Tidak,Tidak,Tidak,Tidak,Miopia Ringan,Jangka Panjang,Risiko Sedang,30–44,Tidak Ada
+P1428,75,Laki-laki,Ya,Ya,Ya,Tidak,Ya,Hipermetropia Sedang/Berat,Jangka Panjang,Risiko Tinggi,60+,Riwayat + DM + HT
+P1429,47,Perempuan,Tidak,Tidak,Tidak,Tidak,Tidak,Tidak Ada,Tidak,Risiko Rendah,45–59,Tidak Ada
+P1430,50,Laki-laki,Ya,Tidak,Ya,Ya,Ya,Hipermetropia Ringan,Jangka Panjang,Risiko Tinggi,45–59,Riwayat + HT
+P1431,45,Laki-laki,Ya,Tidak,Tidak,Tidak,Tidak,Hipermetropia Sedang/Berat,Jangka Panjang,Risiko Sedang,30–44,Riwayat Saja
+P1432,59,Perempuan,Tidak,Ya,Tidak,Tidak,Tidak,Miopia Ringan,Jangka Panjang,Risiko Sedang,45–59,DM Saja
+P1433,64,Laki-laki,Tidak,Ya,Ya,Ya,Ya,Hipermetropia Sedang/Berat,Jangka Panjang,Risiko Tinggi,60+,DM + HT
+P1434,60,Perempuan,Tidak,Tidak,Ya,Tidak,Tidak,Tidak Ada,Jangka Pendek,Risiko Sedang,45–59,HT Saja
+P1435,72,Laki-laki,Ya,Ya,Ya,Ya,Tidak,Hipermetropia Sedang/Berat,Jangka Pendek,Risiko Tinggi,60+,Riwayat + DM + HT
+P1436,60,Laki-laki,Tidak,Tidak,Tidak,Tidak,Ya,Miopia Sedang/Berat,Tidak,Risiko Sedang,45–59,Tidak Ada
+P1437,49,Perempuan,Tidak,Ya,Ya,Tidak,Tidak,Miopia Sedang/Berat,Tidak,Risiko Sedang,45–59,DM + HT
+P1438,37,Perempuan,Tidak,Tidak,Tidak,Ya,Tidak,Tidak Ada,Tidak,Risiko Rendah,30–44,Tidak Ada
+P1439,42,Laki-laki,Tidak,Tidak,Ya,Tidak,Tidak,Tidak Ada,Tidak,Risiko Rendah,30–44,HT Saja
+P1440,69,Laki-laki,Ya,Tidak,Tidak,Tidak,Tidak,Hipermetropia Sedang/Berat,Tidak,Risiko Sedang,60+,Riwayat Saja
+P1441,51,Perempuan,Ya,Ya,Tidak,Ya,Ya,Hipermetropia Sedang/Berat,Jangka Panjang,Risiko Tinggi,45–59,Riwayat + DM
+P1442,46,Laki-laki,Tidak,Tidak,Ya,Tidak,Tidak,Hipermetropia Ringan,Jangka Pendek,Risiko Sedang,45–59,HT Saja
+P1443,59,Laki-laki,Ya,Tidak,Tidak,Tidak,Ya,Tidak Ada,Jangka Panjang,Risiko Sedang,45–59,Riwayat Saja
+P1444,47,Laki-laki,Tidak,Tidak,Tidak,Tidak,Tidak,Tidak Ada,Tidak,Risiko Rendah,45–59,Tidak Ada
+P1445,51,Perempuan,Tidak,Tidak,Tidak,Ya,Ya,Hipermetropia Sedang/Berat,Tidak,Risiko Sedang,45–59,Tidak Ada
+P1446,46,Laki-laki,Tidak,Tidak,Tidak,Tidak,Tidak,Hipermetropia Ringan,Tidak,Risiko Rendah,45–59,Tidak Ada
+P1447,52,Laki-laki,Ya,Ya,Ya,Ya,Tidak,Hipermetropia Ringan,Jangka Panjang,Risiko Tinggi,45–59,Riwayat + DM + HT
+P1448,82,Laki-laki,Ya,Ya,Ya,Tidak,Tidak,Hipermetropia Sedang/Berat,Jangka Pendek,Risiko Tinggi,60+,Riwayat + DM + HT
+P1449,41,Laki-laki,Tidak,Tidak,Tidak,Tidak,Ya,Miopia Ringan,Jangka Pendek,Risiko Sedang,30–44,Tidak Ada
+P1450,31,Laki-laki,Tidak,Tidak,Tidak,Tidak,Tidak,Tidak Ada,Jangka Pendek,Risiko Rendah,30–44,Tidak Ada
+P1451,39,Perempuan,Tidak,Tidak,Tidak,Ya,Tidak,Tidak Ada,Tidak,Risiko Rendah,30–44,Tidak Ada
+P1452,43,Laki-laki,Tidak,Tidak,Tidak,Tidak,Tidak,Tidak Ada,Tidak,Risiko Rendah,30–44,Tidak Ada
+P1453,60,Laki-laki,Tidak,Tidak,Tidak,Tidak,Tidak,Hipermetropia Sedang/Berat,Jangka Pendek,Risiko Sedang,45–59,Tidak Ada
+P1454,82,Perempuan,Tidak,Ya,Ya,Ya,Tidak,Hipermetropia Sedang/Berat,Jangka Panjang,Risiko Tinggi,60+,DM + HT
+P1455,47,Perempuan,Tidak,Tidak,Tidak,Ya,Tidak,Tidak Ada,Tidak,Risiko Rendah,45–59,Tidak Ada
+P1456,50,Laki-laki,Ya,Tidak,Tidak,Ya,Tidak,Miopia Sedang/Berat,Tidak,Risiko Sedang,45–59,Riwayat Saja
+P1457,64,Perempuan,Ya,Tidak,Tidak,Ya,Ya,Miopia Ringan,Jangka Panjang,Risiko Tinggi,60+,Riwayat Saja
+P1458,31,Perempuan,Tidak,Tidak,Tidak,Tidak,Tidak,Tidak Ada,Tidak,Risiko Rendah,30–44,Tidak Ada
+P1459,80,Perempuan,Ya,Ya,Ya,Ya,Ya,Miopia Ringan,Jangka Pendek,Risiko Tinggi,60+,Riwayat + DM + HT
+P1460,69,Perempuan,Tidak,Ya,Ya,Ya,Ya,Miopia Ringan,Jangka Panjang,Risiko Tinggi,60+,DM + HT
+P1461,38,Perempuan,Tidak,Tidak,Tidak,Tidak,Tidak,Tidak Ada,Jangka Pendek,Risiko Rendah,30–44,Tidak Ada
+P1462,44,Perempuan,Tidak,Tidak,Tidak,Ya,Ya,Tidak Ada,Jangka Panjang,Risiko Sedang,30–44,Tidak Ada
+P1463,76,Laki-laki,Ya,Tidak,Tidak,Ya,Tidak,Miopia Sedang/Berat,Jangka Panjang,Risiko Tinggi,60+,Riwayat Saja
+P1464,58,Laki-laki,Ya,Ya,Tidak,Tidak,Ya,Miopia Sedang/Berat,Jangka Panjang,Risiko Tinggi,45–59,Riwayat + DM
+P1465,48,Laki-laki,Tidak,Ya,Tidak,Tidak,Tidak,Tidak Ada,Jangka Pendek,Risiko Rendah,45–59,DM Saja
+P1466,54,Perempuan,Tidak,Tidak,Ya,Tidak,Tidak,Miopia Sedang/Berat,Jangka Pendek,Risiko Sedang,45–59,HT Saja
+P1467,43,Laki-laki,Tidak,Tidak,Tidak,Tidak,Tidak,Tidak Ada,Tidak,Risiko Rendah,30–44,Tidak Ada
+P1468,60,Laki-laki,Tidak,Ya,Ya,Tidak,Ya,Miopia Sedang/Berat,Jangka Panjang,Risiko Tinggi,45–59,DM + HT
+P1469,47,Laki-laki,Ya,Tidak,Ya,Tidak,Tidak,Hipermetropia Ringan,Jangka Pendek,Risiko Sedang,45–59,Riwayat + HT
+P1470,50,Laki-laki,Ya,Ya,Ya,Tidak,Tidak,Hipermetropia Sedang/Berat,Jangka Panjang,Risiko Tinggi,45–59,Riwayat + DM + HT
+P1471,54,Laki-laki,Ya,Ya,Ya,Tidak,Ya,Hipermetropia Sedang/Berat,Jangka Panjang,Risiko Tinggi,45–59,Riwayat + DM + HT
+P1472,74,Laki-laki,Ya,Tidak,Ya,Ya,Tidak,Miopia Sedang/Berat,Jangka Panjang,Risiko Tinggi,60+,Riwayat + HT
+P1473,84,Perempuan,Tidak,Ya,Ya,Ya,Ya,Miopia Ringan,Jangka Pendek,Risiko Tinggi,60+,DM + HT
+P1474,45,Laki-laki,Ya,Tidak,Ya,Ya,Ya,Tidak Ada,Jangka Pendek,Risiko Sedang,30–44,Riwayat + HT
+P1475,82,Perempuan,Ya,Ya,Ya,Ya,Tidak,Hipermetropia Sedang/Berat,Jangka Pendek,Risiko Tinggi,60+,Riwayat + DM + HT
+P1476,61,Perempuan,Ya,Ya,Ya,Ya,Ya,Miopia Ringan,Jangka Pendek,Risiko Tinggi,60+,Riwayat + DM + HT
+P1477,84,Perempuan,Ya,Tidak,Ya,Tidak,Ya,Hipermetropia Ringan,Jangka Panjang,Risiko Tinggi,60+,Riwayat + HT
+P1478,61,Laki-laki,Ya,Tidak,Ya,Ya,Ya,Miopia Ringan,Jangka Pendek,Risiko Tinggi,60+,Riwayat + HT
+P1479,64,Perempuan,Tidak,Tidak,Tidak,Ya,Tidak,Hipermetropia Ringan,Tidak,Risiko Sedang,60+,Tidak Ada
+P1480,39,Laki-laki,Tidak,Ya,Ya,Tidak,Ya,Hipermetropia Ringan,Tidak,Risiko Sedang,30–44,DM + HT
+P1481,31,Laki-laki,Tidak,Ya,Ya,Tidak,Tidak,Hipermetropia Ringan,Tidak,Risiko Rendah,30–44,DM + HT
+P1482,26,Laki-laki,Ya,Tidak,Tidak,Tidak,Tidak,Tidak Ada,Tidak,Risiko Rendah,< 30,Riwayat Saja
+P1483,80,Laki-laki,Ya,Ya,Tidak,Ya,Tidak,Miopia Sedang/Berat,Jangka Pendek,Risiko Tinggi,60+,Riwayat + DM
+P1484,45,Perempuan,Tidak,Tidak,Tidak,Tidak,Tidak,Hipermetropia Ringan,Tidak,Risiko Rendah,30–44,Tidak Ada
+P1485,77,Laki-laki,Ya,Ya,Ya,Ya,Ya,Miopia Sedang/Berat,Jangka Pendek,Risiko Tinggi,60+,Riwayat + DM + HT
+P1486,33,Laki-laki,Tidak,Tidak,Tidak,Tidak,Tidak,Tidak Ada,Tidak,Risiko Rendah,30–44,Tidak Ada
+P1487,44,Laki-laki,Tidak,Tidak,Ya,Tidak,Tidak,Tidak Ada,Tidak,Risiko Rendah,30–44,HT Saja
+P1488,63,Perempuan,Tidak,Tidak,Tidak,Tidak,Ya,Miopia Sedang/Berat,Tidak,Risiko Sedang,60+,Tidak Ada
+P1489,66,Perempuan,Tidak,Ya,Tidak,Ya,Tidak,Hipermetropia Sedang/Berat,Tidak,Risiko Sedang,60+,DM Saja
+P1490,28,Laki-laki,Tidak,Tidak,Tidak,Tidak,Tidak,Tidak Ada,Tidak,Risiko Rendah,< 30,Tidak Ada
+P1491,41,Perempuan,Tidak,Ya,Ya,Tidak,Tidak,Hipermetropia Sedang/Berat,Jangka Pendek,Risiko Sedang,30–44,DM + HT
+P1492,61,Laki-laki,Ya,Tidak,Tidak,Tidak,Tidak,Hipermetropia Ringan,Tidak,Risiko Sedang,60+,Riwayat Saja
+P1493,47,Perempuan,Tidak,Tidak,Tidak,Tidak,Tidak,Tidak Ada,Tidak,Risiko Rendah,45–59,Tidak Ada
+P1494,24,Laki-laki,Tidak,Tidak,Tidak,Tidak,Tidak,Tidak Ada,Tidak,Risiko Rendah,< 30,Tidak Ada
+P1495,72,Laki-laki,Ya,Ya,Ya,Tidak,Tidak,Miopia Sedang/Berat,Jangka Panjang,Risiko Tinggi,60+,Riwayat + DM + HT
+P1496,78,Laki-laki,Ya,Ya,Ya,Tidak,Tidak,Miopia Sedang/Berat,Jangka Panjang,Risiko Tinggi,60+,Riwayat + DM + HT
+P1497,48,Laki-laki,Tidak,Tidak,Tidak,Tidak,Tidak,Tidak Ada,Tidak,Risiko Rendah,45–59,Tidak Ada
+P1498,59,Laki-laki,Ya,Ya,Tidak,Tidak,Ya,Miopia Sedang/Berat,Jangka Panjang,Risiko Tinggi,45–59,Riwayat + DM
+P1499,67,Perempuan,Ya,Ya,Tidak,Ya,Tidak,Hipermetropia Ringan,Jangka Pendek,Risiko Sedang,60+,Riwayat + DM
+P1500,45,Laki-laki,Tidak,Ya,Ya,Ya,Tidak,Miopia Ringan,Jangka Pendek,Risiko Sedang,30–44,DM + HT
