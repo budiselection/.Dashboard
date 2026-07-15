@@ -325,7 +325,15 @@ html, body, [class*="css"] {
     border-top: 1px solid #e8eaf2;
     margin-top: 3rem;
 }
-
+/* FIX: Paksa warna teks gelap di dalam kotak 'Mengapa Penting?' agar terbaca di Dark Mode */
+div[data-testid="stExpander"] .box-penting,
+div[data-testid="stExpander"] .box-penting * {
+    color: #3d4460 !important;
+}
+div[data-testid="stExpander"] .judul-penting {
+    color: #1a1f2e !important;
+    font-weight: 700 !important;
+}
 </style>
 """, unsafe_allow_html=True)
 
@@ -598,11 +606,13 @@ with tab_guide:
                     <div style='font-size:0.78rem; font-weight:700; text-transform:uppercase; letter-spacing:0.07em; color:{color} !important; margin-bottom:0.25rem;'>Cara Menjawab</div>
                     <div style='font-size:0.9rem; color:#1a1f2e !important; line-height:1.5;'>{how_to}</div>
                 </div>
-                <div style='background:#f5f6fa; border-radius:8px; padding:0.75rem; margin-top:0.5rem;'>
-                    <div style='font-size:0.78rem; font-weight:700; text-transform:uppercase; letter-spacing:0.07em; color:#3d4460 !important; margin-bottom:0.25rem;'>Mengapa Penting?</div>
-                    <div style='font-size:0.88rem; color:#3d4460 !important; line-height:1.6;'>{why}</div>
+                
+                <div class="box-penting" style='background:#f5f6fa; border-radius:8px; padding:0.75rem; margin-top:0.5rem;'>
+                    <div class="judul-penting" style='font-size:0.78rem; text-transform:uppercase; letter-spacing:0.07em; margin-bottom:0.25rem;'>Mengapa Penting?</div>
+                    <div style='font-size:0.88rem; line-height:1.6;'>{why}</div>
                 </div>
-                <div style='font-size:0.78rem; color:#3d4460 !important; margin-top:0.5rem; font-style:italic;'>📚 Referensi: {ref}</div>
+                
+                <div style='font-size:0.78rem; color:#8890a4 !important; margin-top:0.5rem; font-style:italic;'>📚 Referensi: {ref}</div>
                 """, unsafe_allow_html=True)
         st.markdown("""
         <div class="info-banner" style='margin-top:1rem;'>
