@@ -242,14 +242,18 @@ html, body, [class*="css"] {
     color: var(--neutral-700);
     background: transparent;
 }
+/* Efek saat kursor di-hover ke tab */
 .stTabs [data-baseweb="tab"]:hover {
     color: #e05c5c !important;
+    background: transparent !important;
 }
+/* Tab yang sedang aktif 
 .stTabs [aria-selected="true"] {
-    background: var(--white) !important;
-    color: var(--deep-teal) !important;
+    background: transparent !important; 
+    color: #e05c5c !important;          
     font-weight: 700;
-    box-shadow: 0 1px 6px rgba(13,79,110,0.12);
+    box-shadow: none !important;        
+    border-bottom: 2px solid #e05c5c !important; 
 }
 
 /* Sidebar */
