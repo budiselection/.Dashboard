@@ -238,15 +238,19 @@ html, body, [class*="css"] {
     border-radius: 8px;
     padding: 0.45rem 1rem;
     font-size: 0.88rem;
-    font-weight: 500;
-    color: var(--neutral-700);
+    font-weight: 600;
+    color: #e05c5c !important;
     background: transparent;
+}
+.stTabs [data-baseweb="tab"]:hover {
+    color: #c0392b !important;
+    background: rgba(224, 92, 92, 0.08) !important;
 }
 .stTabs [aria-selected="true"] {
     background: var(--white) !important;
-    color: var(--deep-teal) !important;
+    color: #c0392b !important;
     font-weight: 700;
-    box-shadow: 0 1px 6px rgba(13,79,110,0.12);
+    box-shadow: 0 1px 6px rgba(224, 92, 92, 0.18);
 }
 
 /* Sidebar */
