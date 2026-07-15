@@ -325,9 +325,7 @@ html, body, [class*="css"] {
     border-top: 1px solid #e8eaf2;
     margin-top: 3rem;
 }
-div[data-testid="stExpander"] div[style*="background:#f5f6fa"] * {
-    color: #1a1f2e !important;
-}
+
 </style>
 """, unsafe_allow_html=True)
 
