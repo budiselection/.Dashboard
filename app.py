@@ -325,7 +325,6 @@ html, body, [class*="css"] {
     border-top: 1px solid #e8eaf2;
     margin-top: 3rem;
 }
-
 div[data-testid="stExpander"] div[style*="background:#f5f6fa"] * {
     color: #1a1f2e !important;
 }
@@ -595,18 +594,18 @@ with tab_guide:
         ]
 
         for title, color, how_to, why, ref in var_guides:
-         with st.expander(title):
-             st.markdown(f"""
-             <div style='margin-bottom:0.5rem;'>
-                 <div style='font-size:0.78rem; font-weight:700; text-transform:uppercase; letter-spacing:0.07em; color:{color} !important; margin-bottom:0.25rem;'>Cara Menjawab</div>
-                 <div style='font-size:0.9rem; color:#1a1f2e !important; line-height:1.5;'>{how_to}</div>
-             </div>
-             <div style='background:#f5f6fa; border-radius:8px; padding:0.75rem; margin-top:0.5rem;'>
-                 <div style='font-size:0.78rem; font-weight:700; text-transform:uppercase; letter-spacing:0.07em; color:#3d4460 !important; margin-bottom:0.25rem;'>Mengapa Penting?</div>
-                 <div style='font-size:0.88rem; color:#1a1f2e !important; line-height:1.6;'>{why}</div>
-             </div>
-             <div style='font-size:0.78rem; color:#3d4460 !important; margin-top:0.5rem; font-style:italic;'>📚 Referensi: {ref}</div>
-             """, unsafe_allow_html=True)
+            with st.expander(title):
+                st.markdown(f"""
+                <div style='margin-bottom:0.5rem;'>
+                    <div style='font-size:0.78rem; font-weight:700; text-transform:uppercase; letter-spacing:0.07em; color:{color} !important; margin-bottom:0.25rem;'>Cara Menjawab</div>
+                    <div style='font-size:0.9rem; color:#1a1f2e !important; line-height:1.5;'>{how_to}</div>
+                </div>
+                <div style='background:#f5f6fa; border-radius:8px; padding:0.75rem; margin-top:0.5rem;'>
+                    <div style='font-size:0.78rem; font-weight:700; text-transform:uppercase; letter-spacing:0.07em; color:#3d4460 !important; margin-bottom:0.25rem;'>Mengapa Penting?</div>
+                    <div style='font-size:0.88rem; color:#1a1f2e !important; line-height:1.6;'>{why}</div>
+                </div>
+                <div style='font-size:0.78rem; color:#3d4460 !important; margin-top:0.5rem; font-style:italic;'>📚 Referensi: {ref}</div>
+                """, unsafe_allow_html=True)
         st.markdown("""
         <div class="info-banner" style='margin-top:1rem;'>
             📌 <b>Catatan:</b> Jika Anda tidak memiliki hasil pemeriksaan dokter untuk suatu variabel, pilih opsi yang paling mendekati kondisi Anda saat ini, atau pilih "Tidak" / "Tidak Ada" sebagai default.
