@@ -602,7 +602,7 @@ with tab_guide:
                 </div>
                 <div style='background:#f5f6fa; border-radius:8px; padding:0.75rem; margin-top:0.5rem;'>
                     <div style='font-size:0.78rem; font-weight:700; text-transform:uppercase; letter-spacing:0.07em; color:#3d4460 !important; margin-bottom:0.25rem;'>Mengapa Penting?</div>
-                    <div style='font-size:0.88rem; color:#1a1f2e !important; line-height:1.6;'>{why}</div>
+                    <div style='font-size:0.88rem; color:#3d4460 !important; line-height:1.6;'>{why}</div>
                 </div>
                 <div style='font-size:0.78rem; color:#3d4460 !important; margin-top:0.5rem; font-style:italic;'>📚 Referensi: {ref}</div>
                 """, unsafe_allow_html=True)
