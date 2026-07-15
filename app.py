@@ -598,7 +598,7 @@ with tab_guide:
                     <div style='font-size:0.9rem;'>{how_to}</div>
                 </div>
                 <div style='background:#f5f6fa; border-radius:8px; padding:0.75rem; margin-top:0.5rem;'>
-                    <div style='font-size:0.78rem; font-weight:700; text-transform:uppercase; letter-spacing:0.07em; color:#8890a4; margin-bottom:0.25rem;'>Mengapa Penting?</div>
+                    <div style='font-size:0.78rem; font-weight:700; text-transform:uppercase; letter-spacing:0.07em; color:#3d4460; margin-bottom:0.25rem;'>Mengapa Penting?</div>
                     <div style='font-size:0.88rem;'>{why}</div>
                 </div>
                 <div style='font-size:0.78rem; color:#8890a4; margin-top:0.5rem; font-style:italic;'>📚 Referensi: {ref}</div>
