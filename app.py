@@ -102,7 +102,7 @@ html, body, [class*="css"] {
     letter-spacing: 0.04em;
 }
 
-/* Metric cards - FIXED: Explicit dark text for light background */
+/* Metric cards */
 .metric-card {
     background: var(--white);
     border-radius: var(--card-radius);
@@ -110,17 +110,16 @@ html, body, [class*="css"] {
     box-shadow: var(--card-shadow);
     border-left: 4px solid var(--mid-teal);
     margin-bottom: 0.5rem;
-    color: #1a1f2e !important;
 }
 .metric-card-value {
     font-size: 1.9rem;
     font-weight: 700;
-    color: #1a1f2e !important;
+    color: var(--neutral-900);
     line-height: 1;
 }
 .metric-card-label {
     font-size: 0.82rem;
-    color: #3d4460 !important;
+    color: var(--neutral-400);
     font-weight: 500;
     margin-top: 0.3rem;
     text-transform: uppercase;
@@ -132,13 +131,12 @@ html, body, [class*="css"] {
     margin-top: 0.15rem;
 }
 
-/* Risk result card - FIXED: Explicit dark text for pastel backgrounds */
+/* Risk result card */
 .risk-card {
     border-radius: var(--card-radius);
     padding: 1.6rem 2rem;
     margin: 1rem 0;
     box-shadow: var(--card-shadow);
-    color: #1a1f2e !important;
 }
 .risk-card-high   { background: linear-gradient(135deg, #fff0f0, #ffe0e0); border-left: 5px solid var(--accent-coral); }
 .risk-card-medium { background: linear-gradient(135deg, #fff8ec, #ffecd0); border-left: 5px solid var(--accent-amber); }
@@ -148,44 +146,42 @@ html, body, [class*="css"] {
     font-size: 1.7rem;
     font-weight: 700;
     margin-bottom: 0.3rem;
-    color: #1a1f2e !important;
 }
 .risk-advice {
     font-size: 0.95rem;
-    color: #3d4460 !important;
+    color: var(--neutral-700);
     line-height: 1.55;
 }
 
-/* Input section label - FIXED: Brighter teal for Dark Mode visibility */
+/* Input section label */
 .input-section-label {
     font-size: 0.75rem;
     font-weight: 700;
     text-transform: uppercase;
     letter-spacing: 0.1em;
-    color: #219ebc !important;
+    color: var(--mid-teal);
     margin-bottom: 0.6rem;
     padding-top: 0.3rem;
 }
 
-/* Guide cards - FIXED: Explicit dark text */
+/* Guide cards */
 .guide-card {
     background: var(--white);
-    border-radius: var(--card-radius); 
+    border-radius: var(--card-radius);
     padding: 1.25rem 1.5rem;
     box-shadow: var(--card-shadow);
     margin-bottom: 1rem;
     border-top: 3px solid var(--mid-teal);
-    color: #1a1f2e !important;
 }
 .guide-card-title {
     font-size: 1.05rem;
     font-weight: 700;
-    color: #0d4f6e !important;
+    color: var(--deep-teal);
     margin-bottom: 0.35rem;
 }
 .guide-card-body {
     font-size: 0.91rem;
-    color: #3d4460 !important;
+    color: var(--neutral-700);
     line-height: 1.6;
 }
 .guide-tip {
@@ -242,27 +238,23 @@ html, body, [class*="css"] {
     color: var(--neutral-700);
     background: transparent;
 }
-/* Efek saat kursor di-hover ke tab */
-.stTabs [data-baseweb="tab"]:hover {
-    color: #e05c5c !important;
-    background: transparent !important;
-}
-/* Tab yang sedang aktif 
 .stTabs [aria-selected="true"] {
-    background: transparent !important; 
-    color: #e05c5c !important;          
+    background: var(--white) !important;
+    color: var(--deep-teal) !important;
     font-weight: 700;
-    box-shadow: none !important;        
-    border-bottom: 2px solid #e05c5c !important; 
+    box-shadow: 0 1px 6px rgba(13,79,110,0.12);
 }
 
 /* Sidebar */
 [data-testid="stSidebar"] {
     background: linear-gradient(180deg, #0d4f6e 0%, #1a7a9e 100%);
 }
+[data-testid="stSidebar"] * {
+    color: rgba(255,255,255,0.92) !important;
+}
 [data-testid="stSidebar"] .stSelectbox label,
 [data-testid="stSidebar"] .stSlider label {
-    color: rgba(255,255,255,0.95) !important;
+    color: rgba(255,255,255,0.75) !important;
     font-size: 0.82rem !important;
     font-weight: 500 !important;
 }
@@ -270,9 +262,8 @@ html, body, [class*="css"] {
     border-color: rgba(255,255,255,0.2) !important;
 }
 [data-testid="stSidebar"] [data-baseweb="select"] > div {
-    background: rgba(255,255,255,0.15) !important;
-    border-color: rgba(255,255,255,0.3) !important;
-    color: white !important;
+    background: rgba(255,255,255,0.12) !important;
+    border-color: rgba(255,255,255,0.2) !important;
 }
 
 /* Section divider */
@@ -332,17 +323,9 @@ html, body, [class*="css"] {
     border-top: 1px solid #e8eaf2;
     margin-top: 3rem;
 }
-/* FIX: Paksa warna teks gelap di dalam kotak 'Mengapa Penting?' agar terbaca di Dark Mode */
-div[data-testid="stExpander"] .box-penting,
-div[data-testid="stExpander"] .box-penting * {
-    color: #3d4460 !important;
-}
-div[data-testid="stExpander"] .judul-penting {
-    color: #1a1f2e !important;
-    font-weight: 700 !important;
-}
 </style>
 """, unsafe_allow_html=True)
+
 
 # ── Konstanta ──────────────────────────────────────────────────────────────────
 RISK_PALETTE   = {"Risiko Rendah": "#2da673", "Risiko Sedang": "#e8a040", "Risiko Tinggi": "#e05c5c"}
@@ -357,21 +340,22 @@ REFRAKSI_ORDER = [
 FAKTOR_BINER = ["Riwayat_Keluarga", "Diabetes", "Hipertensi", "Migrain", "Gangguan_Sirkulasi"]
 
 plt.rcParams.update({
-    "figure.facecolor": "white",
-    "axes.facecolor": "#f5f6fa",
-    "axes.spines.top": False,
+    "figure.facecolor":  "white",
+    "axes.facecolor":    "#f5f6fa",
+    "axes.spines.top":   False,
     "axes.spines.right": False,
-    "axes.grid": True,
-    "grid.alpha": 0.3,
-    "grid.linestyle": "--",
-    "grid.color": "#d0d4e0",
-    "axes.titleweight": "bold",
-    "axes.titlesize": 11,
-    "axes.labelsize": 10,
-    "xtick.labelsize": 9,
-    "ytick.labelsize": 9,
-    "font.family": "sans-serif",
+    "axes.grid":         True,
+    "grid.alpha":        0.3,
+    "grid.linestyle":    "--",
+    "grid.color":        "#d0d4e0",
+    "axes.titleweight":  "bold",
+    "axes.titlesize":    11,
+    "axes.labelsize":    10,
+    "xtick.labelsize":   9,
+    "ytick.labelsize":   9,
+    "font.family":       "sans-serif",
 })
+
 
 # ── Load data & model ──────────────────────────────────────────────────────────
 @st.cache_data
@@ -386,29 +370,26 @@ def load_model(file):
 def load_encoder(file):
     return joblib.load(file)
 
+
 # ── Encode & predict ───────────────────────────────────────────────────────────
 def encode_input(pasien: dict) -> pd.DataFrame:
     usia_scaled = (pasien["Usia"] - 20) / (85 - 20)
     gender_enc  = 1 if pasien["Jenis_Kelamin"] == "Laki-laki" else 0
     biner = {col: 1 if pasien[col] == "Ya" else 0
              for col in ["Riwayat_Keluarga", "Diabetes", "Hipertensi", "Migrain", "Gangguan_Sirkulasi"]}
-    
     map_refraksi = {
         "Tidak Ada": 0, "Miopia Ringan": 1, "Hipermetropia Ringan": 1,
         "Miopia Sedang/Berat": 2, "Hipermetropia Sedang/Berat": 2,
     }
     map_koriko   = {"Tidak": 0, "Jangka Pendek": 1, "Jangka Panjang": 2}
-    
     refraksi_enc = map_refraksi.get(pasien["Kelainan_Refraksi"], 0)
     koriko_enc   = map_koriko.get(pasien["Penggunaan_Kortikosteroid"], 0)
     jumlah_komorbid = sum(biner.values())
-    
     risiko_komposit = round(
         (koriko_enc / 2) * 0.30 + biner["Hipertensi"] * 0.20 +
         biner["Riwayat_Keluarga"] * 0.18 + biner["Diabetes"] * 0.15 +
         biner["Migrain"] * 0.10 + biner["Gangguan_Sirkulasi"] * 0.07, 4,
     )
-    
     return pd.DataFrame([{
         "Usia": usia_scaled, "Jenis_Kelamin": gender_enc,
         "Riwayat_Keluarga": biner["Riwayat_Keluarga"], "Diabetes": biner["Diabetes"],
@@ -418,6 +399,7 @@ def encode_input(pasien: dict) -> pd.DataFrame:
         "Jumlah_Komorbid": jumlah_komorbid, "Risiko_Komposit": risiko_komposit,
     }])
 
+
 def prediksi(X_input, artifact, le):
     model       = artifact["model"]
     label_names = artifact["label_names"]
@@ -426,9 +408,10 @@ def prediksi(X_input, artifact, le):
     label       = le.inverse_transform([pred_enc])[0]
     return label, pred_enc, {label_names[i]: round(float(p) * 100, 2) for i, p in enumerate(pred_proba)}
 
-# ═══════════════════════════════════════════════════════════════════════════════
+
+# ══════════════════════════════════════════════════════════════════════════════
 # SIDEBAR
-# ═══════════════════════════════════════════════════════════════════════════════
+# ══════════════════════════════════════════════════════════════════════════════
 with st.sidebar:
     st.markdown("""
     <div style='padding: 0.5rem 0 1rem 0;'>
@@ -449,11 +432,9 @@ with st.sidebar:
         gender_opt = ["Semua"] + sorted(df_raw["Jenis_Kelamin"].unique().tolist())
         risk_opt   = ["Semua"] + RISK_ORDER
         koriko_opt = ["Semua"] + KORIKO_ORDER
-        
         sel_gender = st.selectbox("Jenis Kelamin", gender_opt)
-        sel_risk   = st.selectbox("Label Risiko", risk_opt)
+        sel_risk   = st.selectbox("Label Risiko",  risk_opt)
         sel_koriko = st.selectbox("Kortikosteroid", koriko_opt)
-        
         usia_min   = int(df_raw["Usia"].min())
         usia_max   = int(df_raw["Usia"].max())
         sel_usia   = st.slider("Rentang Usia", usia_min, usia_max, (usia_min, usia_max))
@@ -467,18 +448,20 @@ with st.sidebar:
     </div>
     """, unsafe_allow_html=True)
 
+
 # ── Apply filters ──────────────────────────────────────────────────────────────
 def apply_filters(df):
     out = df.copy()
     if sel_gender != "Semua": out = out[out["Jenis_Kelamin"] == sel_gender]
-    if sel_risk   != "Semua": out = out[out["Label_Risiko"] == sel_risk]
+    if sel_risk   != "Semua": out = out[out["Label_Risiko"]  == sel_risk]
     if sel_koriko != "Semua": out = out[out["Penggunaan_Kortikosteroid"] == sel_koriko]
     out = out[(out["Usia"] >= sel_usia[0]) & (out["Usia"] <= sel_usia[1])]
     return out
 
-# ═══════════════════════════════════════════════════════════════════════════════
+
+# ══════════════════════════════════════════════════════════════════════════════
 # HEADER
-# ═══════════════════════════════════════════════════════════════════════════════
+# ══════════════════════════════════════════════════════════════════════════════
 st.markdown("""
 <div class="app-header">
     <div>
@@ -505,23 +488,31 @@ if total == 0:
     st.warning("⚠️ Tidak ada data sesuai filter.")
     st.stop()
 
+
 # ── Tab navigasi ───────────────────────────────────────────────────────────────
 (tab_guide, tab_pred, tab_dist, tab_faktor, tab_usia,
  tab_kombinasi, tab_koriko, tab_gender, tab_refraksi) = st.tabs([
-    "📖 Panduan", "🩺 Skrining Risiko", "📊 Distribusi Data", "🔴 BQ-1 Faktor",
-    "📅 BQ-2 Usia", "⚡ BQ-3 Kombinasi", "💊 BQ-4 Kortikosteroid",
-    "👥 BQ-5 Gender", "👁 BQ-6 Refraksi",
+    "📖 Panduan",
+    "🩺 Skrining Risiko",
+    "📊 Distribusi Data",
+    "🔴 BQ-1 Faktor",
+    "📅 BQ-2 Usia",
+    "⚡ BQ-3 Kombinasi",
+    "💊 BQ-4 Kortikosteroid",
+    "👥 BQ-5 Gender",
+    "👁 BQ-6 Refraksi",
 ])
 
-# ═══════════════════════════════════════════════════════════════════════════════
+
+# ══════════════════════════════════════════════════════════════════════════════
 # TAB PANDUAN (GUIDE BOOK)
-# ═══════════════════════════════════════════════════════════════════════════════
+# ══════════════════════════════════════════════════════════════════════════════
 with tab_guide:
     col_g1, col_g2 = st.columns([1.1, 0.9], gap="large")
 
     with col_g1:
         st.markdown("""
-        <div style='font-family: DM Serif Display, serif; font-size:1.6rem; color:#17a2b8; margin-bottom:0.3rem;'>
+        <div style='font-family: DM Serif Display, serif; font-size:1.6rem; color:#0d4f6e; margin-bottom:0.3rem;'>
             Panduan Penggunaan Dashboard
         </div>
         <div style='color:#8890a4; font-size:0.92rem; margin-bottom:1.2rem;'>
@@ -561,8 +552,8 @@ with tab_guide:
             <div style='display:flex; gap:0.9rem; margin-bottom:0.8rem; align-items:flex-start;'>
                 <div style='font-size:1.5rem; line-height:1;'>{icon}</div>
                 <div>
-                    <div style='font-weight:700; color:#17a2b8; font-size:0.95rem;'>{title}</div>
-                    <div style='font-size:0.88rem; margin-top:0.15rem;'>{body}</div>
+                    <div style='font-weight:700; color:#0d4f6e; font-size:0.95rem;'>{title}</div>
+                    <div style='color:#3d4460; font-size:0.88rem; margin-top:0.15rem;'>{body}</div>
                 </div>
             </div>
             """, unsafe_allow_html=True)
@@ -610,77 +601,192 @@ with tab_guide:
             with st.expander(title):
                 st.markdown(f"""
                 <div style='margin-bottom:0.5rem;'>
-                    <div style='font-size:0.78rem; font-weight:700; text-transform:uppercase; letter-spacing:0.07em; color:{color} !important; margin-bottom:0.25rem;'>Cara Menjawab</div>
-                    <div style='font-size:0.9rem; color:#1a1f2e !important; line-height:1.5;'>{how_to}</div>
+                    <div style='font-size:0.78rem; font-weight:700; text-transform:uppercase; letter-spacing:0.07em; color:{color}; margin-bottom:0.25rem;'>Cara Menjawab</div>
+                    <div style='font-size:0.9rem; color:#1a1f2e;'>{how_to}</div>
                 </div>
-                
-                <div class="box-penting" style='background:#f5f6fa; border-radius:8px; padding:0.75rem; margin-top:0.5rem;'>
-                    <div class="judul-penting" style='font-size:0.78rem; text-transform:uppercase; letter-spacing:0.07em; margin-bottom:0.25rem;'>Mengapa Penting?</div>
-                    <div style='font-size:0.88rem; line-height:1.6;'>{why}</div>
+                <div style='background:#f5f6fa; border-radius:8px; padding:0.75rem; margin-top:0.5rem;'>
+                    <div style='font-size:0.78rem; font-weight:700; text-transform:uppercase; letter-spacing:0.07em; color:#8890a4; margin-bottom:0.25rem;'>Mengapa Penting?</div>
+                    <div style='font-size:0.88rem; color:#3d4460;'>{why}</div>
                 </div>
-                
-                <div style='font-size:0.78rem; color:#8890a4 !important; margin-top:0.5rem; font-style:italic;'>📚 Referensi: {ref}</div>
+                <div style='font-size:0.78rem; color:#8890a4; margin-top:0.5rem; font-style:italic;'>📚 Referensi: {ref}</div>
                 """, unsafe_allow_html=True)
+
         st.markdown("""
         <div class="info-banner" style='margin-top:1rem;'>
             📌 <b>Catatan:</b> Jika Anda tidak memiliki hasil pemeriksaan dokter untuk suatu variabel, pilih opsi yang paling mendekati kondisi Anda saat ini, atau pilih "Tidak" / "Tidak Ada" sebagai default.
         </div>
         """, unsafe_allow_html=True)
 
-# ═══════════════════════════════════════════════════════════════════════════════
+
+# ══════════════════════════════════════════════════════════════════════════════
 # TAB SKRINING RISIKO (PREDIKSI)
-# ═══════════════════════════════════════════════════════════════════════════════
+# ══════════════════════════════════════════════════════════════════════════════
 with tab_pred:
-    col_form, col_result = st.columns([1, 1], gap="large")
+    col_form, col_result = st.columns([1.1, 0.9], gap="large")
 
     with col_form:
         st.markdown("""
-        <div style='font-family: DM Serif Display, serif; font-size:1.4rem; color:#17a2b8; margin-bottom:0.2rem;'>
+        <div style='font-family: DM Serif Display, serif; font-size:1.4rem; color:#0d4f6e; margin-bottom:0.2rem;'>
             Formulir Skrining Pasien
         </div>
-        <div style='color:#8890a4; font-size:0.88rem; margin-bottom:1.2rem;'>
-            Isi semua kolom di bawah, lalu klik tombol prediksi. Baca tab <b>📖 Panduan</b> jika bingung cara mengisi.
+        <div style='color:#8890a4; font-size:0.88rem; margin-bottom:0.6rem;'>
+            Isi semua kolom sesuai kondisi Anda. Arahkan kursor ke ikon <b>❓</b> di setiap kolom untuk melihat panduan pengisian.
+        </div>
+        <div class="disclaimer-banner" style="margin-bottom:1rem;">
+            💡 <b>Tidak perlu hasil lab.</b> Jawab berdasarkan riwayat yang sudah pernah didiagnosis dokter. Jika ragu, pilih <b>"Tidak"</b>.
         </div>
         """, unsafe_allow_html=True)
 
-        st.markdown('<div class="input-section-label">Data Demografis</div>', unsafe_allow_html=True)
+        # ── BAGIAN 1: DATA DIRI ────────────────────────────────────────────────
+        st.markdown('<div class="input-section-label">📋 Data Diri</div>', unsafe_allow_html=True)
         c1, c2 = st.columns(2)
         with c1:
-            usia = st.number_input("Usia (tahun)", min_value=20, max_value=85, value=45, step=1,
-                                   help="Usia saat ini dalam tahun. Rentang valid: 20–85 tahun.")
+            usia = st.number_input(
+                "🎂 Usia (tahun)",
+                min_value=20, max_value=85, value=45, step=1,
+                help=(
+                    "Masukkan usia Anda saat ini dalam satuan tahun.\n\n"
+                    "📌 Rentang valid: 20–85 tahun.\n\n"
+                    "⚠️ Risiko glaukoma mulai meningkat pada usia ≥40 tahun "
+                    "dan melonjak tajam setelah usia ≥60 tahun."
+                )
+            )
         with c2:
-            jenis_kelamin = st.selectbox("Jenis Kelamin", ["Laki-laki", "Perempuan"])
+            jenis_kelamin = st.selectbox(
+                "👤 Jenis Kelamin",
+                ["Laki-laki", "Perempuan"],
+                help=(
+                    "Pilih jenis kelamin biologis Anda.\n\n"
+                    "ℹ️ Variabel ini digunakan sebagai data demografis. "
+                    "Penelitian menunjukkan jenis kelamin bukan faktor pembeda utama risiko glaukoma."
+                )
+            )
 
-        st.markdown('<div class="input-section-label" style="margin-top:0.8rem;">Riwayat Penyakit</div>', unsafe_allow_html=True)
+        # ── BAGIAN 2: RIWAYAT PENYAKIT KELUARGA ───────────────────────────────
+        st.markdown('<div class="input-section-label" style="margin-top:0.9rem;">🧬 Riwayat Keluarga</div>', unsafe_allow_html=True)
+        riwayat = st.selectbox(
+            "Apakah ada anggota keluarga kandung yang pernah didiagnosis Glaukoma?",
+            ["Tidak", "Ya"],
+            help=(
+                "Pilih 'Ya' HANYA jika salah satu dari berikut pernah didiagnosis glaukoma oleh dokter:\n\n"
+                "✅ Ayah atau Ibu kandung\n"
+                "✅ Kakak atau Adik kandung\n"
+                "✅ Anak kandung\n\n"
+                "❌ Kakek/Nenek, Paman/Bibi, Sepupu → pilih 'Tidak'\n"
+                "(hubungan jauh tidak cukup meningkatkan risiko secara klinis signifikan)\n\n"
+                "⚠️ Memiliki satu kerabat kandung dengan glaukoma meningkatkan risiko Anda "
+                "3–9 kali lipat dibanding populasi umum."
+            )
+        )
+
+        # ── BAGIAN 3: RIWAYAT PENYAKIT PRIBADI ────────────────────────────────
+        st.markdown('<div class="input-section-label" style="margin-top:0.9rem;">🩺 Riwayat Penyakit Pribadi</div>', unsafe_allow_html=True)
         c3, c4 = st.columns(2)
         with c3:
-            riwayat = st.selectbox("Riwayat Keluarga Glaukoma", ["Tidak", "Ya"],
-                                   help="Orang tua, saudara kandung, atau anak kandung pernah didiagnosis glaukoma.")
-            diabetes = st.selectbox("Diabetes Melitus", ["Tidak", "Ya"],
-                                    help="Pernah atau sedang didiagnosis DM Tipe 1 atau Tipe 2.")
+            diabetes = st.selectbox(
+                "Diabetes Melitus",
+                ["Tidak", "Ya"],
+                help=(
+                    "Pilih 'Ya' jika pernah atau sedang didiagnosis:\n\n"
+                    "✅ Diabetes Melitus Tipe 1 (DM Tipe 1)\n"
+                    "✅ Diabetes Melitus Tipe 2 (DM Tipe 2)\n\n"
+                    "❌ Diabetes Gestasional (saat hamil saja) → pilih 'Tidak'\n"
+                    "❌ Gula darah tinggi sesekali tanpa diagnosis dokter → pilih 'Tidak'\n\n"
+                    "ℹ️ DM meningkatkan tekanan dalam mata melalui kerusakan "
+                    "pembuluh darah kecil di sekitar saraf optik."
+                )
+            )
+            migrain = st.selectbox(
+                "Migrain",
+                ["Tidak", "Ya"],
+                help=(
+                    "Pilih 'Ya' jika pernah didiagnosis migrain oleh dokter.\n\n"
+                    "Ciri khas migrain:\n"
+                    "• Sakit kepala sebelah (kanan atau kiri)\n"
+                    "• Nyeri berdenyut, berlangsung 4–72 jam\n"
+                    "• Disertai mual, sensitif terhadap cahaya/suara\n\n"
+                    "❌ Sakit kepala biasa tanpa diagnosis dokter → pilih 'Tidak'\n\n"
+                    "ℹ️ Migrain menyebabkan penyempitan pembuluh darah sementara "
+                    "yang dapat mengurangi aliran darah ke saraf optik."
+                )
+            )
         with c4:
-            hipertensi = st.selectbox("Hipertensi / Darah Tinggi", ["Tidak", "Ya"],
-                                      help="Pernah didiagnosis hipertensi atau sedang mengonsumsi obat antihipertensi.")
-            migrain = st.selectbox("Migrain", ["Tidak", "Ya"],
-                                   help="Pernah didiagnosis migrain oleh dokter.")
+            hipertensi = st.selectbox(
+                "Hipertensi (Tekanan Darah Tinggi)",
+                ["Tidak", "Ya"],
+                help=(
+                    "Pilih 'Ya' jika salah satu kondisi berikut berlaku:\n\n"
+                    "✅ Pernah didiagnosis hipertensi oleh dokter\n"
+                    "✅ Tekanan darah Anda ≥140/90 mmHg (sistolik ≥140 ATAU diastolik ≥90)\n"
+                    "✅ Sedang rutin minum obat penurun tekanan darah\n\n"
+                    "❌ Tekanan darah di bawah 140/90 mmHg tanpa obat → pilih 'Tidak'\n\n"
+                    "ℹ️ Patokan angka 140/90 mmHg berdasarkan panduan ESC/ESH 2018 & JNC-8."
+                )
+            )
+            sirkulasi = st.selectbox(
+                "Gangguan Sirkulasi Darah",
+                ["Tidak", "Ya"],
+                help=(
+                    "Pilih 'Ya' jika pernah didiagnosis dokter dengan salah satu kondisi berikut:\n\n"
+                    "✅ Penyakit jantung koroner / gagal jantung\n"
+                    "✅ Penyakit arteri perifer (kaki/tangan sering dingin, mati rasa)\n"
+                    "✅ Sindrom Raynaud (jari tangan/kaki pucat/biru saat dingin)\n"
+                    "✅ Anemia berat (Hb sangat rendah, sering pusing hebat)\n\n"
+                    "❌ Varises biasa → pilih 'Tidak'\n"
+                    "❌ Tekanan darah rendah sesekali tanpa diagnosis → pilih 'Tidak'\n\n"
+                    "ℹ️ Kondisi ini mengurangi aliran darah ke saraf optik sehingga "
+                    "meningkatkan risiko kerusakan permanen."
+                )
+            )
 
-        sirkulasi = st.selectbox("Gangguan Sirkulasi Darah", ["Tidak", "Ya"],
-                                 help="Penyakit jantung koroner, peripheral vascular disease, Raynaud syndrome, atau gangguan aliran darah lainnya.")
+        # ── BAGIAN 4: KONDISI MATA ─────────────────────────────────────────────
+        st.markdown('<div class="input-section-label" style="margin-top:0.9rem;">👁️ Kondisi Mata</div>', unsafe_allow_html=True)
+        refraksi = st.selectbox(
+            "Kelainan Refraksi (berdasarkan hasil periksa dokter mata / optometris)",
+            REFRAKSI_ORDER,
+            help=(
+                "Pilih berdasarkan hasil pemeriksaan dokter mata atau optometris terakhir:\n\n"
+                "👓 Tidak Ada → penglihatan normal (tidak pakai kacamata/lensa)\n\n"
+                "👓 Miopia Ringan → RABUN JAUH, ukuran lensa −0,5 s/d −3,0 D\n"
+                "   (bisa lihat dekat, buram saat melihat jauh)\n\n"
+                "👓 Miopia Sedang/Berat → RABUN JAUH, ukuran lensa > −3,0 D\n"
+                "   ⚠️ Risiko glaukoma lebih tinggi karena perubahan struktur saraf optik\n\n"
+                "👓 Hipermetropia Ringan → RABUN DEKAT, ukuran lensa +0,5 s/d +3,0 D\n"
+                "   (bisa lihat jauh, buram saat melihat dekat/baca)\n\n"
+                "👓 Hipermetropia Sedang/Berat → RABUN DEKAT, ukuran lensa > +3,0 D\n\n"
+                "❓ Belum pernah periksa mata → pilih 'Tidak Ada' sebagai default"
+            )
+        )
 
-        st.markdown('<div class="input-section-label" style="margin-top:0.8rem;">Kondisi Mata & Obat-obatan</div>', unsafe_allow_html=True)
-        refraksi = st.selectbox("Kelainan Refraksi (hasil periksa dokter mata)",
-                                REFRAKSI_ORDER,
-                                help="Pilih kondisi refraksi dari hasil pemeriksaan dokter mata. Jika belum pernah periksa, pilih 'Tidak Ada'.")
-        kortiko = st.selectbox("Riwayat Penggunaan Kortikosteroid",
-                               KORIKO_ORDER,
-                               help="Tidak = tidak pernah pakai. Jangka Pendek = < 4 minggu. Jangka Panjang = ≥ 4 minggu atau rutin.")
+        # ── BAGIAN 5: OBAT-OBATAN ──────────────────────────────────────────────
+        st.markdown('<div class="input-section-label" style="margin-top:0.9rem;">💊 Riwayat Obat-obatan</div>', unsafe_allow_html=True)
+        kortiko = st.selectbox(
+            "Riwayat Penggunaan Obat Kortikosteroid / Steroid",
+            KORIKO_ORDER,
+            help=(
+                "Kortikosteroid adalah golongan obat anti-radang/anti-inflamasi. "
+                "Contoh nama obat: Dexamethasone, Prednisone, Methylprednisolone, "
+                "Betamethasone, Triamcinolone, dll.\n\n"
+                "Pilih berdasarkan total durasi pemakaian:\n\n"
+                "❌ Tidak → tidak pernah menggunakan sama sekali\n\n"
+                "⏱ Jangka Pendek → pernah menggunakan KURANG dari 4 minggu\n"
+                "   (misal: minum Prednison 5 hari karena alergi)\n\n"
+                "⚠️ Jangka Panjang → menggunakan 4 MINGGU atau LEBIH, atau rutin saat ini\n"
+                "   (misal: inhaler asma tiap hari, tetes mata steroid rutin, "
+                "   salep kulit steroid jangka panjang, tablet steroid kronik)\n\n"
+                "ℹ️ Semua bentuk termasuk: tablet, tetes mata, inhaler asma, "
+                "suntikan, atau salep.\n"
+                "ℹ️ Kortikosteroid jangka panjang dapat meningkatkan tekanan dalam "
+                "mata dan memicu glaukoma."
+            )
+        )
 
-        st.markdown("<div style='height:0.5rem;'></div>", unsafe_allow_html=True)
-        predict_btn = st.button("🩺 Prediksi Risiko Saya", type="primary", use_container_width=True)
+        st.markdown("<div style='height:0.6rem;'></div>", unsafe_allow_html=True)
+        predict_btn = st.button("🩺 Prediksi Risiko Saya Sekarang", type="primary", use_container_width=True)
 
     with col_result:
         st.markdown("""
-        <div style='font-family: DM Serif Display, serif; font-size:1.4rem; color:#17a2b8; margin-bottom:0.2rem;'>
+        <div style='font-family: DM Serif Display, serif; font-size:1.4rem; color:#0d4f6e; margin-bottom:0.2rem;'>
             Hasil Skrining
         </div>
         <div style='color:#8890a4; font-size:0.88rem; margin-bottom:1.2rem;'>
@@ -696,7 +802,7 @@ with tab_pred:
             """, unsafe_allow_html=True)
         else:
             artifact = load_model(up_model)
-            le = load_encoder(up_encoder)
+            le       = load_encoder(up_encoder)
 
             if predict_btn:
                 pasien = {
@@ -707,15 +813,13 @@ with tab_pred:
                     "Kelainan_Refraksi": refraksi,
                     "Penggunaan_Kortikosteroid": kortiko,
                 }
-                
-                X_input = encode_input(pasien)
+                X_input            = encode_input(pasien)
                 label, pred_enc, proba = prediksi(X_input, artifact, le)
-                conf = max(proba.values())
+                conf               = max(proba.values())
 
                 # Risk card
                 card_cls = "risk-card-high" if pred_enc == 2 else "risk-card-medium" if pred_enc == 1 else "risk-card-low"
-                icon = "🔴" if pred_enc == 2 else "🟡" if pred_enc == 1 else "🟢"
-                
+                icon     = "🔴" if pred_enc == 2 else "🟡" if pred_enc == 1 else "🟢"
                 advice_map = {
                     2: "Segera periksakan diri ke dokter spesialis mata (oftalmolog) untuk pemeriksaan tekanan intraokular dan kondisi saraf optik secara lengkap.",
                     1: "Lakukan pemeriksaan rutin ke dokter mata setiap 6–12 bulan. Pantau dan kelola faktor risiko yang Anda miliki.",
@@ -725,13 +829,13 @@ with tab_pred:
                 st.markdown(f"""
                 <div class="risk-card {card_cls}">
                     <div class="risk-label">{icon} {label}</div>
-                    <div style='font-size:0.85rem; color:#4a5568; margin-bottom:0.5rem;'>Tingkat Kepercayaan Model: <b>{conf:.1f}%</b></div>
+                    <div style='font-size:0.85rem; color:#8890a4; margin-bottom:0.5rem;'>Tingkat Kepercayaan Model: <b>{conf:.1f}%</b></div>
                     <div class="risk-advice">💬 {advice_map[pred_enc]}</div>
                 </div>
                 """, unsafe_allow_html=True)
 
                 # Probability bars
-                st.markdown("<div style='margin:0.8rem 0 0.4rem 0; font-weight:600; font-size:0.9rem;'>Distribusi Probabilitas</div>", unsafe_allow_html=True)
+                st.markdown("<div style='margin:0.8rem 0 0.4rem 0; font-weight:600; font-size:0.9rem; color:#3d4460;'>Distribusi Probabilitas</div>", unsafe_allow_html=True)
                 bar_colors = {"Risiko Rendah": "#2da673", "Risiko Sedang": "#e8a040", "Risiko Tinggi": "#e05c5c"}
                 for lbl, pct in proba.items():
                     st.markdown(f"""
@@ -752,8 +856,7 @@ with tab_pred:
                     "Gangguan Sirkulasi": sirkulasi,
                 }.items() if v == "Ya"]
 
-                st.markdown("<div style='margin-top:1rem; font-weight:600; font-size:0.9rem;'>Faktor Risiko Aktif</div>", unsafe_allow_html=True)
-                
+                st.markdown("<div style='margin-top:1rem; font-weight:600; font-size:0.9rem; color:#3d4460;'>Faktor Risiko Aktif</div>", unsafe_allow_html=True)
                 if faktor_aktif:
                     tags = "".join([f'<span class="factor-tag">{f}</span>' for f in faktor_aktif])
                     if kortiko != "Tidak":
@@ -770,12 +873,13 @@ with tab_pred:
                     ⚠️ Hasil ini <b>bukan diagnosis medis</b>. Sistem ini menggunakan dataset sintetis dan dirancang sebagai alat edukasi skrining awal. Konsultasikan hasil ini ke dokter spesialis mata.
                 </div>
                 """, unsafe_allow_html=True)
+
             else:
                 # Placeholder state
                 st.markdown("""
                 <div style='background:#f5f6fa; border-radius:14px; padding:2.5rem; text-align:center; color:#8890a4;'>
                     <div style='font-size:3rem; margin-bottom:0.8rem;'>🩺</div>
-                    <div style='font-size:1rem; font-weight:600;'>Isi formulir dan klik Prediksi</div>
+                    <div style='font-size:1rem; font-weight:600; color:#3d4460;'>Isi formulir dan klik Prediksi</div>
                     <div style='font-size:0.88rem; margin-top:0.4rem;'>Hasil skrining akan ditampilkan di sini</div>
                 </div>
                 """, unsafe_allow_html=True)
@@ -783,20 +887,21 @@ with tab_pred:
             # Model info expander
             artifact_info = load_model(up_model)
             with st.expander("ℹ️ Informasi Model Machine Learning"):
-                m = artifact_info.get("metrics", {})
+                m  = artifact_info.get("metrics", {})
                 ci1, ci2, ci3, ci4 = st.columns(4)
-                ci1.metric("Accuracy", f"{m.get('accuracy', '-')}")
-                ci2.metric("F1 Macro", f"{m.get('f1_macro', '-')}")
-                ci3.metric("CV Mean", f"{m.get('cv_mean', '-')}")
-                ci4.metric("CV Std", f"±{m.get('cv_std', '-')}")
+                ci1.metric("Accuracy",  f"{m.get('accuracy', '-')}")
+                ci2.metric("F1 Macro",  f"{m.get('f1_macro', '-')}")
+                ci3.metric("CV Mean",   f"{m.get('cv_mean', '-')}")
+                ci4.metric("CV Std",    f"±{m.get('cv_std', '-')}")
                 st.caption(f"**Best Params:** {artifact_info.get('best_params', {})}")
 
-# ═══════════════════════════════════════════════════════════════════════════════
+
+# ══════════════════════════════════════════════════════════════════════════════
 # TAB DISTRIBUSI DATA
-# ═══════════════════════════════════════════════════════════════════════════════
+# ══════════════════════════════════════════════════════════════════════════════
 with tab_dist:
     st.markdown("""
-    <div style='font-family: DM Serif Display, serif; font-size:1.4rem; color:#17a2b8; margin-bottom:1rem;'>
+    <div style='font-family: DM Serif Display, serif; font-size:1.4rem; color:#0d4f6e; margin-bottom:1rem;'>
         Distribusi Dataset Glaukoma
     </div>
     """, unsafe_allow_html=True)
@@ -804,12 +909,11 @@ with tab_dist:
     # Summary metrics
     mc1, mc2, mc3, mc4 = st.columns(4)
     metrics = [
-        (mc1, "Total Pasien", f"{total:,}", "#1a7a9e", ""),
-        (mc2, "🟢 Risiko Rendah", f"{dist['Risiko Rendah']:,}", "#2da673", f"{dist['Risiko Rendah']/total*100:.1f}%"),
-        (mc3, "🟡 Risiko Sedang", f"{dist['Risiko Sedang']:,}", "#e8a040", f"{dist['Risiko Sedang']/total*100:.1f}%"),
-        (mc4, "🔴 Risiko Tinggi", f"{dist['Risiko Tinggi']:,}", "#e05c5c", f"{dist['Risiko Tinggi']/total*100:.1f}%"),
+        (mc1, "Total Pasien",    f"{total:,}",                   "#1a7a9e", ""),
+        (mc2, "🟢 Risiko Rendah", f"{dist['Risiko Rendah']:,}",  "#2da673", f"{dist['Risiko Rendah']/total*100:.1f}%"),
+        (mc3, "🟡 Risiko Sedang", f"{dist['Risiko Sedang']:,}",  "#e8a040", f"{dist['Risiko Sedang']/total*100:.1f}%"),
+        (mc4, "🔴 Risiko Tinggi", f"{dist['Risiko Tinggi']:,}",  "#e05c5c", f"{dist['Risiko Tinggi']/total*100:.1f}%"),
     ]
-
     for col, label, value, color, delta in metrics:
         with col:
             st.markdown(f"""
@@ -836,7 +940,6 @@ with tab_dist:
     )
     for at in autotexts:
         at.set_fontsize(10); at.set_color("white"); at.set_fontweight("bold")
-
     handles = [mpatches.Patch(color=RISK_PALETTE[r], label=r) for r in RISK_ORDER]
     ax2.legend(handles=handles, loc="lower center", bbox_to_anchor=(0.5, -0.18), ncol=1, fontsize=9)
     ax2.set_title("Proporsi Label Risiko")
@@ -845,12 +948,13 @@ with tab_dist:
 
     st.markdown('<div class="info-banner">📊 Dataset seimbang (balanced) — 500 sampel per kelas. Distribusi ini adalah hasil desain generator data sintetis berbasis literatur medis.</div>', unsafe_allow_html=True)
 
-# ═══════════════════════════════════════════════════════════════════════════════
+
+# ══════════════════════════════════════════════════════════════════════════════
 # TAB BQ-1: FAKTOR RISIKO
-# ═══════════════════════════════════════════════════════════════════════════════
+# ══════════════════════════════════════════════════════════════════════════════
 with tab_faktor:
     st.markdown("""
-    <div style='font-family: DM Serif Display, serif; font-size:1.4rem; color:#17a2b8; margin-bottom:0.2rem;'>BQ-1 · Faktor Risiko Paling Diskriminatif</div>
+    <div style='font-family: DM Serif Display, serif; font-size:1.4rem; color:#0d4f6e; margin-bottom:0.2rem;'>BQ-1 · Faktor Risiko Paling Diskriminatif</div>
     <div style='color:#8890a4; font-size:0.88rem; margin-bottom:1rem;'>Faktor mana yang paling membedakan kelompok Risiko Tinggi dari Risiko Rendah?</div>
     """, unsafe_allow_html=True)
 
@@ -866,7 +970,6 @@ with tab_faktor:
             "Risiko Tinggi": prop.get("Risiko Tinggi", 0),
             "Gap (T−R)": prop.get("Risiko Tinggi", 0) - prop.get("Risiko Rendah", 0),
         })
-    
     df_bq1 = pd.DataFrame(rows).sort_values("Gap (T−R)", ascending=False)
 
     fig, axes = plt.subplots(1, 2, figsize=(13, 4.5), gridspec_kw={"width_ratios": [2, 1]})
@@ -882,7 +985,6 @@ with tab_faktor:
             for bar, val in zip(bars, df_bq1[risk]):
                 ax1.text(bar.get_x() + bar.get_width() / 2, bar.get_height() + 0.8,
                          f"{val:.0f}%", ha="center", va="bottom", fontsize=8, color="#444")
-    
     ax1.set_xticks(x); ax1.set_xticklabels(df_bq1["Faktor"], fontsize=9)
     ax1.set_ylabel("Proporsi 'Ya' (%)"); ax1.set_ylim(0, 100)
     ax1.set_title("Proporsi Pasien 'Ya' per Faktor Risiko"); ax1.legend(title="Label Risiko", fontsize=9)
@@ -896,19 +998,19 @@ with tab_faktor:
     ax2.set_xlim(0, 80); ax2.set_xlabel("Gap (Risiko Tinggi − Risiko Rendah)")
     ax2.set_title("Seberapa Diskriminatif?")
     ax2.axvline(50, color="#e05c5c", linestyle="--", alpha=0.5, linewidth=1)
-
     plt.tight_layout(); st.pyplot(fig); plt.close()
 
     with st.expander("📋 Tabel Lengkap BQ-1"):
         st.dataframe(df_bq1.round(1), use_container_width=True, hide_index=True)
-    st.markdown('<div class="info-banner">💡 <b>Temuan:</b> Riwayat Keluarga memiliki gap +64%, diikuti Diabetes (+63%) dan Hipertensi (+63%). Seluruh faktor biner signifikan secara statistik (Chi-Square p < 0.001).</div>', unsafe_allow_html=True)
+    st.markdown('<div class="info-banner">💡 <b>Temuan:</b> Riwayat Keluarga memiliki gap +64%, diikuti Diabetes (+63%) dan Hipertensi (+63%). Seluruh faktor biner signifikan secara statistik (Chi-Square p &lt; 0.001).</div>', unsafe_allow_html=True)
 
-# ═══════════════════════════════════════════════════════════════════════════════
+
+# ══════════════════════════════════════════════════════════════════════════════
 # TAB BQ-2: USIA
-# ═══════════════════════════════════════════════════════════════════════════════
+# ══════════════════════════════════════════════════════════════════════════════
 with tab_usia:
     st.markdown("""
-    <div style='font-family: DM Serif Display, serif; font-size:1.4rem; color:#17a2b8; margin-bottom:0.2rem;'>BQ-2 · Distribusi Usia per Kelompok Risiko</div>
+    <div style='font-family: DM Serif Display, serif; font-size:1.4rem; color:#0d4f6e; margin-bottom:0.2rem;'>BQ-2 · Distribusi Usia per Kelompok Risiko</div>
     <div style='color:#8890a4; font-size:0.88rem; margin-bottom:1rem;'>Apakah usia berkorelasi signifikan dengan tingkat risiko glaukoma?</div>
     """, unsafe_allow_html=True)
 
@@ -918,7 +1020,8 @@ with tab_usia:
         H, p_kw = kruskal(*groups)
 
     fig = plt.figure(figsize=(13, 4.5))
-    gs = gridspec.GridSpec(1, 2, figure=fig, wspace=0.35)
+    gs  = gridspec.GridSpec(1, 2, figure=fig, wspace=0.35)
+
     ax1 = fig.add_subplot(gs[0])
     for risk, color in zip(RISK_ORDER, RISK_COLORS):
         grp = df[df["Label_Risiko"] == risk]["Usia"].dropna()
@@ -927,12 +1030,10 @@ with tab_usia:
             x_range = np.linspace(df["Usia"].min() - 2, df["Usia"].max() + 2, 200)
             ax1.fill_between(x_range, kde(x_range), alpha=0.25, color=color)
             ax1.plot(x_range, kde(x_range), color=color, linewidth=2.5, label=f"{risk} (μ={grp.mean():.0f})")
-
     if p_kw < 0.001:
         ax1.text(0.97, 0.97, f"Kruskal-Wallis\nH={H:.1f}, p<0.001",
                  transform=ax1.transAxes, ha="right", va="top", fontsize=9,
                  bbox=dict(boxstyle="round", facecolor="white", edgecolor="#ccc"))
-    
     ax1.set_xlabel("Usia (tahun)"); ax1.set_ylabel("Densitas")
     ax1.set_title("Distribusi KDE Usia per Kelompok Risiko"); ax1.legend(title="Label Risiko", fontsize=9)
 
@@ -940,7 +1041,6 @@ with tab_usia:
     tbl_usia = pd.crosstab(df["Kelompok_Usia"], df["Label_Risiko"], normalize="index")
     tbl_usia = tbl_usia.reindex(columns=[r for r in RISK_ORDER if r in tbl_usia.columns]).mul(100).round(1)
     tbl_usia = tbl_usia.reindex([k for k in KELOMPOK_ORDER if k in tbl_usia.index])
-    
     if not tbl_usia.empty:
         tbl_usia.plot(kind="bar", stacked=True, ax=ax2,
                       color=[RISK_PALETTE[r] for r in tbl_usia.columns], alpha=0.88,
@@ -953,34 +1053,32 @@ with tab_usia:
                     ax2.text(i, cum + val / 2, f"{val:.0f}%",
                              ha="center", va="center", fontsize=9, color="white", fontweight="bold")
             cumulative += vals
-
     ax2.set_xticklabels(tbl_usia.index, rotation=0)
     ax2.set_ylabel("Proporsi (%)"); ax2.set_xlabel("Kelompok Usia")
     ax2.set_title("Proporsi Label Risiko per Kelompok Usia")
     handles = [mpatches.Patch(color=RISK_PALETTE[r], label=r) for r in RISK_ORDER if r in df["Label_Risiko"].unique()]
     ax2.legend(handles=handles, title="Label Risiko", bbox_to_anchor=(1.01, 1), loc="upper left", fontsize=9)
-
     plt.tight_layout(); st.pyplot(fig); plt.close()
 
     with st.expander("📋 Statistik Usia per Kelompok Risiko"):
         stat = df.groupby("Label_Risiko")["Usia"].agg(N="count", Mean="mean", Median="median", Std="std", Min="min", Max="max")
         stat = stat.reindex([r for r in RISK_ORDER if r in df["Label_Risiko"].unique()]).round(1)
         st.dataframe(stat, use_container_width=True)
-    
-    st.markdown('<div class="info-banner">💡 Risiko Rendah (μ≈34 th) vs Risiko Tinggi (μ≈69 th). Kelompok usia 60+ menyumbang 72,7% dari total populasi Risiko Tinggi. Uji Kruskal-Wallis: p < 0.001.</div>', unsafe_allow_html=True)
+    st.markdown('<div class="info-banner">💡 Risiko Rendah (μ≈34 th) vs Risiko Tinggi (μ≈69 th). Kelompok usia 60+ menyumbang 72,7% dari total populasi Risiko Tinggi. Uji Kruskal-Wallis: p &lt; 0.001.</div>', unsafe_allow_html=True)
 
-# ═══════════════════════════════════════════════════════════════════════════════
+
+# ══════════════════════════════════════════════════════════════════════════════
 # TAB BQ-3: KOMBINASI
-# ═══════════════════════════════════════════════════════════════════════════════
+# ══════════════════════════════════════════════════════════════════════════════
 with tab_kombinasi:
     st.markdown("""
-    <div style='font-family: DM Serif Display, serif; font-size:1.4rem; color:#17a2b8; margin-bottom:0.2rem;'>BQ-3 · Efek Akumulatif Kombinasi Faktor Risiko</div>
+    <div style='font-family: DM Serif Display, serif; font-size:1.4rem; color:#0d4f6e; margin-bottom:0.2rem;'>BQ-3 · Efek Akumulatif Kombinasi Faktor Risiko</div>
     <div style='color:#8890a4; font-size:0.88rem; margin-bottom:1rem;'>Apakah memiliki lebih banyak faktor risiko sekaligus meningkatkan risiko secara signifikan?</div>
     """, unsafe_allow_html=True)
 
-    tbl_kombid = pd.crosstab(df["Kombinasi_Risiko"], df["Label_Risiko"], normalize="index")
-    tbl_kombid = tbl_kombid.reindex(columns=[r for r in RISK_ORDER if r in tbl_kombid.columns]).mul(100).round(1)
-    tbl_kombid = tbl_kombid.sort_values(tbl_kombid.columns[-1])
+    tbl_kombid   = pd.crosstab(df["Kombinasi_Risiko"], df["Label_Risiko"], normalize="index")
+    tbl_kombid   = tbl_kombid.reindex(columns=[r for r in RISK_ORDER if r in tbl_kombid.columns]).mul(100).round(1)
+    tbl_kombid   = tbl_kombid.sort_values(tbl_kombid.columns[-1])
     count_kombid = df["Kombinasi_Risiko"].value_counts()
 
     fig, ax = plt.subplots(figsize=(12, 5))
@@ -995,42 +1093,39 @@ with tab_kombinasi:
                 ax.text(cum + val / 2, i, f"{val:.0f}%",
                         ha="center", va="center", fontsize=9, color="white", fontweight="bold")
         cumulative += vals
-
     last_col = tbl_kombid.columns[-1]
     for i, (idx, row) in enumerate(tbl_kombid.iterrows()):
         n = count_kombid.get(idx, 0); pct = row[last_col]
-        ax.text(103, i, f"{pct:.0f}% (n={n})", va="center", fontsize=9,
+        ax.text(103, i, f"{pct:.0f}%  (n={n})", va="center", fontsize=9,
                 color="#e05c5c" if pct > 50 else "#888", fontweight="bold" if pct > 50 else "normal")
-
     ax.set_xlim(0, 122); ax.set_xlabel("Proporsi (%)")
     ax.axvline(50, color="gray", linestyle="--", alpha=0.4, linewidth=1)
     ax.set_title("Proporsi Label Risiko per Kombinasi Faktor\n(angka merah = % Risiko Tinggi)")
     handles = [mpatches.Patch(color=RISK_PALETTE[r], label=r) for r in RISK_ORDER if r in df["Label_Risiko"].unique()]
     ax.legend(handles=handles, title="Label Risiko", bbox_to_anchor=(1.18, 1), loc="upper left", fontsize=9)
-
     plt.tight_layout(); st.pyplot(fig); plt.close()
     st.markdown('<div class="info-banner">💡 Riwayat + DM + HT = <b>83% Risiko Tinggi</b>. Tanpa faktor apapun = <b>0% Risiko Tinggi</b>. Efek bersifat akumulatif, bukan sekadar aditif.</div>', unsafe_allow_html=True)
 
-# ═══════════════════════════════════════════════════════════════════════════════
+
+# ══════════════════════════════════════════════════════════════════════════════
 # TAB BQ-4: KORTIKOSTEROID
-# ═══════════════════════════════════════════════════════════════════════════════
+# ══════════════════════════════════════════════════════════════════════════════
 with tab_koriko:
     st.markdown("""
-    <div style='font-family: DM Serif Display, serif; font-size:1.4rem; color:#17a2b8; margin-bottom:0.2rem;'>BQ-4 · Pengaruh Durasi Kortikosteroid terhadap Risiko</div>
+    <div style='font-family: DM Serif Display, serif; font-size:1.4rem; color:#0d4f6e; margin-bottom:0.2rem;'>BQ-4 · Pengaruh Durasi Kortikosteroid terhadap Risiko</div>
     <div style='color:#8890a4; font-size:0.88rem; margin-bottom:1rem;'>Apakah semakin lama menggunakan kortikosteroid, semakin tinggi risikonya?</div>
     """, unsafe_allow_html=True)
 
     tbl_koriko_pct = pd.crosstab(df["Penggunaan_Kortikosteroid"], df["Label_Risiko"], normalize="index")
     tbl_koriko_pct = tbl_koriko_pct.reindex(columns=[r for r in RISK_ORDER if r in tbl_koriko_pct.columns]).mul(100).round(1)
     tbl_koriko_pct = tbl_koriko_pct.reindex([k for k in KORIKO_ORDER if k in tbl_koriko_pct.index])
-
-    tbl_koriko_n = pd.crosstab(df["Penggunaan_Kortikosteroid"], df["Label_Risiko"])
-    tbl_koriko_n = tbl_koriko_n.reindex([k for k in KORIKO_ORDER if k in tbl_koriko_n.index])
-    tbl_koriko_n = tbl_koriko_n.reindex(columns=[r for r in RISK_ORDER if r in tbl_koriko_n.columns])
+    tbl_koriko_n   = pd.crosstab(df["Penggunaan_Kortikosteroid"], df["Label_Risiko"])
+    tbl_koriko_n   = tbl_koriko_n.reindex([k for k in KORIKO_ORDER if k in tbl_koriko_n.index])
+    tbl_koriko_n   = tbl_koriko_n.reindex(columns=[r for r in RISK_ORDER if r in tbl_koriko_n.columns])
 
     fig = plt.figure(figsize=(13, 4.5))
-    gs = gridspec.GridSpec(1, 3, figure=fig, wspace=0.42)
-    
+    gs  = gridspec.GridSpec(1, 3, figure=fig, wspace=0.42)
+
     ax1 = fig.add_subplot(gs[0])
     tbl_koriko_pct.plot(kind="bar", stacked=True, ax=ax1,
                         color=[RISK_PALETTE[r] for r in tbl_koriko_pct.columns], alpha=0.88,
@@ -1049,7 +1144,7 @@ with tab_koriko:
     ax2 = fig.add_subplot(gs[1])
     x_pts = list(range(len(tbl_koriko_pct)))
     if len(tbl_koriko_pct.columns) >= 2:
-        last_col = tbl_koriko_pct.columns[-1]
+        last_col  = tbl_koriko_pct.columns[-1]
         first_col = tbl_koriko_pct.columns[0]
         ax2.plot(x_pts, tbl_koriko_pct[last_col].values, "o-", color="#e05c5c",
                  linewidth=2.5, markersize=10, label=last_col)
@@ -1066,24 +1161,23 @@ with tab_koriko:
                 linewidths=0.5, linecolor="white", cbar_kws={"shrink": 0.8})
     ax3.set_title("Heatmap Jumlah Pasien")
     ax3.set_xlabel("Label Risiko"); ax3.set_ylabel("Durasi")
-
     plt.tight_layout(); st.pyplot(fig); plt.close()
     st.markdown('<div class="info-banner">💡 Kortikosteroid Jangka Panjang → 76% Risiko Tinggi. Tidak pakai → 0% Risiko Tinggi. Pola eskalasi linier dan sangat konsisten.</div>', unsafe_allow_html=True)
 
-# ═══════════════════════════════════════════════════════════════════════════════
+
+# ══════════════════════════════════════════════════════════════════════════════
 # TAB BQ-5: GENDER
-# ═══════════════════════════════════════════════════════════════════════════════
+# ══════════════════════════════════════════════════════════════════════════════
 with tab_gender:
     st.markdown("""
-    <div style='font-family: DM Serif Display, serif; font-size:1.4rem; color:#17a2b8; margin-bottom:0.2rem;'>BQ-5 · Pengaruh Jenis Kelamin terhadap Distribusi Risiko</div>
+    <div style='font-family: DM Serif Display, serif; font-size:1.4rem; color:#0d4f6e; margin-bottom:0.2rem;'>BQ-5 · Pengaruh Jenis Kelamin terhadap Distribusi Risiko</div>
     <div style='color:#8890a4; font-size:0.88rem; margin-bottom:1rem;'>Apakah jenis kelamin menjadi faktor pembeda risiko glaukoma?</div>
     """, unsafe_allow_html=True)
 
     tbl_gender_pct = pd.crosstab(df["Jenis_Kelamin"], df["Label_Risiko"], normalize="index")
     tbl_gender_pct = tbl_gender_pct.reindex(columns=[r for r in RISK_ORDER if r in tbl_gender_pct.columns]).mul(100).round(1)
-    
-    tbl_gender_n = pd.crosstab(df["Jenis_Kelamin"], df["Label_Risiko"])
-    ct = pd.crosstab(df["Jenis_Kelamin"], df["Label_Risiko"])
+    tbl_gender_n   = pd.crosstab(df["Jenis_Kelamin"], df["Label_Risiko"])
+    ct             = pd.crosstab(df["Jenis_Kelamin"], df["Label_Risiko"])
     chi2_stat, p_chi, dof = 0, 1, 0
     if ct.shape[0] >= 2 and ct.shape[1] >= 2:
         chi2_stat, p_chi, dof, _ = chi2_contingency(ct)
@@ -1125,37 +1219,35 @@ with tab_gender:
 
     handles = [mpatches.Patch(color=RISK_PALETTE[r], label=r) for r in RISK_ORDER if r in df["Label_Risiko"].unique()]
     fig.legend(handles=handles, title="Label Risiko", loc="lower center", ncol=3, fontsize=9, bbox_to_anchor=(0.5, -0.06))
-    
     plt.tight_layout(); st.pyplot(fig); plt.close()
 
     kesimpulan = "signifikan" if p_chi < 0.05 else "tidak signifikan"
     st.markdown(f'<div class="info-banner">💡 Perbedaan gender {kesimpulan} (χ²={chi2_stat:.3f}, p={p_chi:.4f}). Jenis kelamin bukan faktor pembeda utama risiko glaukoma dalam dataset ini.</div>', unsafe_allow_html=True)
 
-# ═══════════════════════════════════════════════════════════════════════════════
+
+# ══════════════════════════════════════════════════════════════════════════════
 # TAB BQ-6: REFRAKSI
-# ═══════════════════════════════════════════════════════════════════════════════
+# ══════════════════════════════════════════════════════════════════════════════
 with tab_refraksi:
     st.markdown("""
-    <div style='font-family: DM Serif Display, serif; font-size:1.4rem; color:#17a2b8; margin-bottom:0.2rem;'>BQ-6 · Kelainan Refraksi pada Pasien Risiko Glaukoma</div>
+    <div style='font-family: DM Serif Display, serif; font-size:1.4rem; color:#0d4f6e; margin-bottom:0.2rem;'>BQ-6 · Kelainan Refraksi pada Pasien Risiko Glaukoma</div>
     <div style='color:#8890a4; font-size:0.88rem; margin-bottom:1rem;'>Jenis kelainan refraksi apa yang paling banyak ditemukan pada kelompok Risiko Tinggi?</div>
     """, unsafe_allow_html=True)
 
     tbl_refraksi = pd.crosstab(df["Kelainan_Refraksi"], df["Label_Risiko"], normalize="index")
     tbl_refraksi = tbl_refraksi.reindex(columns=[r for r in RISK_ORDER if r in tbl_refraksi.columns]).mul(100).round(1)
     tbl_refraksi = tbl_refraksi.reindex([r for r in REFRAKSI_ORDER if r in tbl_refraksi.index])
-
     risiko_tinggi_df = df[df["Label_Risiko"] == "Risiko Tinggi"]
     komposisi_tinggi = (risiko_tinggi_df["Kelainan_Refraksi"].value_counts(normalize=True)
                         .mul(100).reindex(REFRAKSI_ORDER).fillna(0).round(1))
-
     ct_r = pd.crosstab(df["Kelainan_Refraksi"], df["Label_Risiko"])
-    p_r = 1.0
+    p_r  = 1.0
     if ct_r.shape[0] >= 2 and ct_r.shape[1] >= 2:
         _, p_r, _, _ = chi2_contingency(ct_r)
 
     REFRAKSI_COLORS = ["#95a5a6", "#3498db", "#1a5276", "#f39c12", "#e67e22"]
-    
     fig, axes = plt.subplots(1, 2, figsize=(13, 4.5))
+
     ax1 = axes[0]
     x = np.arange(len(tbl_refraksi)); width = 0.26
     for i, (risk, color) in enumerate(zip(tbl_refraksi.columns, [RISK_PALETTE[r] for r in tbl_refraksi.columns])):
@@ -1173,11 +1265,10 @@ with tab_refraksi:
     ax1.legend(title="Label Risiko", fontsize=9)
 
     ax2 = axes[1]; ax2.set_facecolor("white")
-    mask = komposisi_tinggi > 0
-    vals_nz = komposisi_tinggi[mask]
+    mask     = komposisi_tinggi > 0
+    vals_nz  = komposisi_tinggi[mask]
     labels_pie = vals_nz.index.tolist()
     colors_pie = [REFRAKSI_COLORS[REFRAKSI_ORDER.index(l)] for l in labels_pie if l in REFRAKSI_ORDER]
-    
     if len(vals_nz) > 0:
         wedges, _, autotexts = ax2.pie(
             vals_nz, colors=colors_pie, autopct="%1.1f%%", startangle=90, pctdistance=0.72,
@@ -1186,18 +1277,17 @@ with tab_refraksi:
         for at in autotexts:
             at.set_fontsize(9); at.set_color("white"); at.set_fontweight("bold")
         ax2.legend(wedges, labels_pie, title="Jenis Refraksi", fontsize=9, bbox_to_anchor=(1.35, 0.5), loc="center right")
-
     ax2.set_title(f"Komposisi Refraksi pada Risiko Tinggi\n(n={len(risiko_tinggi_df)})")
     plt.tight_layout(); st.pyplot(fig); plt.close()
+    st.markdown('<div class="info-banner">💡 Miopia Sedang/Berat memiliki proporsi Risiko Tinggi tertinggi di antara semua kategori refraksi. Kelainan refraksi berasosiasi signifikan dengan label risiko (p &lt; 0.001).</div>', unsafe_allow_html=True)
 
-    st.markdown('<div class="info-banner">💡 Miopia Sedang/Berat memiliki proporsi Risiko Tinggi tertinggi di antara semua kategori refraksi. Kelainan refraksi berasosiasi signifikan dengan label risiko (p < 0.001).</div>', unsafe_allow_html=True)
 
 # ── Footer ─────────────────────────────────────────────────────────────────────
 st.markdown("""
 <div class="app-footer">
-    <b>Opsis</b> · Dashboard Analisis Risiko Glaukoma &nbsp;| &nbsp;
-    Dataset sintetis berbasis literatur medis — <b>bukan untuk keperluan klinis</b> &nbsp;| &nbsp;
-    Capstone Coding Camp 2026 · DBS Foundation × Dicoding <br>
+    <b>Opsis</b> · Dashboard Analisis Risiko Glaukoma &nbsp;|&nbsp;
+    Dataset sintetis berbasis literatur medis — <b>bukan untuk keperluan klinis</b> &nbsp;|&nbsp;
+    Capstone Coding Camp 2026 · DBS Foundation × Dicoding<br>
     <span style='margin-top:0.3rem; display:block;'>
         Referensi utama: Tham et al. (2014) · Roberti et al. (2020) · Grzybowski et al. (2020) ·
         Worley & Grimmer-Somers (2011) · Razeghinejad & Katz (2012)
