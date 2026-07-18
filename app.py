@@ -372,18 +372,74 @@ def load_encoder(file):
 
 
 # ── Encode & predict ───────────────────────────────────────────────────────────
+# Mapping pilihan detail → nilai biner 0/1 untuk model
+RIWAYAT_MAP = {
+    "Tidak ada riwayat keluarga glaukoma": 0,
+    "Kakek / Nenek (Tingkat 2)":           0,   # risiko tidak signifikan secara klinis
+    "Paman / Bibi / Sepupu (Tingkat 3+)":  0,
+    "Orang Tua Kandung (Ayah/Ibu)":        1,
+    "Saudara Kandung (Kakak/Adik)":        1,
+    "Anak Kandung":                        1,
+}
+DIABETES_MAP = {
+    "Tidak / Belum pernah didiagnosis":      0,
+    "Diabetes Melitus Gestasional (hamil)":  0,   # bukti asosiasi dengan glaukoma tidak cukup kuat
+    "Diabetes Tipe Lain (MODY, sekunder)":   0,
+    "Diabetes Melitus Tipe 2 (DM Tipe 2)":   1,
+    "Diabetes Melitus Tipe 1 (DM Tipe 1)":   1,
+}
+HIPERTENSI_MAP = {
+    "Normal — < 120/80 mmHg":                         0,
+    "Pra-Hipertensi — 120–139 / 80–89 mmHg":          0,
+    "Hipertensi Stage 1 — 140–159 / 90–99 mmHg":      1,
+    "Hipertensi Stage 2 — ≥ 160 / ≥ 100 mmHg":        1,
+    "Sedang minum obat penurun tekanan darah":         1,
+}
+MIGRAIN_MAP = {
+    "Tidak / Belum pernah didiagnosis migrain":        0,
+    "Sakit kepala biasa (tanpa diagnosis migrain)":    0,
+    "Ya — didiagnosis migrain oleh dokter":            1,
+}
+SIRKULASI_MAP = {
+    "Tidak ada gangguan sirkulasi":                                    0,
+    "Varises (tanpa komplikasi)":                                      0,
+    "Hipotensi ringan / sering pusing berdiri":                        0,
+    "Penyakit Jantung Koroner / Gagal Jantung":                        1,
+    "Penyakit Arteri Perifer (kaki/tangan sering dingin, mati rasa)":  1,
+    "Sindrom Raynaud (jari pucat/biru saat dingin)":                   1,
+    "Anemia Berat (Hb sangat rendah, sering pusing hebat)":            1,
+}
+REFRAKSI_MAP = {
+    "Tidak Ada (penglihatan normal)":                    0,
+    "Miopia Ringan — Rabun Jauh (−0,5 s/d −3,0 D)":     1,
+    "Hipermetropia Ringan — Rabun Dekat (+0,5 s/d +3,0 D)": 1,
+    "Miopia Sedang/Berat — Rabun Jauh (> −3,0 D)":      2,
+    "Hipermetropia Sedang/Berat — Rabun Dekat (> +3,0 D)": 2,
+}
+KORIKO_MAP = {
+    "Tidak pernah menggunakan":                                   0,
+    "Jangka Pendek — < 4 minggu (tablet/salep/inhaler)":          1,
+    "Jangka Panjang — ≥ 4 minggu tablet/kapsul oral":             2,
+    "Jangka Panjang — ≥ 4 minggu inhaler (asma rutin)":           2,
+    "Jangka Panjang — ≥ 4 minggu salep/krim kulit steroid":       2,
+    "Jangka Panjang — tetes mata steroid rutin":                  2,
+    "Jangka Panjang — suntikan steroid (sendi/periokular/IV)":    2,
+}
+
 def encode_input(pasien: dict) -> pd.DataFrame:
     usia_scaled = (pasien["Usia"] - 20) / (85 - 20)
     gender_enc  = 1 if pasien["Jenis_Kelamin"] == "Laki-laki" else 0
-    biner = {col: 1 if pasien[col] == "Ya" else 0
-             for col in ["Riwayat_Keluarga", "Diabetes", "Hipertensi", "Migrain", "Gangguan_Sirkulasi"]}
-    map_refraksi = {
-        "Tidak Ada": 0, "Miopia Ringan": 1, "Hipermetropia Ringan": 1,
-        "Miopia Sedang/Berat": 2, "Hipermetropia Sedang/Berat": 2,
+
+    biner = {
+        "Riwayat_Keluarga":   RIWAYAT_MAP.get(pasien["Riwayat_Keluarga"], 0),
+        "Diabetes":           DIABETES_MAP.get(pasien["Diabetes"], 0),
+        "Hipertensi":         HIPERTENSI_MAP.get(pasien["Hipertensi"], 0),
+        "Migrain":            MIGRAIN_MAP.get(pasien["Migrain"], 0),
+        "Gangguan_Sirkulasi": SIRKULASI_MAP.get(pasien["Gangguan_Sirkulasi"], 0),
     }
-    map_koriko   = {"Tidak": 0, "Jangka Pendek": 1, "Jangka Panjang": 2}
-    refraksi_enc = map_refraksi.get(pasien["Kelainan_Refraksi"], 0)
-    koriko_enc   = map_koriko.get(pasien["Penggunaan_Kortikosteroid"], 0)
+    refraksi_enc = REFRAKSI_MAP.get(pasien["Kelainan_Refraksi"], 0)
+    koriko_enc   = KORIKO_MAP.get(pasien["Penggunaan_Kortikosteroid"], 0)
+
     jumlah_komorbid = sum(biner.values())
     risiko_komposit = round(
         (koriko_enc / 2) * 0.30 + biner["Hipertensi"] * 0.20 +
